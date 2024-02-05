@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue May  9 14:45:19 2023
+# Process ID: 34924
+# Current directory: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab2/cache_proj/cache_proj.runs/synth_1
+# Command line: vivado.exe -log cache_testbench.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cache_testbench.tcl
+# Log file: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab2/cache_proj/cache_proj.runs/synth_1/cache_testbench.vds
+# Journal file: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab2/cache_proj/cache_proj.runs/synth_1\vivado.jou
+# Running On: DESKTOP-OJK9U19, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16799 MB
+#-----------------------------------------------------------
+source cache_testbench.tcl -notrace

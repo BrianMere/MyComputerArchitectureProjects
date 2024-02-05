@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../lab3pipeline.srcs/sources_1/imports/OTTER233/ALU.sv" \
+"../../../../lab3pipeline.srcs/sources_1/imports/OTTER233/BRANCH_ADDR_GEN.sv" \
+"../../../../lab3pipeline.srcs/sources_1/imports/OTTER233/BRANCH_COND_GEN.sv" \
+"../../../../lab3pipeline.srcs/sources_1/imports/OTTER233/CU_DCDR.sv" \
+"../../../../lab3pipeline.srcs/sources_1/new/HazardUnit.sv" \
+"../../../../lab3pipeline.srcs/sources_1/imports/OTTER233/IMMED_GEN.sv" \
+"../../../../lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv" \
+"../../../../lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv" \
+"../../../../lab3pipeline.srcs/sources_1/imports/OTTER233/add4adder.sv" \
+"../../../../lab3pipeline.srcs/sources_1/new/branch_prediction.sv" \
+"../../../../lab3pipeline.srcs/sources_1/imports/OTTER233/mux6sel.sv" \
+"../../../../lab3pipeline.srcs/sources_1/imports/Downloads/otter_mem_dualport_singlecycle_pipeline.sv" \
+"../../../../lab3pipeline.srcs/sources_1/new/pipeline_reg.sv" \
+"../../../../lab3pipeline.srcs/sources_1/imports/OTTER233/program_counter.sv" \
+"../../../../lab3pipeline.srcs/sources_1/imports/OTTER233/top_REG_FILE.sv" \
+"../../../../lab3pipeline.srcs/sim_1/new/sim.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

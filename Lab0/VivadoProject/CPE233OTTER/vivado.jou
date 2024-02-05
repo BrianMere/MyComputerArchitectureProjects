@@ -1,0 +1,112 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Apr 12 21:26:44 2023
+# Process ID: 11780
+# Current directory: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6984 C:\Users\brian\Documents\SchoolPapers\Repositories\CPE 333\CPE-333-Comp.-Arch-\Lab0\VivadoProject\CPE233OTTER\CPE233OTTER.xpr
+# Log file: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/vivado.log
+# Journal file: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER\vivado.jou
+# Running On: DESKTOP-OJK9U19, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16799 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.xpr}
+open_run synth_1 -name synth_1
+report_power -name {power_1}
+add_files -norecurse -scan_for_includes {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/c_environment/build/mem.mem}}
+import_files -norecurse {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/c_environment/build/mem.mem}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/test_all/mem.mem}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/test_all/mem.mem}}
+add_files -norecurse -scan_for_includes {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/c_environment/build/mem.mem}}
+import_files -force -norecurse {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/c_environment/build/mem.mem}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+export_ip_user_files -of_objects  [get_files {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}
+add_files -norecurse -scan_for_includes {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/c_environment/build/mem.mem}}
+import_files -force -norecurse {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/c_environment/build/mem.mem}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+open_wave_config {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sim_1/imports/VivadoProject/sim_behav.wcfg}
+source sim.tcl
+run 1000 us
+open_run synth_1 -name synth_1
+report_power -name {power_1}
+report_utilization -name utilization_1
+add_files -norecurse -scan_for_includes {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/matmul/build/mem.mem}}
+import_files -force -norecurse {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/matmul/build/mem.mem}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sim_1/imports/VivadoProject/sim_behav.wcfg}
+source sim.tcl
+run 1000 us
+export_ip_user_files -of_objects  [get_files {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}
+add_files -norecurse -scan_for_includes {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/matmul/build/mem.mem}}
+import_files -force -norecurse {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/matmul/build/mem.mem}}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sim_1/imports/VivadoProject/sim_behav.wcfg}
+source sim.tcl
+run 1000 us
+export_ip_user_files -of_objects  [get_files {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}
+add_files -norecurse -scan_for_includes {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/matmul/build/mem.mem}}
+import_files -force -norecurse {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/matmul/build/mem.mem}}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sim_1/imports/VivadoProject/sim_behav.wcfg}
+source sim.tcl
+run 20000 us
+report_utilization -name utilization_2
+export_ip_user_files -of_objects  [get_files {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}
+add_files -norecurse -scan_for_includes {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/matmul/build/mem.mem}}
+import_files -force -norecurse {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/matmul/build/mem.mem}}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sim_1/imports/VivadoProject/sim_behav.wcfg}
+source sim.tcl
+run 1000 us
+save_wave_config {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sim_1/imports/VivadoProject/sim_behav.wcfg}
+export_ip_user_files -of_objects  [get_files {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}
+add_files -norecurse -scan_for_includes {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/c_environment/build/mem.mem}}
+import_files -force -norecurse {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/c_environment/build/mem.mem}}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sim_1/imports/VivadoProject/sim_behav.wcfg}
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sim_1/imports/VivadoProject/sim_behav.wcfg}
+source sim.tcl
+export_ip_user_files -of_objects  [get_files {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}
+add_files -norecurse -scan_for_includes {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/c_environment/build/mem.mem}}
+import_files -force -norecurse {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/c_environment/build/mem.mem}}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sim_1/imports/VivadoProject/sim_behav.wcfg}
+source sim.tcl
+run 1000 us
+export_ip_user_files -of_objects  [get_files {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sources_1/imports/build/mem.mem}}
+add_files -norecurse -scan_for_includes {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/c_environment/build/mem.mem}}
+import_files -force -norecurse {{C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/c_environment/build/mem.mem}}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab0/VivadoProject/CPE233OTTER/CPE233OTTER.srcs/sim_1/imports/VivadoProject/sim_behav.wcfg}
+source sim.tcl
+run 1000 us
+close_sim

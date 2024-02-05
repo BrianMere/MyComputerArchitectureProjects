@@ -1,0 +1,3308 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Apr 25 19:45:07 2023
+# Process ID: 3464
+# Current directory: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27600 C:\Users\brian\Documents\SchoolPapers\Repositories\CPE 333\CPE-333-Comp.-Arch-\Lab1\FIFO\FIFO.xpr
+# Log file: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/vivado.log
+# Journal file: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO\vivado.jou
+# Running On: DESKTOP-OJK9U19, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16799 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:07 . Memory (MB): peak = 1621.871 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/types.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module p_fifo_types
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_synch_1r1w
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/fifo_itf.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_fifo_itf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/grader/grader_types.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module p_grader_types
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/grader/grader.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module grader
+WARNING: [VRFC 10-43] task call in final block is illegal [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/grader/grader.sv:85]
+WARNING: [VRFC 10-43] task call in final block is illegal [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/grader/grader.sv:86]
+WARNING: [VRFC 10-43] task call in final block is illegal [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/grader/grader.sv:88]
+WARNING: [VRFC 10-43] task call in final block is illegal [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/grader/grader.sv:89]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/grader/grader_itf.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_grader_itf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/grader/transaction_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transaction_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/grader/transaction_scoreboard.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transaction_scoreboard
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/fifo_itf.sv:35]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/grader/grader_itf.sv:19]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 35, File C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/fifo_itf.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 19, File C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/grader/grader_itf.sv
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.fifo_types
+Compiling package std.std
+Compiling package xil_defaultlib.grader_types
+Compiling module xil_defaultlib.fifo_itf
+Compiling module xil_defaultlib.fifo_synch_1r1w
+Compiling module xil_defaultlib.tb_clk
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.grader_itf
+Compiling module xil_defaultlib.mon_clk
+Compiling module xil_defaultlib.transaction_monitor
+Compiling module xil_defaultlib.transaction_scoreboard
+Compiling module xil_defaultlib.grader
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_behav -key {Behavioral:sim_1:Functional:top} -tclbatch {top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+WARNING: [Simulator 45-24] Previous breakpoint at line 84 in file 'C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv' not restored because it is no longer a breakable line.
+WARNING: [Simulator 45-24] Previous breakpoint at line 60 in file 'C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv' not restored because it is no longer a breakable line.
+WARNING: [Simulator 45-24] Previous breakpoint at line 66 in file 'C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv' not restored because it is no longer a breakable line.
+WARNING: [Simulator 45-24] Previous breakpoint at line 106 in file 'C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv' not restored because it is no longer a breakable line.
+source top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Simtcl 6-168] No object found for the given pattern.
+WARNING: [Add_Wave-1] No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console.
+# run 1000ns
+GDR: Grader Running
+MON: 12000: Reset Detected
+MON: 12000: TR_RESET Tr Sent
+SCB: 12000: TR_RESET Receievd.
+MON: 22000: Reset Detected
+MON: 22000: TR_RESET Tr Sent
+SCB: 22000: TR_RESET Receievd.
+MON: 32000: Reset Detected
+MON: 32000: TR_RESET Tr Sent
+SCB: 32000: TR_RESET Receievd.
+MON: 42000: Reset Detected
+MON: 42000: TR_RESET Tr Sent
+SCB: 42000: TR_RESET Receievd.
+MON: 52000: Reset Detected
+MON: 52000: TR_RESET Tr Sent
+SCB: 52000: TR_RESET Receievd.
+MON: 62000: Reset Detected
+MON: 62000: TR_RESET Tr Sent
+SCB: 62000: TR_RESET Receievd.
+MON: 72000: Reset Detected
+MON: 72000: TR_RESET Tr Sent
+SCB: 72000: TR_RESET Receievd.
+MON: 82000: Reset Detected
+MON: 82000: TR_RESET Tr Sent
+SCB: 82000: TR_RESET Receievd.
+MON: 92000: Reset Detected
+MON: 92000: TR_RESET Tr Sent
+SCB: 92000: TR_RESET Receievd.
+Enqueueing           0
+MON: 112000: Enqueue '0' Detected
+MON: 112000: TR_ENQUEUE Tr Sent
+SCB: 112000: TR_ENQUEUE Received.  Enqueining 0
+Enqueueing   1
+MON: 122000: Enqueue '1' Detected
+MON: 122000: TR_ENQUEUE Tr Sent
+SCB: 122000: TR_ENQUEUE Received.  Enqueining 1
+Enqueueing   2
+MON: 132000: Enqueue '2' Detected
+MON: 132000: TR_ENQUEUE Tr Sent
+SCB: 132000: TR_ENQUEUE Received.  Enqueining 2
+Enqueueing   3
+MON: 142000: Enqueue '3' Detected
+MON: 142000: TR_ENQUEUE Tr Sent
+SCB: 142000: TR_ENQUEUE Received.  Enqueining 3
+Enqueueing   4
+MON: 152000: Enqueue '4' Detected
+MON: 152000: TR_ENQUEUE Tr Sent
+SCB: 152000: TR_ENQUEUE Received.  Enqueining 4
+Enqueueing   5
+MON: 162000: Enqueue '5' Detected
+MON: 162000: TR_ENQUEUE Tr Sent
+SCB: 162000: TR_ENQUEUE Received.  Enqueining 5
+Enqueueing   6
+MON: 172000: Enqueue '6' Detected
+MON: 172000: TR_ENQUEUE Tr Sent
+SCB: 172000: TR_ENQUEUE Received.  Enqueining 6
+Enqueueing   7
+MON: 182000: Enqueue '7' Detected
+MON: 182000: TR_ENQUEUE Tr Sent
+SCB: 182000: TR_ENQUEUE Received.  Enqueining 7
+Enqueueing   8
+MON: 192000: Enqueue '8' Detected
+MON: 192000: TR_ENQUEUE Tr Sent
+SCB: 192000: TR_ENQUEUE Received.  Enqueining 8
+Enqueueing   9
+MON: 202000: Enqueue '9' Detected
+MON: 202000: TR_ENQUEUE Tr Sent
+SCB: 202000: TR_ENQUEUE Received.  Enqueining 9
+Enqueueing  10
+MON: 212000: Enqueue '10' Detected
+MON: 212000: TR_ENQUEUE Tr Sent
+SCB: 212000: TR_ENQUEUE Received.  Enqueining 10
+Enqueueing  11
+MON: 222000: Enqueue '11' Detected
+MON: 222000: TR_ENQUEUE Tr Sent
+SCB: 222000: TR_ENQUEUE Received.  Enqueining 11
+Enqueueing  12
+MON: 232000: Enqueue '12' Detected
+MON: 232000: TR_ENQUEUE Tr Sent
+SCB: 232000: TR_ENQUEUE Received.  Enqueining 12
+Enqueueing  13
+MON: 242000: Enqueue '13' Detected
+MON: 242000: TR_ENQUEUE Tr Sent
+SCB: 242000: TR_ENQUEUE Received.  Enqueining 13
+Enqueueing  14
+MON: 252000: Enqueue '14' Detected
+MON: 252000: TR_ENQUEUE Tr Sent
+SCB: 252000: TR_ENQUEUE Received.  Enqueining 14
+Enqueueing  15
+MON: 262000: Enqueue '15' Detected
+MON: 262000: TR_ENQUEUE Tr Sent
+SCB: 262000: TR_ENQUEUE Received.  Enqueining 15
+Enqueueing  16
+MON: 272000: Enqueue '16' Detected
+MON: 272000: TR_ENQUEUE Tr Sent
+SCB: 272000: TR_ENQUEUE Received.  Enqueining 16
+Enqueueing  17
+MON: 282000: Enqueue '17' Detected
+MON: 282000: TR_ENQUEUE Tr Sent
+SCB: 282000: TR_ENQUEUE Received.  Enqueining 17
+Enqueueing  18
+MON: 292000: Enqueue '18' Detected
+MON: 292000: TR_ENQUEUE Tr Sent
+SCB: 292000: TR_ENQUEUE Received.  Enqueining 18
+Enqueueing  19
+MON: 302000: Enqueue '19' Detected
+MON: 302000: TR_ENQUEUE Tr Sent
+SCB: 302000: TR_ENQUEUE Received.  Enqueining 19
+Enqueueing  20
+MON: 312000: Enqueue '20' Detected
+MON: 312000: TR_ENQUEUE Tr Sent
+SCB: 312000: TR_ENQUEUE Received.  Enqueining 20
+Enqueueing  21
+MON: 322000: Enqueue '21' Detected
+MON: 322000: TR_ENQUEUE Tr Sent
+SCB: 322000: TR_ENQUEUE Received.  Enqueining 21
+Enqueueing  22
+MON: 332000: Enqueue '22' Detected
+MON: 332000: TR_ENQUEUE Tr Sent
+SCB: 332000: TR_ENQUEUE Received.  Enqueining 22
+Enqueueing  23
+MON: 342000: Enqueue '23' Detected
+MON: 342000: TR_ENQUEUE Tr Sent
+SCB: 342000: TR_ENQUEUE Received.  Enqueining 23
+Enqueueing  24
+MON: 352000: Enqueue '24' Detected
+MON: 352000: TR_ENQUEUE Tr Sent
+SCB: 352000: TR_ENQUEUE Received.  Enqueining 24
+Enqueueing  25
+MON: 362000: Enqueue '25' Detected
+MON: 362000: TR_ENQUEUE Tr Sent
+SCB: 362000: TR_ENQUEUE Received.  Enqueining 25
+Enqueueing  26
+MON: 372000: Enqueue '26' Detected
+MON: 372000: TR_ENQUEUE Tr Sent
+SCB: 372000: TR_ENQUEUE Received.  Enqueining 26
+Enqueueing  27
+MON: 382000: Enqueue '27' Detected
+MON: 382000: TR_ENQUEUE Tr Sent
+SCB: 382000: TR_ENQUEUE Received.  Enqueining 27
+Enqueueing  28
+MON: 392000: Enqueue '28' Detected
+MON: 392000: TR_ENQUEUE Tr Sent
+SCB: 392000: TR_ENQUEUE Received.  Enqueining 28
+Enqueueing  29
+MON: 402000: Enqueue '29' Detected
+MON: 402000: TR_ENQUEUE Tr Sent
+SCB: 402000: TR_ENQUEUE Received.  Enqueining 29
+Enqueueing  30
+MON: 412000: Enqueue '30' Detected
+MON: 412000: TR_ENQUEUE Tr Sent
+SCB: 412000: TR_ENQUEUE Received.  Enqueining 30
+Enqueueing  31
+MON: 422000: Enqueue '31' Detected
+MON: 422000: TR_ENQUEUE Tr Sent
+SCB: 422000: TR_ENQUEUE Received.  Enqueining 31
+Enqueueing  32
+MON: 432000: Enqueue '32' Detected
+MON: 432000: TR_ENQUEUE Tr Sent
+SCB: 432000: TR_ENQUEUE Received.  Enqueining 32
+Enqueueing  33
+MON: 442000: Enqueue '33' Detected
+MON: 442000: TR_ENQUEUE Tr Sent
+SCB: 442000: TR_ENQUEUE Received.  Enqueining 33
+Enqueueing  34
+MON: 452000: Enqueue '34' Detected
+MON: 452000: TR_ENQUEUE Tr Sent
+SCB: 452000: TR_ENQUEUE Received.  Enqueining 34
+Enqueueing  35
+MON: 462000: Enqueue '35' Detected
+MON: 462000: TR_ENQUEUE Tr Sent
+SCB: 462000: TR_ENQUEUE Received.  Enqueining 35
+Enqueueing  36
+MON: 472000: Enqueue '36' Detected
+MON: 472000: TR_ENQUEUE Tr Sent
+SCB: 472000: TR_ENQUEUE Received.  Enqueining 36
+Enqueueing  37
+MON: 482000: Enqueue '37' Detected
+MON: 482000: TR_ENQUEUE Tr Sent
+SCB: 482000: TR_ENQUEUE Received.  Enqueining 37
+Enqueueing  38
+MON: 492000: Enqueue '38' Detected
+MON: 492000: TR_ENQUEUE Tr Sent
+SCB: 492000: TR_ENQUEUE Received.  Enqueining 38
+Enqueueing  39
+MON: 502000: Enqueue '39' Detected
+MON: 502000: TR_ENQUEUE Tr Sent
+SCB: 502000: TR_ENQUEUE Received.  Enqueining 39
+Enqueueing  40
+MON: 512000: Enqueue '40' Detected
+MON: 512000: TR_ENQUEUE Tr Sent
+SCB: 512000: TR_ENQUEUE Received.  Enqueining 40
+Enqueueing  41
+MON: 522000: Enqueue '41' Detected
+MON: 522000: TR_ENQUEUE Tr Sent
+SCB: 522000: TR_ENQUEUE Received.  Enqueining 41
+Enqueueing  42
+MON: 532000: Enqueue '42' Detected
+MON: 532000: TR_ENQUEUE Tr Sent
+SCB: 532000: TR_ENQUEUE Received.  Enqueining 42
+Enqueueing  43
+MON: 542000: Enqueue '43' Detected
+MON: 542000: TR_ENQUEUE Tr Sent
+SCB: 542000: TR_ENQUEUE Received.  Enqueining 43
+Enqueueing  44
+MON: 552000: Enqueue '44' Detected
+MON: 552000: TR_ENQUEUE Tr Sent
+SCB: 552000: TR_ENQUEUE Received.  Enqueining 44
+Enqueueing  45
+MON: 562000: Enqueue '45' Detected
+MON: 562000: TR_ENQUEUE Tr Sent
+SCB: 562000: TR_ENQUEUE Received.  Enqueining 45
+Enqueueing  46
+MON: 572000: Enqueue '46' Detected
+MON: 572000: TR_ENQUEUE Tr Sent
+SCB: 572000: TR_ENQUEUE Received.  Enqueining 46
+Enqueueing  47
+MON: 582000: Enqueue '47' Detected
+MON: 582000: TR_ENQUEUE Tr Sent
+SCB: 582000: TR_ENQUEUE Received.  Enqueining 47
+Enqueueing  48
+MON: 592000: Enqueue '48' Detected
+MON: 592000: TR_ENQUEUE Tr Sent
+SCB: 592000: TR_ENQUEUE Received.  Enqueining 48
+Enqueueing  49
+MON: 602000: Enqueue '49' Detected
+MON: 602000: TR_ENQUEUE Tr Sent
+SCB: 602000: TR_ENQUEUE Received.  Enqueining 49
+Enqueueing  50
+MON: 612000: Enqueue '50' Detected
+MON: 612000: TR_ENQUEUE Tr Sent
+SCB: 612000: TR_ENQUEUE Received.  Enqueining 50
+Enqueueing  51
+MON: 622000: Enqueue '51' Detected
+MON: 622000: TR_ENQUEUE Tr Sent
+SCB: 622000: TR_ENQUEUE Received.  Enqueining 51
+Enqueueing  52
+MON: 632000: Enqueue '52' Detected
+MON: 632000: TR_ENQUEUE Tr Sent
+SCB: 632000: TR_ENQUEUE Received.  Enqueining 52
+Enqueueing  53
+MON: 642000: Enqueue '53' Detected
+MON: 642000: TR_ENQUEUE Tr Sent
+SCB: 642000: TR_ENQUEUE Received.  Enqueining 53
+Enqueueing  54
+MON: 652000: Enqueue '54' Detected
+MON: 652000: TR_ENQUEUE Tr Sent
+SCB: 652000: TR_ENQUEUE Received.  Enqueining 54
+Enqueueing  55
+MON: 662000: Enqueue '55' Detected
+MON: 662000: TR_ENQUEUE Tr Sent
+SCB: 662000: TR_ENQUEUE Received.  Enqueining 55
+Enqueueing  56
+MON: 672000: Enqueue '56' Detected
+MON: 672000: TR_ENQUEUE Tr Sent
+SCB: 672000: TR_ENQUEUE Received.  Enqueining 56
+Enqueueing  57
+MON: 682000: Enqueue '57' Detected
+MON: 682000: TR_ENQUEUE Tr Sent
+SCB: 682000: TR_ENQUEUE Received.  Enqueining 57
+Enqueueing  58
+MON: 692000: Enqueue '58' Detected
+MON: 692000: TR_ENQUEUE Tr Sent
+SCB: 692000: TR_ENQUEUE Received.  Enqueining 58
+Enqueueing  59
+MON: 702000: Enqueue '59' Detected
+MON: 702000: TR_ENQUEUE Tr Sent
+SCB: 702000: TR_ENQUEUE Received.  Enqueining 59
+Enqueueing  60
+MON: 712000: Enqueue '60' Detected
+MON: 712000: TR_ENQUEUE Tr Sent
+SCB: 712000: TR_ENQUEUE Received.  Enqueining 60
+Enqueueing  61
+MON: 722000: Enqueue '61' Detected
+MON: 722000: TR_ENQUEUE Tr Sent
+SCB: 722000: TR_ENQUEUE Received.  Enqueining 61
+Enqueueing  62
+MON: 732000: Enqueue '62' Detected
+MON: 732000: TR_ENQUEUE Tr Sent
+SCB: 732000: TR_ENQUEUE Received.  Enqueining 62
+Enqueueing  63
+MON: 742000: Enqueue '63' Detected
+MON: 742000: TR_ENQUEUE Tr Sent
+SCB: 742000: TR_ENQUEUE Received.  Enqueining 63
+Enqueueing  64
+MON: 752000: Enqueue '64' Detected
+MON: 752000: TR_ENQUEUE Tr Sent
+SCB: 752000: TR_ENQUEUE Received.  Enqueining 64
+Enqueueing  65
+MON: 762000: Enqueue '65' Detected
+MON: 762000: TR_ENQUEUE Tr Sent
+SCB: 762000: TR_ENQUEUE Received.  Enqueining 65
+Enqueueing  66
+MON: 772000: Enqueue '66' Detected
+MON: 772000: TR_ENQUEUE Tr Sent
+SCB: 772000: TR_ENQUEUE Received.  Enqueining 66
+Enqueueing  67
+MON: 782000: Enqueue '67' Detected
+MON: 782000: TR_ENQUEUE Tr Sent
+SCB: 782000: TR_ENQUEUE Received.  Enqueining 67
+Enqueueing  68
+MON: 792000: Enqueue '68' Detected
+MON: 792000: TR_ENQUEUE Tr Sent
+SCB: 792000: TR_ENQUEUE Received.  Enqueining 68
+Enqueueing  69
+MON: 802000: Enqueue '69' Detected
+MON: 802000: TR_ENQUEUE Tr Sent
+SCB: 802000: TR_ENQUEUE Received.  Enqueining 69
+Enqueueing  70
+MON: 812000: Enqueue '70' Detected
+MON: 812000: TR_ENQUEUE Tr Sent
+SCB: 812000: TR_ENQUEUE Received.  Enqueining 70
+Enqueueing  71
+MON: 822000: Enqueue '71' Detected
+MON: 822000: TR_ENQUEUE Tr Sent
+SCB: 822000: TR_ENQUEUE Received.  Enqueining 71
+Enqueueing  72
+MON: 832000: Enqueue '72' Detected
+MON: 832000: TR_ENQUEUE Tr Sent
+SCB: 832000: TR_ENQUEUE Received.  Enqueining 72
+Enqueueing  73
+MON: 842000: Enqueue '73' Detected
+MON: 842000: TR_ENQUEUE Tr Sent
+SCB: 842000: TR_ENQUEUE Received.  Enqueining 73
+Enqueueing  74
+MON: 852000: Enqueue '74' Detected
+MON: 852000: TR_ENQUEUE Tr Sent
+SCB: 852000: TR_ENQUEUE Received.  Enqueining 74
+Enqueueing  75
+MON: 862000: Enqueue '75' Detected
+MON: 862000: TR_ENQUEUE Tr Sent
+SCB: 862000: TR_ENQUEUE Received.  Enqueining 75
+Enqueueing  76
+MON: 872000: Enqueue '76' Detected
+MON: 872000: TR_ENQUEUE Tr Sent
+SCB: 872000: TR_ENQUEUE Received.  Enqueining 76
+Enqueueing  77
+MON: 882000: Enqueue '77' Detected
+MON: 882000: TR_ENQUEUE Tr Sent
+SCB: 882000: TR_ENQUEUE Received.  Enqueining 77
+Enqueueing  78
+MON: 892000: Enqueue '78' Detected
+MON: 892000: TR_ENQUEUE Tr Sent
+SCB: 892000: TR_ENQUEUE Received.  Enqueining 78
+Enqueueing  79
+MON: 902000: Enqueue '79' Detected
+MON: 902000: TR_ENQUEUE Tr Sent
+SCB: 902000: TR_ENQUEUE Received.  Enqueining 79
+Enqueueing  80
+MON: 912000: Enqueue '80' Detected
+MON: 912000: TR_ENQUEUE Tr Sent
+SCB: 912000: TR_ENQUEUE Received.  Enqueining 80
+Enqueueing  81
+MON: 922000: Enqueue '81' Detected
+MON: 922000: TR_ENQUEUE Tr Sent
+SCB: 922000: TR_ENQUEUE Received.  Enqueining 81
+Enqueueing  82
+MON: 932000: Enqueue '82' Detected
+MON: 932000: TR_ENQUEUE Tr Sent
+SCB: 932000: TR_ENQUEUE Received.  Enqueining 82
+Enqueueing  83
+MON: 942000: Enqueue '83' Detected
+MON: 942000: TR_ENQUEUE Tr Sent
+SCB: 942000: TR_ENQUEUE Received.  Enqueining 83
+Enqueueing  84
+MON: 952000: Enqueue '84' Detected
+MON: 952000: TR_ENQUEUE Tr Sent
+SCB: 952000: TR_ENQUEUE Received.  Enqueining 84
+Enqueueing  85
+MON: 962000: Enqueue '85' Detected
+MON: 962000: TR_ENQUEUE Tr Sent
+SCB: 962000: TR_ENQUEUE Received.  Enqueining 85
+Enqueueing  86
+MON: 972000: Enqueue '86' Detected
+MON: 972000: TR_ENQUEUE Tr Sent
+SCB: 972000: TR_ENQUEUE Received.  Enqueining 86
+Enqueueing  87
+MON: 982000: Enqueue '87' Detected
+MON: 982000: TR_ENQUEUE Tr Sent
+SCB: 982000: TR_ENQUEUE Received.  Enqueining 87
+Enqueueing  88
+MON: 992000: Enqueue '88' Detected
+MON: 992000: TR_ENQUEUE Tr Sent
+SCB: 992000: TR_ENQUEUE Received.  Enqueining 88
+Enqueueing  89
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1621.871 ; gain = 0.000
+run 5 ms
+MON: 1002000: Enqueue '89' Detected
+MON: 1002000: TR_ENQUEUE Tr Sent
+SCB: 1002000: TR_ENQUEUE Received.  Enqueining 89
+Enqueueing  90
+MON: 1012000: Enqueue '90' Detected
+MON: 1012000: TR_ENQUEUE Tr Sent
+SCB: 1012000: TR_ENQUEUE Received.  Enqueining 90
+Enqueueing  91
+MON: 1022000: Enqueue '91' Detected
+MON: 1022000: TR_ENQUEUE Tr Sent
+SCB: 1022000: TR_ENQUEUE Received.  Enqueining 91
+Enqueueing  92
+MON: 1032000: Enqueue '92' Detected
+MON: 1032000: TR_ENQUEUE Tr Sent
+SCB: 1032000: TR_ENQUEUE Received.  Enqueining 92
+Enqueueing  93
+MON: 1042000: Enqueue '93' Detected
+MON: 1042000: TR_ENQUEUE Tr Sent
+SCB: 1042000: TR_ENQUEUE Received.  Enqueining 93
+Enqueueing  94
+MON: 1052000: Enqueue '94' Detected
+MON: 1052000: TR_ENQUEUE Tr Sent
+SCB: 1052000: TR_ENQUEUE Received.  Enqueining 94
+Enqueueing  95
+MON: 1062000: Enqueue '95' Detected
+MON: 1062000: TR_ENQUEUE Tr Sent
+SCB: 1062000: TR_ENQUEUE Received.  Enqueining 95
+Enqueueing  96
+MON: 1072000: Enqueue '96' Detected
+MON: 1072000: TR_ENQUEUE Tr Sent
+SCB: 1072000: TR_ENQUEUE Received.  Enqueining 96
+Enqueueing  97
+MON: 1082000: Enqueue '97' Detected
+MON: 1082000: TR_ENQUEUE Tr Sent
+SCB: 1082000: TR_ENQUEUE Received.  Enqueining 97
+Enqueueing  98
+MON: 1092000: Enqueue '98' Detected
+MON: 1092000: TR_ENQUEUE Tr Sent
+SCB: 1092000: TR_ENQUEUE Received.  Enqueining 98
+Enqueueing  99
+MON: 1102000: Enqueue '99' Detected
+MON: 1102000: TR_ENQUEUE Tr Sent
+SCB: 1102000: TR_ENQUEUE Received.  Enqueining 99
+Enqueueing 100
+MON: 1112000: Enqueue '100' Detected
+MON: 1112000: TR_ENQUEUE Tr Sent
+SCB: 1112000: TR_ENQUEUE Received.  Enqueining 100
+Enqueueing 101
+MON: 1122000: Enqueue '101' Detected
+MON: 1122000: TR_ENQUEUE Tr Sent
+SCB: 1122000: TR_ENQUEUE Received.  Enqueining 101
+Enqueueing 102
+MON: 1132000: Enqueue '102' Detected
+MON: 1132000: TR_ENQUEUE Tr Sent
+SCB: 1132000: TR_ENQUEUE Received.  Enqueining 102
+Enqueueing 103
+MON: 1142000: Enqueue '103' Detected
+MON: 1142000: TR_ENQUEUE Tr Sent
+SCB: 1142000: TR_ENQUEUE Received.  Enqueining 103
+Enqueueing 104
+MON: 1152000: Enqueue '104' Detected
+MON: 1152000: TR_ENQUEUE Tr Sent
+SCB: 1152000: TR_ENQUEUE Received.  Enqueining 104
+Enqueueing 105
+MON: 1162000: Enqueue '105' Detected
+MON: 1162000: TR_ENQUEUE Tr Sent
+SCB: 1162000: TR_ENQUEUE Received.  Enqueining 105
+Enqueueing 106
+MON: 1172000: Enqueue '106' Detected
+MON: 1172000: TR_ENQUEUE Tr Sent
+SCB: 1172000: TR_ENQUEUE Received.  Enqueining 106
+Enqueueing 107
+MON: 1182000: Enqueue '107' Detected
+MON: 1182000: TR_ENQUEUE Tr Sent
+SCB: 1182000: TR_ENQUEUE Received.  Enqueining 107
+Enqueueing 108
+MON: 1192000: Enqueue '108' Detected
+MON: 1192000: TR_ENQUEUE Tr Sent
+SCB: 1192000: TR_ENQUEUE Received.  Enqueining 108
+Enqueueing 109
+MON: 1202000: Enqueue '109' Detected
+MON: 1202000: TR_ENQUEUE Tr Sent
+SCB: 1202000: TR_ENQUEUE Received.  Enqueining 109
+Enqueueing 110
+MON: 1212000: Enqueue '110' Detected
+MON: 1212000: TR_ENQUEUE Tr Sent
+SCB: 1212000: TR_ENQUEUE Received.  Enqueining 110
+Enqueueing 111
+MON: 1222000: Enqueue '111' Detected
+MON: 1222000: TR_ENQUEUE Tr Sent
+SCB: 1222000: TR_ENQUEUE Received.  Enqueining 111
+Enqueueing 112
+MON: 1232000: Enqueue '112' Detected
+MON: 1232000: TR_ENQUEUE Tr Sent
+SCB: 1232000: TR_ENQUEUE Received.  Enqueining 112
+Enqueueing 113
+MON: 1242000: Enqueue '113' Detected
+MON: 1242000: TR_ENQUEUE Tr Sent
+SCB: 1242000: TR_ENQUEUE Received.  Enqueining 113
+Enqueueing 114
+MON: 1252000: Enqueue '114' Detected
+MON: 1252000: TR_ENQUEUE Tr Sent
+SCB: 1252000: TR_ENQUEUE Received.  Enqueining 114
+Enqueueing 115
+MON: 1262000: Enqueue '115' Detected
+MON: 1262000: TR_ENQUEUE Tr Sent
+SCB: 1262000: TR_ENQUEUE Received.  Enqueining 115
+Enqueueing 116
+MON: 1272000: Enqueue '116' Detected
+MON: 1272000: TR_ENQUEUE Tr Sent
+SCB: 1272000: TR_ENQUEUE Received.  Enqueining 116
+Enqueueing 117
+MON: 1282000: Enqueue '117' Detected
+MON: 1282000: TR_ENQUEUE Tr Sent
+SCB: 1282000: TR_ENQUEUE Received.  Enqueining 117
+Enqueueing 118
+MON: 1292000: Enqueue '118' Detected
+MON: 1292000: TR_ENQUEUE Tr Sent
+SCB: 1292000: TR_ENQUEUE Received.  Enqueining 118
+Enqueueing 119
+MON: 1302000: Enqueue '119' Detected
+MON: 1302000: TR_ENQUEUE Tr Sent
+SCB: 1302000: TR_ENQUEUE Received.  Enqueining 119
+Enqueueing 120
+MON: 1312000: Enqueue '120' Detected
+MON: 1312000: TR_ENQUEUE Tr Sent
+SCB: 1312000: TR_ENQUEUE Received.  Enqueining 120
+Enqueueing 121
+MON: 1322000: Enqueue '121' Detected
+MON: 1322000: TR_ENQUEUE Tr Sent
+SCB: 1322000: TR_ENQUEUE Received.  Enqueining 121
+Enqueueing 122
+MON: 1332000: Enqueue '122' Detected
+MON: 1332000: TR_ENQUEUE Tr Sent
+SCB: 1332000: TR_ENQUEUE Received.  Enqueining 122
+Enqueueing 123
+MON: 1342000: Enqueue '123' Detected
+MON: 1342000: TR_ENQUEUE Tr Sent
+SCB: 1342000: TR_ENQUEUE Received.  Enqueining 123
+Enqueueing 124
+MON: 1352000: Enqueue '124' Detected
+MON: 1352000: TR_ENQUEUE Tr Sent
+SCB: 1352000: TR_ENQUEUE Received.  Enqueining 124
+Enqueueing 125
+MON: 1362000: Enqueue '125' Detected
+MON: 1362000: TR_ENQUEUE Tr Sent
+SCB: 1362000: TR_ENQUEUE Received.  Enqueining 125
+Enqueueing 126
+MON: 1372000: Enqueue '126' Detected
+MON: 1372000: TR_ENQUEUE Tr Sent
+SCB: 1372000: TR_ENQUEUE Received.  Enqueining 126
+Enqueueing 127
+MON: 1382000: Enqueue '127' Detected
+MON: 1382000: TR_ENQUEUE Tr Sent
+SCB: 1382000: TR_ENQUEUE Received.  Enqueining 127
+Enqueueing 128
+MON: 1392000: Enqueue '128' Detected
+MON: 1392000: TR_ENQUEUE Tr Sent
+SCB: 1392000: TR_ENQUEUE Received.  Enqueining 128
+Enqueueing 129
+MON: 1402000: Enqueue '129' Detected
+MON: 1402000: TR_ENQUEUE Tr Sent
+SCB: 1402000: TR_ENQUEUE Received.  Enqueining 129
+Enqueueing 130
+MON: 1412000: Enqueue '130' Detected
+MON: 1412000: TR_ENQUEUE Tr Sent
+SCB: 1412000: TR_ENQUEUE Received.  Enqueining 130
+Enqueueing 131
+MON: 1422000: Enqueue '131' Detected
+MON: 1422000: TR_ENQUEUE Tr Sent
+SCB: 1422000: TR_ENQUEUE Received.  Enqueining 131
+Enqueueing 132
+MON: 1432000: Enqueue '132' Detected
+MON: 1432000: TR_ENQUEUE Tr Sent
+SCB: 1432000: TR_ENQUEUE Received.  Enqueining 132
+Enqueueing 133
+MON: 1442000: Enqueue '133' Detected
+MON: 1442000: TR_ENQUEUE Tr Sent
+SCB: 1442000: TR_ENQUEUE Received.  Enqueining 133
+Enqueueing 134
+MON: 1452000: Enqueue '134' Detected
+MON: 1452000: TR_ENQUEUE Tr Sent
+SCB: 1452000: TR_ENQUEUE Received.  Enqueining 134
+Enqueueing 135
+MON: 1462000: Enqueue '135' Detected
+MON: 1462000: TR_ENQUEUE Tr Sent
+SCB: 1462000: TR_ENQUEUE Received.  Enqueining 135
+Enqueueing 136
+MON: 1472000: Enqueue '136' Detected
+MON: 1472000: TR_ENQUEUE Tr Sent
+SCB: 1472000: TR_ENQUEUE Received.  Enqueining 136
+Enqueueing 137
+MON: 1482000: Enqueue '137' Detected
+MON: 1482000: TR_ENQUEUE Tr Sent
+SCB: 1482000: TR_ENQUEUE Received.  Enqueining 137
+Enqueueing 138
+MON: 1492000: Enqueue '138' Detected
+MON: 1492000: TR_ENQUEUE Tr Sent
+SCB: 1492000: TR_ENQUEUE Received.  Enqueining 138
+Enqueueing 139
+MON: 1502000: Enqueue '139' Detected
+MON: 1502000: TR_ENQUEUE Tr Sent
+SCB: 1502000: TR_ENQUEUE Received.  Enqueining 139
+Enqueueing 140
+MON: 1512000: Enqueue '140' Detected
+MON: 1512000: TR_ENQUEUE Tr Sent
+SCB: 1512000: TR_ENQUEUE Received.  Enqueining 140
+Enqueueing 141
+MON: 1522000: Enqueue '141' Detected
+MON: 1522000: TR_ENQUEUE Tr Sent
+SCB: 1522000: TR_ENQUEUE Received.  Enqueining 141
+Enqueueing 142
+MON: 1532000: Enqueue '142' Detected
+MON: 1532000: TR_ENQUEUE Tr Sent
+SCB: 1532000: TR_ENQUEUE Received.  Enqueining 142
+Enqueueing 143
+MON: 1542000: Enqueue '143' Detected
+MON: 1542000: TR_ENQUEUE Tr Sent
+SCB: 1542000: TR_ENQUEUE Received.  Enqueining 143
+Enqueueing 144
+MON: 1552000: Enqueue '144' Detected
+MON: 1552000: TR_ENQUEUE Tr Sent
+SCB: 1552000: TR_ENQUEUE Received.  Enqueining 144
+Enqueueing 145
+MON: 1562000: Enqueue '145' Detected
+MON: 1562000: TR_ENQUEUE Tr Sent
+SCB: 1562000: TR_ENQUEUE Received.  Enqueining 145
+Enqueueing 146
+MON: 1572000: Enqueue '146' Detected
+MON: 1572000: TR_ENQUEUE Tr Sent
+SCB: 1572000: TR_ENQUEUE Received.  Enqueining 146
+Enqueueing 147
+MON: 1582000: Enqueue '147' Detected
+MON: 1582000: TR_ENQUEUE Tr Sent
+SCB: 1582000: TR_ENQUEUE Received.  Enqueining 147
+Enqueueing 148
+MON: 1592000: Enqueue '148' Detected
+MON: 1592000: TR_ENQUEUE Tr Sent
+SCB: 1592000: TR_ENQUEUE Received.  Enqueining 148
+Enqueueing 149
+MON: 1602000: Enqueue '149' Detected
+MON: 1602000: TR_ENQUEUE Tr Sent
+SCB: 1602000: TR_ENQUEUE Received.  Enqueining 149
+Enqueueing 150
+MON: 1612000: Enqueue '150' Detected
+MON: 1612000: TR_ENQUEUE Tr Sent
+SCB: 1612000: TR_ENQUEUE Received.  Enqueining 150
+Enqueueing 151
+MON: 1622000: Enqueue '151' Detected
+MON: 1622000: TR_ENQUEUE Tr Sent
+SCB: 1622000: TR_ENQUEUE Received.  Enqueining 151
+Enqueueing 152
+MON: 1632000: Enqueue '152' Detected
+MON: 1632000: TR_ENQUEUE Tr Sent
+SCB: 1632000: TR_ENQUEUE Received.  Enqueining 152
+Enqueueing 153
+MON: 1642000: Enqueue '153' Detected
+MON: 1642000: TR_ENQUEUE Tr Sent
+SCB: 1642000: TR_ENQUEUE Received.  Enqueining 153
+Enqueueing 154
+MON: 1652000: Enqueue '154' Detected
+MON: 1652000: TR_ENQUEUE Tr Sent
+SCB: 1652000: TR_ENQUEUE Received.  Enqueining 154
+Enqueueing 155
+MON: 1662000: Enqueue '155' Detected
+MON: 1662000: TR_ENQUEUE Tr Sent
+SCB: 1662000: TR_ENQUEUE Received.  Enqueining 155
+Enqueueing 156
+MON: 1672000: Enqueue '156' Detected
+MON: 1672000: TR_ENQUEUE Tr Sent
+SCB: 1672000: TR_ENQUEUE Received.  Enqueining 156
+Enqueueing 157
+MON: 1682000: Enqueue '157' Detected
+MON: 1682000: TR_ENQUEUE Tr Sent
+SCB: 1682000: TR_ENQUEUE Received.  Enqueining 157
+Enqueueing 158
+MON: 1692000: Enqueue '158' Detected
+MON: 1692000: TR_ENQUEUE Tr Sent
+SCB: 1692000: TR_ENQUEUE Received.  Enqueining 158
+Enqueueing 159
+MON: 1702000: Enqueue '159' Detected
+MON: 1702000: TR_ENQUEUE Tr Sent
+SCB: 1702000: TR_ENQUEUE Received.  Enqueining 159
+Enqueueing 160
+MON: 1712000: Enqueue '160' Detected
+MON: 1712000: TR_ENQUEUE Tr Sent
+SCB: 1712000: TR_ENQUEUE Received.  Enqueining 160
+Enqueueing 161
+MON: 1722000: Enqueue '161' Detected
+MON: 1722000: TR_ENQUEUE Tr Sent
+SCB: 1722000: TR_ENQUEUE Received.  Enqueining 161
+Enqueueing 162
+MON: 1732000: Enqueue '162' Detected
+MON: 1732000: TR_ENQUEUE Tr Sent
+SCB: 1732000: TR_ENQUEUE Received.  Enqueining 162
+Enqueueing 163
+MON: 1742000: Enqueue '163' Detected
+MON: 1742000: TR_ENQUEUE Tr Sent
+SCB: 1742000: TR_ENQUEUE Received.  Enqueining 163
+Enqueueing 164
+MON: 1752000: Enqueue '164' Detected
+MON: 1752000: TR_ENQUEUE Tr Sent
+SCB: 1752000: TR_ENQUEUE Received.  Enqueining 164
+Enqueueing 165
+MON: 1762000: Enqueue '165' Detected
+MON: 1762000: TR_ENQUEUE Tr Sent
+SCB: 1762000: TR_ENQUEUE Received.  Enqueining 165
+Enqueueing 166
+MON: 1772000: Enqueue '166' Detected
+MON: 1772000: TR_ENQUEUE Tr Sent
+SCB: 1772000: TR_ENQUEUE Received.  Enqueining 166
+Enqueueing 167
+MON: 1782000: Enqueue '167' Detected
+MON: 1782000: TR_ENQUEUE Tr Sent
+SCB: 1782000: TR_ENQUEUE Received.  Enqueining 167
+Enqueueing 168
+MON: 1792000: Enqueue '168' Detected
+MON: 1792000: TR_ENQUEUE Tr Sent
+SCB: 1792000: TR_ENQUEUE Received.  Enqueining 168
+Enqueueing 169
+MON: 1802000: Enqueue '169' Detected
+MON: 1802000: TR_ENQUEUE Tr Sent
+SCB: 1802000: TR_ENQUEUE Received.  Enqueining 169
+Enqueueing 170
+MON: 1812000: Enqueue '170' Detected
+MON: 1812000: TR_ENQUEUE Tr Sent
+SCB: 1812000: TR_ENQUEUE Received.  Enqueining 170
+Enqueueing 171
+MON: 1822000: Enqueue '171' Detected
+MON: 1822000: TR_ENQUEUE Tr Sent
+SCB: 1822000: TR_ENQUEUE Received.  Enqueining 171
+Enqueueing 172
+MON: 1832000: Enqueue '172' Detected
+MON: 1832000: TR_ENQUEUE Tr Sent
+SCB: 1832000: TR_ENQUEUE Received.  Enqueining 172
+Enqueueing 173
+MON: 1842000: Enqueue '173' Detected
+MON: 1842000: TR_ENQUEUE Tr Sent
+SCB: 1842000: TR_ENQUEUE Received.  Enqueining 173
+Enqueueing 174
+MON: 1852000: Enqueue '174' Detected
+MON: 1852000: TR_ENQUEUE Tr Sent
+SCB: 1852000: TR_ENQUEUE Received.  Enqueining 174
+Enqueueing 175
+MON: 1862000: Enqueue '175' Detected
+MON: 1862000: TR_ENQUEUE Tr Sent
+SCB: 1862000: TR_ENQUEUE Received.  Enqueining 175
+Enqueueing 176
+MON: 1872000: Enqueue '176' Detected
+MON: 1872000: TR_ENQUEUE Tr Sent
+SCB: 1872000: TR_ENQUEUE Received.  Enqueining 176
+Enqueueing 177
+MON: 1882000: Enqueue '177' Detected
+MON: 1882000: TR_ENQUEUE Tr Sent
+SCB: 1882000: TR_ENQUEUE Received.  Enqueining 177
+Enqueueing 178
+MON: 1892000: Enqueue '178' Detected
+MON: 1892000: TR_ENQUEUE Tr Sent
+SCB: 1892000: TR_ENQUEUE Received.  Enqueining 178
+Enqueueing 179
+MON: 1902000: Enqueue '179' Detected
+MON: 1902000: TR_ENQUEUE Tr Sent
+SCB: 1902000: TR_ENQUEUE Received.  Enqueining 179
+Enqueueing 180
+MON: 1912000: Enqueue '180' Detected
+MON: 1912000: TR_ENQUEUE Tr Sent
+SCB: 1912000: TR_ENQUEUE Received.  Enqueining 180
+Enqueueing 181
+MON: 1922000: Enqueue '181' Detected
+MON: 1922000: TR_ENQUEUE Tr Sent
+SCB: 1922000: TR_ENQUEUE Received.  Enqueining 181
+Enqueueing 182
+MON: 1932000: Enqueue '182' Detected
+MON: 1932000: TR_ENQUEUE Tr Sent
+SCB: 1932000: TR_ENQUEUE Received.  Enqueining 182
+Enqueueing 183
+MON: 1942000: Enqueue '183' Detected
+MON: 1942000: TR_ENQUEUE Tr Sent
+SCB: 1942000: TR_ENQUEUE Received.  Enqueining 183
+Enqueueing 184
+MON: 1952000: Enqueue '184' Detected
+MON: 1952000: TR_ENQUEUE Tr Sent
+SCB: 1952000: TR_ENQUEUE Received.  Enqueining 184
+Enqueueing 185
+MON: 1962000: Enqueue '185' Detected
+MON: 1962000: TR_ENQUEUE Tr Sent
+SCB: 1962000: TR_ENQUEUE Received.  Enqueining 185
+Enqueueing 186
+MON: 1972000: Enqueue '186' Detected
+MON: 1972000: TR_ENQUEUE Tr Sent
+SCB: 1972000: TR_ENQUEUE Received.  Enqueining 186
+Enqueueing 187
+MON: 1982000: Enqueue '187' Detected
+MON: 1982000: TR_ENQUEUE Tr Sent
+SCB: 1982000: TR_ENQUEUE Received.  Enqueining 187
+Enqueueing 188
+MON: 1992000: Enqueue '188' Detected
+MON: 1992000: TR_ENQUEUE Tr Sent
+SCB: 1992000: TR_ENQUEUE Received.  Enqueining 188
+Enqueueing 189
+MON: 2002000: Enqueue '189' Detected
+MON: 2002000: TR_ENQUEUE Tr Sent
+SCB: 2002000: TR_ENQUEUE Received.  Enqueining 189
+Enqueueing 190
+MON: 2012000: Enqueue '190' Detected
+MON: 2012000: TR_ENQUEUE Tr Sent
+SCB: 2012000: TR_ENQUEUE Received.  Enqueining 190
+Enqueueing 191
+MON: 2022000: Enqueue '191' Detected
+MON: 2022000: TR_ENQUEUE Tr Sent
+SCB: 2022000: TR_ENQUEUE Received.  Enqueining 191
+Enqueueing 192
+MON: 2032000: Enqueue '192' Detected
+MON: 2032000: TR_ENQUEUE Tr Sent
+SCB: 2032000: TR_ENQUEUE Received.  Enqueining 192
+Enqueueing 193
+MON: 2042000: Enqueue '193' Detected
+MON: 2042000: TR_ENQUEUE Tr Sent
+SCB: 2042000: TR_ENQUEUE Received.  Enqueining 193
+Enqueueing 194
+MON: 2052000: Enqueue '194' Detected
+MON: 2052000: TR_ENQUEUE Tr Sent
+SCB: 2052000: TR_ENQUEUE Received.  Enqueining 194
+Enqueueing 195
+MON: 2062000: Enqueue '195' Detected
+MON: 2062000: TR_ENQUEUE Tr Sent
+SCB: 2062000: TR_ENQUEUE Received.  Enqueining 195
+Enqueueing 196
+MON: 2072000: Enqueue '196' Detected
+MON: 2072000: TR_ENQUEUE Tr Sent
+SCB: 2072000: TR_ENQUEUE Received.  Enqueining 196
+Enqueueing 197
+MON: 2082000: Enqueue '197' Detected
+MON: 2082000: TR_ENQUEUE Tr Sent
+SCB: 2082000: TR_ENQUEUE Received.  Enqueining 197
+Enqueueing 198
+MON: 2092000: Enqueue '198' Detected
+MON: 2092000: TR_ENQUEUE Tr Sent
+SCB: 2092000: TR_ENQUEUE Received.  Enqueining 198
+Enqueueing 199
+MON: 2102000: Enqueue '199' Detected
+MON: 2102000: TR_ENQUEUE Tr Sent
+SCB: 2102000: TR_ENQUEUE Received.  Enqueining 199
+Enqueueing 200
+MON: 2112000: Enqueue '200' Detected
+MON: 2112000: TR_ENQUEUE Tr Sent
+SCB: 2112000: TR_ENQUEUE Received.  Enqueining 200
+Enqueueing 201
+MON: 2122000: Enqueue '201' Detected
+MON: 2122000: TR_ENQUEUE Tr Sent
+SCB: 2122000: TR_ENQUEUE Received.  Enqueining 201
+Enqueueing 202
+MON: 2132000: Enqueue '202' Detected
+MON: 2132000: TR_ENQUEUE Tr Sent
+SCB: 2132000: TR_ENQUEUE Received.  Enqueining 202
+Enqueueing 203
+MON: 2142000: Enqueue '203' Detected
+MON: 2142000: TR_ENQUEUE Tr Sent
+SCB: 2142000: TR_ENQUEUE Received.  Enqueining 203
+Enqueueing 204
+MON: 2152000: Enqueue '204' Detected
+MON: 2152000: TR_ENQUEUE Tr Sent
+SCB: 2152000: TR_ENQUEUE Received.  Enqueining 204
+Enqueueing 205
+MON: 2162000: Enqueue '205' Detected
+MON: 2162000: TR_ENQUEUE Tr Sent
+SCB: 2162000: TR_ENQUEUE Received.  Enqueining 205
+Enqueueing 206
+MON: 2172000: Enqueue '206' Detected
+MON: 2172000: TR_ENQUEUE Tr Sent
+SCB: 2172000: TR_ENQUEUE Received.  Enqueining 206
+Enqueueing 207
+MON: 2182000: Enqueue '207' Detected
+MON: 2182000: TR_ENQUEUE Tr Sent
+SCB: 2182000: TR_ENQUEUE Received.  Enqueining 207
+Enqueueing 208
+MON: 2192000: Enqueue '208' Detected
+MON: 2192000: TR_ENQUEUE Tr Sent
+SCB: 2192000: TR_ENQUEUE Received.  Enqueining 208
+Enqueueing 209
+MON: 2202000: Enqueue '209' Detected
+MON: 2202000: TR_ENQUEUE Tr Sent
+SCB: 2202000: TR_ENQUEUE Received.  Enqueining 209
+Enqueueing 210
+MON: 2212000: Enqueue '210' Detected
+MON: 2212000: TR_ENQUEUE Tr Sent
+SCB: 2212000: TR_ENQUEUE Received.  Enqueining 210
+Enqueueing 211
+MON: 2222000: Enqueue '211' Detected
+MON: 2222000: TR_ENQUEUE Tr Sent
+SCB: 2222000: TR_ENQUEUE Received.  Enqueining 211
+Enqueueing 212
+MON: 2232000: Enqueue '212' Detected
+MON: 2232000: TR_ENQUEUE Tr Sent
+SCB: 2232000: TR_ENQUEUE Received.  Enqueining 212
+Enqueueing 213
+MON: 2242000: Enqueue '213' Detected
+MON: 2242000: TR_ENQUEUE Tr Sent
+SCB: 2242000: TR_ENQUEUE Received.  Enqueining 213
+Enqueueing 214
+MON: 2252000: Enqueue '214' Detected
+MON: 2252000: TR_ENQUEUE Tr Sent
+SCB: 2252000: TR_ENQUEUE Received.  Enqueining 214
+Enqueueing 215
+MON: 2262000: Enqueue '215' Detected
+MON: 2262000: TR_ENQUEUE Tr Sent
+SCB: 2262000: TR_ENQUEUE Received.  Enqueining 215
+Enqueueing 216
+MON: 2272000: Enqueue '216' Detected
+MON: 2272000: TR_ENQUEUE Tr Sent
+SCB: 2272000: TR_ENQUEUE Received.  Enqueining 216
+Enqueueing 217
+MON: 2282000: Enqueue '217' Detected
+MON: 2282000: TR_ENQUEUE Tr Sent
+SCB: 2282000: TR_ENQUEUE Received.  Enqueining 217
+Enqueueing 218
+MON: 2292000: Enqueue '218' Detected
+MON: 2292000: TR_ENQUEUE Tr Sent
+SCB: 2292000: TR_ENQUEUE Received.  Enqueining 218
+Enqueueing 219
+MON: 2302000: Enqueue '219' Detected
+MON: 2302000: TR_ENQUEUE Tr Sent
+SCB: 2302000: TR_ENQUEUE Received.  Enqueining 219
+Enqueueing 220
+MON: 2312000: Enqueue '220' Detected
+MON: 2312000: TR_ENQUEUE Tr Sent
+SCB: 2312000: TR_ENQUEUE Received.  Enqueining 220
+Enqueueing 221
+MON: 2322000: Enqueue '221' Detected
+MON: 2322000: TR_ENQUEUE Tr Sent
+SCB: 2322000: TR_ENQUEUE Received.  Enqueining 221
+Enqueueing 222
+MON: 2332000: Enqueue '222' Detected
+MON: 2332000: TR_ENQUEUE Tr Sent
+SCB: 2332000: TR_ENQUEUE Received.  Enqueining 222
+Enqueueing 223
+MON: 2342000: Enqueue '223' Detected
+MON: 2342000: TR_ENQUEUE Tr Sent
+SCB: 2342000: TR_ENQUEUE Received.  Enqueining 223
+Enqueueing 224
+MON: 2352000: Enqueue '224' Detected
+MON: 2352000: TR_ENQUEUE Tr Sent
+SCB: 2352000: TR_ENQUEUE Received.  Enqueining 224
+Enqueueing 225
+MON: 2362000: Enqueue '225' Detected
+MON: 2362000: TR_ENQUEUE Tr Sent
+SCB: 2362000: TR_ENQUEUE Received.  Enqueining 225
+Enqueueing 226
+MON: 2372000: Enqueue '226' Detected
+MON: 2372000: TR_ENQUEUE Tr Sent
+SCB: 2372000: TR_ENQUEUE Received.  Enqueining 226
+Enqueueing 227
+MON: 2382000: Enqueue '227' Detected
+MON: 2382000: TR_ENQUEUE Tr Sent
+SCB: 2382000: TR_ENQUEUE Received.  Enqueining 227
+Enqueueing 228
+MON: 2392000: Enqueue '228' Detected
+MON: 2392000: TR_ENQUEUE Tr Sent
+SCB: 2392000: TR_ENQUEUE Received.  Enqueining 228
+Enqueueing 229
+MON: 2402000: Enqueue '229' Detected
+MON: 2402000: TR_ENQUEUE Tr Sent
+SCB: 2402000: TR_ENQUEUE Received.  Enqueining 229
+Enqueueing 230
+MON: 2412000: Enqueue '230' Detected
+MON: 2412000: TR_ENQUEUE Tr Sent
+SCB: 2412000: TR_ENQUEUE Received.  Enqueining 230
+Enqueueing 231
+MON: 2422000: Enqueue '231' Detected
+MON: 2422000: TR_ENQUEUE Tr Sent
+SCB: 2422000: TR_ENQUEUE Received.  Enqueining 231
+Enqueueing 232
+MON: 2432000: Enqueue '232' Detected
+MON: 2432000: TR_ENQUEUE Tr Sent
+SCB: 2432000: TR_ENQUEUE Received.  Enqueining 232
+Enqueueing 233
+MON: 2442000: Enqueue '233' Detected
+MON: 2442000: TR_ENQUEUE Tr Sent
+SCB: 2442000: TR_ENQUEUE Received.  Enqueining 233
+Enqueueing 234
+MON: 2452000: Enqueue '234' Detected
+MON: 2452000: TR_ENQUEUE Tr Sent
+SCB: 2452000: TR_ENQUEUE Received.  Enqueining 234
+Enqueueing 235
+MON: 2462000: Enqueue '235' Detected
+MON: 2462000: TR_ENQUEUE Tr Sent
+SCB: 2462000: TR_ENQUEUE Received.  Enqueining 235
+Enqueueing 236
+MON: 2472000: Enqueue '236' Detected
+MON: 2472000: TR_ENQUEUE Tr Sent
+SCB: 2472000: TR_ENQUEUE Received.  Enqueining 236
+Enqueueing 237
+MON: 2482000: Enqueue '237' Detected
+MON: 2482000: TR_ENQUEUE Tr Sent
+SCB: 2482000: TR_ENQUEUE Received.  Enqueining 237
+Enqueueing 238
+MON: 2492000: Enqueue '238' Detected
+MON: 2492000: TR_ENQUEUE Tr Sent
+SCB: 2492000: TR_ENQUEUE Received.  Enqueining 238
+Enqueueing 239
+MON: 2502000: Enqueue '239' Detected
+MON: 2502000: TR_ENQUEUE Tr Sent
+SCB: 2502000: TR_ENQUEUE Received.  Enqueining 239
+Enqueueing 240
+MON: 2512000: Enqueue '240' Detected
+MON: 2512000: TR_ENQUEUE Tr Sent
+SCB: 2512000: TR_ENQUEUE Received.  Enqueining 240
+Enqueueing 241
+MON: 2522000: Enqueue '241' Detected
+MON: 2522000: TR_ENQUEUE Tr Sent
+SCB: 2522000: TR_ENQUEUE Received.  Enqueining 241
+Enqueueing 242
+MON: 2532000: Enqueue '242' Detected
+MON: 2532000: TR_ENQUEUE Tr Sent
+SCB: 2532000: TR_ENQUEUE Received.  Enqueining 242
+Enqueueing 243
+MON: 2542000: Enqueue '243' Detected
+MON: 2542000: TR_ENQUEUE Tr Sent
+SCB: 2542000: TR_ENQUEUE Received.  Enqueining 243
+Enqueueing 244
+MON: 2552000: Enqueue '244' Detected
+MON: 2552000: TR_ENQUEUE Tr Sent
+SCB: 2552000: TR_ENQUEUE Received.  Enqueining 244
+Enqueueing 245
+MON: 2562000: Enqueue '245' Detected
+MON: 2562000: TR_ENQUEUE Tr Sent
+SCB: 2562000: TR_ENQUEUE Received.  Enqueining 245
+Enqueueing 246
+MON: 2572000: Enqueue '246' Detected
+MON: 2572000: TR_ENQUEUE Tr Sent
+SCB: 2572000: TR_ENQUEUE Received.  Enqueining 246
+Enqueueing 247
+MON: 2582000: Enqueue '247' Detected
+MON: 2582000: TR_ENQUEUE Tr Sent
+SCB: 2582000: TR_ENQUEUE Received.  Enqueining 247
+Enqueueing 248
+MON: 2592000: Enqueue '248' Detected
+MON: 2592000: TR_ENQUEUE Tr Sent
+SCB: 2592000: TR_ENQUEUE Received.  Enqueining 248
+Enqueueing 249
+MON: 2602000: Enqueue '249' Detected
+MON: 2602000: TR_ENQUEUE Tr Sent
+SCB: 2602000: TR_ENQUEUE Received.  Enqueining 249
+Enqueueing 250
+MON: 2612000: Enqueue '250' Detected
+MON: 2612000: TR_ENQUEUE Tr Sent
+SCB: 2612000: TR_ENQUEUE Received.  Enqueining 250
+Enqueueing 251
+MON: 2622000: Enqueue '251' Detected
+MON: 2622000: TR_ENQUEUE Tr Sent
+SCB: 2622000: TR_ENQUEUE Received.  Enqueining 251
+Enqueueing 252
+MON: 2632000: Enqueue '252' Detected
+MON: 2632000: TR_ENQUEUE Tr Sent
+SCB: 2632000: TR_ENQUEUE Received.  Enqueining 252
+Enqueueing 253
+MON: 2642000: Enqueue '253' Detected
+MON: 2642000: TR_ENQUEUE Tr Sent
+SCB: 2642000: TR_ENQUEUE Received.  Enqueining 253
+Enqueueing 254
+MON: 2652000: Enqueue '254' Detected
+MON: 2652000: TR_ENQUEUE Tr Sent
+SCB: 2652000: TR_ENQUEUE Received.  Enqueining 254
+Enqueueing 255
+MON: 2662000: Enqueue '255' Detected
+MON: 2662000: TR_ENQUEUE Tr Sent
+SCB: 2662000: TR_ENQUEUE Received.  Enqueining 255
+Stopped at time : 2670 ns : File "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv" Line 107
+step
+Dequeue           0
+Stopped at time : 2670 ns : File "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv" Line 108
+step
+Stopped at time : 2670 ns : File "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv" Line 55
+step
+Stopped at time : 2670 ns : File "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv" Line 56
+step
+Stopped at time : 2670 ns : File "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv" Line 57
+step
+Stopped at time : 2670 ns : File "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/fifo.sv" Line 42
+run 5 ms
+MON: 2672000: Dequeue '0' Detected
+MON: 2672000: TR_DEQUEUE Tr Sent
+SCB: 2672000: TR_DEQUEUE Received.  Dequeining (model) 0.  Dequeing (transaction) 0
+data:   1, i:   0
+Error: Reading data from FIFO failed: Got   1 and expected   0.
+Time: 2680 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue   1
+MON: 2682000: Dequeue '1' Detected
+MON: 2682000: TR_DEQUEUE Tr Sent
+SCB: 2682000: TR_DEQUEUE Received.  Dequeining (model) 1.  Dequeing (transaction) 1
+data:   2, i:   1
+Error: Reading data from FIFO failed: Got   2 and expected   1.
+Time: 2690 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue   2
+MON: 2692000: Dequeue '2' Detected
+MON: 2692000: TR_DEQUEUE Tr Sent
+SCB: 2692000: TR_DEQUEUE Received.  Dequeining (model) 2.  Dequeing (transaction) 2
+data:   3, i:   2
+Error: Reading data from FIFO failed: Got   3 and expected   2.
+Time: 2700 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue   3
+MON: 2702000: Dequeue '3' Detected
+MON: 2702000: TR_DEQUEUE Tr Sent
+SCB: 2702000: TR_DEQUEUE Received.  Dequeining (model) 3.  Dequeing (transaction) 3
+data:   4, i:   3
+Error: Reading data from FIFO failed: Got   4 and expected   3.
+Time: 2710 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue   4
+MON: 2712000: Dequeue '4' Detected
+MON: 2712000: TR_DEQUEUE Tr Sent
+SCB: 2712000: TR_DEQUEUE Received.  Dequeining (model) 4.  Dequeing (transaction) 4
+data:   5, i:   4
+Error: Reading data from FIFO failed: Got   5 and expected   4.
+Time: 2720 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue   5
+MON: 2722000: Dequeue '5' Detected
+MON: 2722000: TR_DEQUEUE Tr Sent
+SCB: 2722000: TR_DEQUEUE Received.  Dequeining (model) 5.  Dequeing (transaction) 5
+data:   6, i:   5
+Error: Reading data from FIFO failed: Got   6 and expected   5.
+Time: 2730 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue   6
+MON: 2732000: Dequeue '6' Detected
+MON: 2732000: TR_DEQUEUE Tr Sent
+SCB: 2732000: TR_DEQUEUE Received.  Dequeining (model) 6.  Dequeing (transaction) 6
+data:   7, i:   6
+Error: Reading data from FIFO failed: Got   7 and expected   6.
+Time: 2740 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue   7
+MON: 2742000: Dequeue '7' Detected
+MON: 2742000: TR_DEQUEUE Tr Sent
+SCB: 2742000: TR_DEQUEUE Received.  Dequeining (model) 7.  Dequeing (transaction) 7
+data:   8, i:   7
+Error: Reading data from FIFO failed: Got   8 and expected   7.
+Time: 2750 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue   8
+MON: 2752000: Dequeue '8' Detected
+MON: 2752000: TR_DEQUEUE Tr Sent
+SCB: 2752000: TR_DEQUEUE Received.  Dequeining (model) 8.  Dequeing (transaction) 8
+data:   9, i:   8
+Error: Reading data from FIFO failed: Got   9 and expected   8.
+Time: 2760 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue   9
+MON: 2762000: Dequeue '9' Detected
+MON: 2762000: TR_DEQUEUE Tr Sent
+SCB: 2762000: TR_DEQUEUE Received.  Dequeining (model) 9.  Dequeing (transaction) 9
+data:  10, i:   9
+Error: Reading data from FIFO failed: Got  10 and expected   9.
+Time: 2770 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  10
+MON: 2772000: Dequeue '10' Detected
+MON: 2772000: TR_DEQUEUE Tr Sent
+SCB: 2772000: TR_DEQUEUE Received.  Dequeining (model) 10.  Dequeing (transaction) 10
+data:  11, i:  10
+Error: Reading data from FIFO failed: Got  11 and expected  10.
+Time: 2780 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  11
+MON: 2782000: Dequeue '11' Detected
+MON: 2782000: TR_DEQUEUE Tr Sent
+SCB: 2782000: TR_DEQUEUE Received.  Dequeining (model) 11.  Dequeing (transaction) 11
+data:  12, i:  11
+Error: Reading data from FIFO failed: Got  12 and expected  11.
+Time: 2790 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  12
+MON: 2792000: Dequeue '12' Detected
+MON: 2792000: TR_DEQUEUE Tr Sent
+SCB: 2792000: TR_DEQUEUE Received.  Dequeining (model) 12.  Dequeing (transaction) 12
+data:  13, i:  12
+Error: Reading data from FIFO failed: Got  13 and expected  12.
+Time: 2800 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  13
+MON: 2802000: Dequeue '13' Detected
+MON: 2802000: TR_DEQUEUE Tr Sent
+SCB: 2802000: TR_DEQUEUE Received.  Dequeining (model) 13.  Dequeing (transaction) 13
+data:  14, i:  13
+Error: Reading data from FIFO failed: Got  14 and expected  13.
+Time: 2810 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  14
+MON: 2812000: Dequeue '14' Detected
+MON: 2812000: TR_DEQUEUE Tr Sent
+SCB: 2812000: TR_DEQUEUE Received.  Dequeining (model) 14.  Dequeing (transaction) 14
+data:  15, i:  14
+Error: Reading data from FIFO failed: Got  15 and expected  14.
+Time: 2820 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  15
+MON: 2822000: Dequeue '15' Detected
+MON: 2822000: TR_DEQUEUE Tr Sent
+SCB: 2822000: TR_DEQUEUE Received.  Dequeining (model) 15.  Dequeing (transaction) 15
+data:  16, i:  15
+Error: Reading data from FIFO failed: Got  16 and expected  15.
+Time: 2830 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  16
+MON: 2832000: Dequeue '16' Detected
+MON: 2832000: TR_DEQUEUE Tr Sent
+SCB: 2832000: TR_DEQUEUE Received.  Dequeining (model) 16.  Dequeing (transaction) 16
+data:  17, i:  16
+Error: Reading data from FIFO failed: Got  17 and expected  16.
+Time: 2840 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  17
+MON: 2842000: Dequeue '17' Detected
+MON: 2842000: TR_DEQUEUE Tr Sent
+SCB: 2842000: TR_DEQUEUE Received.  Dequeining (model) 17.  Dequeing (transaction) 17
+data:  18, i:  17
+Error: Reading data from FIFO failed: Got  18 and expected  17.
+Time: 2850 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  18
+MON: 2852000: Dequeue '18' Detected
+MON: 2852000: TR_DEQUEUE Tr Sent
+SCB: 2852000: TR_DEQUEUE Received.  Dequeining (model) 18.  Dequeing (transaction) 18
+data:  19, i:  18
+Error: Reading data from FIFO failed: Got  19 and expected  18.
+Time: 2860 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  19
+MON: 2862000: Dequeue '19' Detected
+MON: 2862000: TR_DEQUEUE Tr Sent
+SCB: 2862000: TR_DEQUEUE Received.  Dequeining (model) 19.  Dequeing (transaction) 19
+data:  20, i:  19
+Error: Reading data from FIFO failed: Got  20 and expected  19.
+Time: 2870 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  20
+MON: 2872000: Dequeue '20' Detected
+MON: 2872000: TR_DEQUEUE Tr Sent
+SCB: 2872000: TR_DEQUEUE Received.  Dequeining (model) 20.  Dequeing (transaction) 20
+data:  21, i:  20
+Error: Reading data from FIFO failed: Got  21 and expected  20.
+Time: 2880 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  21
+MON: 2882000: Dequeue '21' Detected
+MON: 2882000: TR_DEQUEUE Tr Sent
+SCB: 2882000: TR_DEQUEUE Received.  Dequeining (model) 21.  Dequeing (transaction) 21
+data:  22, i:  21
+Error: Reading data from FIFO failed: Got  22 and expected  21.
+Time: 2890 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  22
+MON: 2892000: Dequeue '22' Detected
+MON: 2892000: TR_DEQUEUE Tr Sent
+SCB: 2892000: TR_DEQUEUE Received.  Dequeining (model) 22.  Dequeing (transaction) 22
+data:  23, i:  22
+Error: Reading data from FIFO failed: Got  23 and expected  22.
+Time: 2900 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  23
+MON: 2902000: Dequeue '23' Detected
+MON: 2902000: TR_DEQUEUE Tr Sent
+SCB: 2902000: TR_DEQUEUE Received.  Dequeining (model) 23.  Dequeing (transaction) 23
+data:  24, i:  23
+Error: Reading data from FIFO failed: Got  24 and expected  23.
+Time: 2910 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  24
+MON: 2912000: Dequeue '24' Detected
+MON: 2912000: TR_DEQUEUE Tr Sent
+SCB: 2912000: TR_DEQUEUE Received.  Dequeining (model) 24.  Dequeing (transaction) 24
+data:  25, i:  24
+Error: Reading data from FIFO failed: Got  25 and expected  24.
+Time: 2920 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  25
+MON: 2922000: Dequeue '25' Detected
+MON: 2922000: TR_DEQUEUE Tr Sent
+SCB: 2922000: TR_DEQUEUE Received.  Dequeining (model) 25.  Dequeing (transaction) 25
+data:  26, i:  25
+Error: Reading data from FIFO failed: Got  26 and expected  25.
+Time: 2930 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  26
+MON: 2932000: Dequeue '26' Detected
+MON: 2932000: TR_DEQUEUE Tr Sent
+SCB: 2932000: TR_DEQUEUE Received.  Dequeining (model) 26.  Dequeing (transaction) 26
+data:  27, i:  26
+Error: Reading data from FIFO failed: Got  27 and expected  26.
+Time: 2940 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  27
+MON: 2942000: Dequeue '27' Detected
+MON: 2942000: TR_DEQUEUE Tr Sent
+SCB: 2942000: TR_DEQUEUE Received.  Dequeining (model) 27.  Dequeing (transaction) 27
+data:  28, i:  27
+Error: Reading data from FIFO failed: Got  28 and expected  27.
+Time: 2950 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  28
+MON: 2952000: Dequeue '28' Detected
+MON: 2952000: TR_DEQUEUE Tr Sent
+SCB: 2952000: TR_DEQUEUE Received.  Dequeining (model) 28.  Dequeing (transaction) 28
+data:  29, i:  28
+Error: Reading data from FIFO failed: Got  29 and expected  28.
+Time: 2960 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  29
+MON: 2962000: Dequeue '29' Detected
+MON: 2962000: TR_DEQUEUE Tr Sent
+SCB: 2962000: TR_DEQUEUE Received.  Dequeining (model) 29.  Dequeing (transaction) 29
+data:  30, i:  29
+Error: Reading data from FIFO failed: Got  30 and expected  29.
+Time: 2970 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  30
+MON: 2972000: Dequeue '30' Detected
+MON: 2972000: TR_DEQUEUE Tr Sent
+SCB: 2972000: TR_DEQUEUE Received.  Dequeining (model) 30.  Dequeing (transaction) 30
+data:  31, i:  30
+Error: Reading data from FIFO failed: Got  31 and expected  30.
+Time: 2980 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  31
+MON: 2982000: Dequeue '31' Detected
+MON: 2982000: TR_DEQUEUE Tr Sent
+SCB: 2982000: TR_DEQUEUE Received.  Dequeining (model) 31.  Dequeing (transaction) 31
+data:  32, i:  31
+Error: Reading data from FIFO failed: Got  32 and expected  31.
+Time: 2990 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  32
+MON: 2992000: Dequeue '32' Detected
+MON: 2992000: TR_DEQUEUE Tr Sent
+SCB: 2992000: TR_DEQUEUE Received.  Dequeining (model) 32.  Dequeing (transaction) 32
+data:  33, i:  32
+Error: Reading data from FIFO failed: Got  33 and expected  32.
+Time: 3 us  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  33
+MON: 3002000: Dequeue '33' Detected
+MON: 3002000: TR_DEQUEUE Tr Sent
+SCB: 3002000: TR_DEQUEUE Received.  Dequeining (model) 33.  Dequeing (transaction) 33
+data:  34, i:  33
+Error: Reading data from FIFO failed: Got  34 and expected  33.
+Time: 3010 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  34
+MON: 3012000: Dequeue '34' Detected
+MON: 3012000: TR_DEQUEUE Tr Sent
+SCB: 3012000: TR_DEQUEUE Received.  Dequeining (model) 34.  Dequeing (transaction) 34
+data:  35, i:  34
+Error: Reading data from FIFO failed: Got  35 and expected  34.
+Time: 3020 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  35
+MON: 3022000: Dequeue '35' Detected
+MON: 3022000: TR_DEQUEUE Tr Sent
+SCB: 3022000: TR_DEQUEUE Received.  Dequeining (model) 35.  Dequeing (transaction) 35
+data:  36, i:  35
+Error: Reading data from FIFO failed: Got  36 and expected  35.
+Time: 3030 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  36
+MON: 3032000: Dequeue '36' Detected
+MON: 3032000: TR_DEQUEUE Tr Sent
+SCB: 3032000: TR_DEQUEUE Received.  Dequeining (model) 36.  Dequeing (transaction) 36
+data:  37, i:  36
+Error: Reading data from FIFO failed: Got  37 and expected  36.
+Time: 3040 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  37
+MON: 3042000: Dequeue '37' Detected
+MON: 3042000: TR_DEQUEUE Tr Sent
+SCB: 3042000: TR_DEQUEUE Received.  Dequeining (model) 37.  Dequeing (transaction) 37
+data:  38, i:  37
+Error: Reading data from FIFO failed: Got  38 and expected  37.
+Time: 3050 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  38
+MON: 3052000: Dequeue '38' Detected
+MON: 3052000: TR_DEQUEUE Tr Sent
+SCB: 3052000: TR_DEQUEUE Received.  Dequeining (model) 38.  Dequeing (transaction) 38
+data:  39, i:  38
+Error: Reading data from FIFO failed: Got  39 and expected  38.
+Time: 3060 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  39
+MON: 3062000: Dequeue '39' Detected
+MON: 3062000: TR_DEQUEUE Tr Sent
+SCB: 3062000: TR_DEQUEUE Received.  Dequeining (model) 39.  Dequeing (transaction) 39
+data:  40, i:  39
+Error: Reading data from FIFO failed: Got  40 and expected  39.
+Time: 3070 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  40
+MON: 3072000: Dequeue '40' Detected
+MON: 3072000: TR_DEQUEUE Tr Sent
+SCB: 3072000: TR_DEQUEUE Received.  Dequeining (model) 40.  Dequeing (transaction) 40
+data:  41, i:  40
+Error: Reading data from FIFO failed: Got  41 and expected  40.
+Time: 3080 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  41
+MON: 3082000: Dequeue '41' Detected
+MON: 3082000: TR_DEQUEUE Tr Sent
+SCB: 3082000: TR_DEQUEUE Received.  Dequeining (model) 41.  Dequeing (transaction) 41
+data:  42, i:  41
+Error: Reading data from FIFO failed: Got  42 and expected  41.
+Time: 3090 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  42
+MON: 3092000: Dequeue '42' Detected
+MON: 3092000: TR_DEQUEUE Tr Sent
+SCB: 3092000: TR_DEQUEUE Received.  Dequeining (model) 42.  Dequeing (transaction) 42
+data:  43, i:  42
+Error: Reading data from FIFO failed: Got  43 and expected  42.
+Time: 3100 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  43
+MON: 3102000: Dequeue '43' Detected
+MON: 3102000: TR_DEQUEUE Tr Sent
+SCB: 3102000: TR_DEQUEUE Received.  Dequeining (model) 43.  Dequeing (transaction) 43
+data:  44, i:  43
+Error: Reading data from FIFO failed: Got  44 and expected  43.
+Time: 3110 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  44
+MON: 3112000: Dequeue '44' Detected
+MON: 3112000: TR_DEQUEUE Tr Sent
+SCB: 3112000: TR_DEQUEUE Received.  Dequeining (model) 44.  Dequeing (transaction) 44
+data:  45, i:  44
+Error: Reading data from FIFO failed: Got  45 and expected  44.
+Time: 3120 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  45
+MON: 3122000: Dequeue '45' Detected
+MON: 3122000: TR_DEQUEUE Tr Sent
+SCB: 3122000: TR_DEQUEUE Received.  Dequeining (model) 45.  Dequeing (transaction) 45
+data:  46, i:  45
+Error: Reading data from FIFO failed: Got  46 and expected  45.
+Time: 3130 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  46
+MON: 3132000: Dequeue '46' Detected
+MON: 3132000: TR_DEQUEUE Tr Sent
+SCB: 3132000: TR_DEQUEUE Received.  Dequeining (model) 46.  Dequeing (transaction) 46
+data:  47, i:  46
+Error: Reading data from FIFO failed: Got  47 and expected  46.
+Time: 3140 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  47
+MON: 3142000: Dequeue '47' Detected
+MON: 3142000: TR_DEQUEUE Tr Sent
+SCB: 3142000: TR_DEQUEUE Received.  Dequeining (model) 47.  Dequeing (transaction) 47
+data:  48, i:  47
+Error: Reading data from FIFO failed: Got  48 and expected  47.
+Time: 3150 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  48
+MON: 3152000: Dequeue '48' Detected
+MON: 3152000: TR_DEQUEUE Tr Sent
+SCB: 3152000: TR_DEQUEUE Received.  Dequeining (model) 48.  Dequeing (transaction) 48
+data:  49, i:  48
+Error: Reading data from FIFO failed: Got  49 and expected  48.
+Time: 3160 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  49
+MON: 3162000: Dequeue '49' Detected
+MON: 3162000: TR_DEQUEUE Tr Sent
+SCB: 3162000: TR_DEQUEUE Received.  Dequeining (model) 49.  Dequeing (transaction) 49
+data:  50, i:  49
+Error: Reading data from FIFO failed: Got  50 and expected  49.
+Time: 3170 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  50
+MON: 3172000: Dequeue '50' Detected
+MON: 3172000: TR_DEQUEUE Tr Sent
+SCB: 3172000: TR_DEQUEUE Received.  Dequeining (model) 50.  Dequeing (transaction) 50
+data:  51, i:  50
+Error: Reading data from FIFO failed: Got  51 and expected  50.
+Time: 3180 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  51
+MON: 3182000: Dequeue '51' Detected
+MON: 3182000: TR_DEQUEUE Tr Sent
+SCB: 3182000: TR_DEQUEUE Received.  Dequeining (model) 51.  Dequeing (transaction) 51
+data:  52, i:  51
+Error: Reading data from FIFO failed: Got  52 and expected  51.
+Time: 3190 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  52
+MON: 3192000: Dequeue '52' Detected
+MON: 3192000: TR_DEQUEUE Tr Sent
+SCB: 3192000: TR_DEQUEUE Received.  Dequeining (model) 52.  Dequeing (transaction) 52
+data:  53, i:  52
+Error: Reading data from FIFO failed: Got  53 and expected  52.
+Time: 3200 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  53
+MON: 3202000: Dequeue '53' Detected
+MON: 3202000: TR_DEQUEUE Tr Sent
+SCB: 3202000: TR_DEQUEUE Received.  Dequeining (model) 53.  Dequeing (transaction) 53
+data:  54, i:  53
+Error: Reading data from FIFO failed: Got  54 and expected  53.
+Time: 3210 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  54
+MON: 3212000: Dequeue '54' Detected
+MON: 3212000: TR_DEQUEUE Tr Sent
+SCB: 3212000: TR_DEQUEUE Received.  Dequeining (model) 54.  Dequeing (transaction) 54
+data:  55, i:  54
+Error: Reading data from FIFO failed: Got  55 and expected  54.
+Time: 3220 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  55
+MON: 3222000: Dequeue '55' Detected
+MON: 3222000: TR_DEQUEUE Tr Sent
+SCB: 3222000: TR_DEQUEUE Received.  Dequeining (model) 55.  Dequeing (transaction) 55
+data:  56, i:  55
+Error: Reading data from FIFO failed: Got  56 and expected  55.
+Time: 3230 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  56
+MON: 3232000: Dequeue '56' Detected
+MON: 3232000: TR_DEQUEUE Tr Sent
+SCB: 3232000: TR_DEQUEUE Received.  Dequeining (model) 56.  Dequeing (transaction) 56
+data:  57, i:  56
+Error: Reading data from FIFO failed: Got  57 and expected  56.
+Time: 3240 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  57
+MON: 3242000: Dequeue '57' Detected
+MON: 3242000: TR_DEQUEUE Tr Sent
+SCB: 3242000: TR_DEQUEUE Received.  Dequeining (model) 57.  Dequeing (transaction) 57
+data:  58, i:  57
+Error: Reading data from FIFO failed: Got  58 and expected  57.
+Time: 3250 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  58
+MON: 3252000: Dequeue '58' Detected
+MON: 3252000: TR_DEQUEUE Tr Sent
+SCB: 3252000: TR_DEQUEUE Received.  Dequeining (model) 58.  Dequeing (transaction) 58
+data:  59, i:  58
+Error: Reading data from FIFO failed: Got  59 and expected  58.
+Time: 3260 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  59
+MON: 3262000: Dequeue '59' Detected
+MON: 3262000: TR_DEQUEUE Tr Sent
+SCB: 3262000: TR_DEQUEUE Received.  Dequeining (model) 59.  Dequeing (transaction) 59
+data:  60, i:  59
+Error: Reading data from FIFO failed: Got  60 and expected  59.
+Time: 3270 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  60
+MON: 3272000: Dequeue '60' Detected
+MON: 3272000: TR_DEQUEUE Tr Sent
+SCB: 3272000: TR_DEQUEUE Received.  Dequeining (model) 60.  Dequeing (transaction) 60
+data:  61, i:  60
+Error: Reading data from FIFO failed: Got  61 and expected  60.
+Time: 3280 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  61
+MON: 3282000: Dequeue '61' Detected
+MON: 3282000: TR_DEQUEUE Tr Sent
+SCB: 3282000: TR_DEQUEUE Received.  Dequeining (model) 61.  Dequeing (transaction) 61
+data:  62, i:  61
+Error: Reading data from FIFO failed: Got  62 and expected  61.
+Time: 3290 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  62
+MON: 3292000: Dequeue '62' Detected
+MON: 3292000: TR_DEQUEUE Tr Sent
+SCB: 3292000: TR_DEQUEUE Received.  Dequeining (model) 62.  Dequeing (transaction) 62
+data:  63, i:  62
+Error: Reading data from FIFO failed: Got  63 and expected  62.
+Time: 3300 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  63
+MON: 3302000: Dequeue '63' Detected
+MON: 3302000: TR_DEQUEUE Tr Sent
+SCB: 3302000: TR_DEQUEUE Received.  Dequeining (model) 63.  Dequeing (transaction) 63
+data:  64, i:  63
+Error: Reading data from FIFO failed: Got  64 and expected  63.
+Time: 3310 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  64
+MON: 3312000: Dequeue '64' Detected
+MON: 3312000: TR_DEQUEUE Tr Sent
+SCB: 3312000: TR_DEQUEUE Received.  Dequeining (model) 64.  Dequeing (transaction) 64
+data:  65, i:  64
+Error: Reading data from FIFO failed: Got  65 and expected  64.
+Time: 3320 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  65
+MON: 3322000: Dequeue '65' Detected
+MON: 3322000: TR_DEQUEUE Tr Sent
+SCB: 3322000: TR_DEQUEUE Received.  Dequeining (model) 65.  Dequeing (transaction) 65
+data:  66, i:  65
+Error: Reading data from FIFO failed: Got  66 and expected  65.
+Time: 3330 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  66
+MON: 3332000: Dequeue '66' Detected
+MON: 3332000: TR_DEQUEUE Tr Sent
+SCB: 3332000: TR_DEQUEUE Received.  Dequeining (model) 66.  Dequeing (transaction) 66
+data:  67, i:  66
+Error: Reading data from FIFO failed: Got  67 and expected  66.
+Time: 3340 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  67
+MON: 3342000: Dequeue '67' Detected
+MON: 3342000: TR_DEQUEUE Tr Sent
+SCB: 3342000: TR_DEQUEUE Received.  Dequeining (model) 67.  Dequeing (transaction) 67
+data:  68, i:  67
+Error: Reading data from FIFO failed: Got  68 and expected  67.
+Time: 3350 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  68
+MON: 3352000: Dequeue '68' Detected
+MON: 3352000: TR_DEQUEUE Tr Sent
+SCB: 3352000: TR_DEQUEUE Received.  Dequeining (model) 68.  Dequeing (transaction) 68
+data:  69, i:  68
+Error: Reading data from FIFO failed: Got  69 and expected  68.
+Time: 3360 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  69
+MON: 3362000: Dequeue '69' Detected
+MON: 3362000: TR_DEQUEUE Tr Sent
+SCB: 3362000: TR_DEQUEUE Received.  Dequeining (model) 69.  Dequeing (transaction) 69
+data:  70, i:  69
+Error: Reading data from FIFO failed: Got  70 and expected  69.
+Time: 3370 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  70
+MON: 3372000: Dequeue '70' Detected
+MON: 3372000: TR_DEQUEUE Tr Sent
+SCB: 3372000: TR_DEQUEUE Received.  Dequeining (model) 70.  Dequeing (transaction) 70
+data:  71, i:  70
+Error: Reading data from FIFO failed: Got  71 and expected  70.
+Time: 3380 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  71
+MON: 3382000: Dequeue '71' Detected
+MON: 3382000: TR_DEQUEUE Tr Sent
+SCB: 3382000: TR_DEQUEUE Received.  Dequeining (model) 71.  Dequeing (transaction) 71
+data:  72, i:  71
+Error: Reading data from FIFO failed: Got  72 and expected  71.
+Time: 3390 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  72
+MON: 3392000: Dequeue '72' Detected
+MON: 3392000: TR_DEQUEUE Tr Sent
+SCB: 3392000: TR_DEQUEUE Received.  Dequeining (model) 72.  Dequeing (transaction) 72
+data:  73, i:  72
+Error: Reading data from FIFO failed: Got  73 and expected  72.
+Time: 3400 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  73
+MON: 3402000: Dequeue '73' Detected
+MON: 3402000: TR_DEQUEUE Tr Sent
+SCB: 3402000: TR_DEQUEUE Received.  Dequeining (model) 73.  Dequeing (transaction) 73
+data:  74, i:  73
+Error: Reading data from FIFO failed: Got  74 and expected  73.
+Time: 3410 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  74
+MON: 3412000: Dequeue '74' Detected
+MON: 3412000: TR_DEQUEUE Tr Sent
+SCB: 3412000: TR_DEQUEUE Received.  Dequeining (model) 74.  Dequeing (transaction) 74
+data:  75, i:  74
+Error: Reading data from FIFO failed: Got  75 and expected  74.
+Time: 3420 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  75
+MON: 3422000: Dequeue '75' Detected
+MON: 3422000: TR_DEQUEUE Tr Sent
+SCB: 3422000: TR_DEQUEUE Received.  Dequeining (model) 75.  Dequeing (transaction) 75
+data:  76, i:  75
+Error: Reading data from FIFO failed: Got  76 and expected  75.
+Time: 3430 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  76
+MON: 3432000: Dequeue '76' Detected
+MON: 3432000: TR_DEQUEUE Tr Sent
+SCB: 3432000: TR_DEQUEUE Received.  Dequeining (model) 76.  Dequeing (transaction) 76
+data:  77, i:  76
+Error: Reading data from FIFO failed: Got  77 and expected  76.
+Time: 3440 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  77
+MON: 3442000: Dequeue '77' Detected
+MON: 3442000: TR_DEQUEUE Tr Sent
+SCB: 3442000: TR_DEQUEUE Received.  Dequeining (model) 77.  Dequeing (transaction) 77
+data:  78, i:  77
+Error: Reading data from FIFO failed: Got  78 and expected  77.
+Time: 3450 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  78
+MON: 3452000: Dequeue '78' Detected
+MON: 3452000: TR_DEQUEUE Tr Sent
+SCB: 3452000: TR_DEQUEUE Received.  Dequeining (model) 78.  Dequeing (transaction) 78
+data:  79, i:  78
+Error: Reading data from FIFO failed: Got  79 and expected  78.
+Time: 3460 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  79
+MON: 3462000: Dequeue '79' Detected
+MON: 3462000: TR_DEQUEUE Tr Sent
+SCB: 3462000: TR_DEQUEUE Received.  Dequeining (model) 79.  Dequeing (transaction) 79
+data:  80, i:  79
+Error: Reading data from FIFO failed: Got  80 and expected  79.
+Time: 3470 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  80
+MON: 3472000: Dequeue '80' Detected
+MON: 3472000: TR_DEQUEUE Tr Sent
+SCB: 3472000: TR_DEQUEUE Received.  Dequeining (model) 80.  Dequeing (transaction) 80
+data:  81, i:  80
+Error: Reading data from FIFO failed: Got  81 and expected  80.
+Time: 3480 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  81
+MON: 3482000: Dequeue '81' Detected
+MON: 3482000: TR_DEQUEUE Tr Sent
+SCB: 3482000: TR_DEQUEUE Received.  Dequeining (model) 81.  Dequeing (transaction) 81
+data:  82, i:  81
+Error: Reading data from FIFO failed: Got  82 and expected  81.
+Time: 3490 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  82
+MON: 3492000: Dequeue '82' Detected
+MON: 3492000: TR_DEQUEUE Tr Sent
+SCB: 3492000: TR_DEQUEUE Received.  Dequeining (model) 82.  Dequeing (transaction) 82
+data:  83, i:  82
+Error: Reading data from FIFO failed: Got  83 and expected  82.
+Time: 3500 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  83
+MON: 3502000: Dequeue '83' Detected
+MON: 3502000: TR_DEQUEUE Tr Sent
+SCB: 3502000: TR_DEQUEUE Received.  Dequeining (model) 83.  Dequeing (transaction) 83
+data:  84, i:  83
+Error: Reading data from FIFO failed: Got  84 and expected  83.
+Time: 3510 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  84
+MON: 3512000: Dequeue '84' Detected
+MON: 3512000: TR_DEQUEUE Tr Sent
+SCB: 3512000: TR_DEQUEUE Received.  Dequeining (model) 84.  Dequeing (transaction) 84
+data:  85, i:  84
+Error: Reading data from FIFO failed: Got  85 and expected  84.
+Time: 3520 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  85
+MON: 3522000: Dequeue '85' Detected
+MON: 3522000: TR_DEQUEUE Tr Sent
+SCB: 3522000: TR_DEQUEUE Received.  Dequeining (model) 85.  Dequeing (transaction) 85
+data:  86, i:  85
+Error: Reading data from FIFO failed: Got  86 and expected  85.
+Time: 3530 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  86
+MON: 3532000: Dequeue '86' Detected
+MON: 3532000: TR_DEQUEUE Tr Sent
+SCB: 3532000: TR_DEQUEUE Received.  Dequeining (model) 86.  Dequeing (transaction) 86
+data:  87, i:  86
+Error: Reading data from FIFO failed: Got  87 and expected  86.
+Time: 3540 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  87
+MON: 3542000: Dequeue '87' Detected
+MON: 3542000: TR_DEQUEUE Tr Sent
+SCB: 3542000: TR_DEQUEUE Received.  Dequeining (model) 87.  Dequeing (transaction) 87
+data:  88, i:  87
+Error: Reading data from FIFO failed: Got  88 and expected  87.
+Time: 3550 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  88
+MON: 3552000: Dequeue '88' Detected
+MON: 3552000: TR_DEQUEUE Tr Sent
+SCB: 3552000: TR_DEQUEUE Received.  Dequeining (model) 88.  Dequeing (transaction) 88
+data:  89, i:  88
+Error: Reading data from FIFO failed: Got  89 and expected  88.
+Time: 3560 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  89
+MON: 3562000: Dequeue '89' Detected
+MON: 3562000: TR_DEQUEUE Tr Sent
+SCB: 3562000: TR_DEQUEUE Received.  Dequeining (model) 89.  Dequeing (transaction) 89
+data:  90, i:  89
+Error: Reading data from FIFO failed: Got  90 and expected  89.
+Time: 3570 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  90
+MON: 3572000: Dequeue '90' Detected
+MON: 3572000: TR_DEQUEUE Tr Sent
+SCB: 3572000: TR_DEQUEUE Received.  Dequeining (model) 90.  Dequeing (transaction) 90
+data:  91, i:  90
+Error: Reading data from FIFO failed: Got  91 and expected  90.
+Time: 3580 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  91
+MON: 3582000: Dequeue '91' Detected
+MON: 3582000: TR_DEQUEUE Tr Sent
+SCB: 3582000: TR_DEQUEUE Received.  Dequeining (model) 91.  Dequeing (transaction) 91
+data:  92, i:  91
+Error: Reading data from FIFO failed: Got  92 and expected  91.
+Time: 3590 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  92
+MON: 3592000: Dequeue '92' Detected
+MON: 3592000: TR_DEQUEUE Tr Sent
+SCB: 3592000: TR_DEQUEUE Received.  Dequeining (model) 92.  Dequeing (transaction) 92
+data:  93, i:  92
+Error: Reading data from FIFO failed: Got  93 and expected  92.
+Time: 3600 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  93
+MON: 3602000: Dequeue '93' Detected
+MON: 3602000: TR_DEQUEUE Tr Sent
+SCB: 3602000: TR_DEQUEUE Received.  Dequeining (model) 93.  Dequeing (transaction) 93
+data:  94, i:  93
+Error: Reading data from FIFO failed: Got  94 and expected  93.
+Time: 3610 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  94
+MON: 3612000: Dequeue '94' Detected
+MON: 3612000: TR_DEQUEUE Tr Sent
+SCB: 3612000: TR_DEQUEUE Received.  Dequeining (model) 94.  Dequeing (transaction) 94
+data:  95, i:  94
+Error: Reading data from FIFO failed: Got  95 and expected  94.
+Time: 3620 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  95
+MON: 3622000: Dequeue '95' Detected
+MON: 3622000: TR_DEQUEUE Tr Sent
+SCB: 3622000: TR_DEQUEUE Received.  Dequeining (model) 95.  Dequeing (transaction) 95
+data:  96, i:  95
+Error: Reading data from FIFO failed: Got  96 and expected  95.
+Time: 3630 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  96
+MON: 3632000: Dequeue '96' Detected
+MON: 3632000: TR_DEQUEUE Tr Sent
+SCB: 3632000: TR_DEQUEUE Received.  Dequeining (model) 96.  Dequeing (transaction) 96
+data:  97, i:  96
+Error: Reading data from FIFO failed: Got  97 and expected  96.
+Time: 3640 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  97
+MON: 3642000: Dequeue '97' Detected
+MON: 3642000: TR_DEQUEUE Tr Sent
+SCB: 3642000: TR_DEQUEUE Received.  Dequeining (model) 97.  Dequeing (transaction) 97
+data:  98, i:  97
+Error: Reading data from FIFO failed: Got  98 and expected  97.
+Time: 3650 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  98
+MON: 3652000: Dequeue '98' Detected
+MON: 3652000: TR_DEQUEUE Tr Sent
+SCB: 3652000: TR_DEQUEUE Received.  Dequeining (model) 98.  Dequeing (transaction) 98
+data:  99, i:  98
+Error: Reading data from FIFO failed: Got  99 and expected  98.
+Time: 3660 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue  99
+MON: 3662000: Dequeue '99' Detected
+MON: 3662000: TR_DEQUEUE Tr Sent
+SCB: 3662000: TR_DEQUEUE Received.  Dequeining (model) 99.  Dequeing (transaction) 99
+data: 100, i:  99
+Error: Reading data from FIFO failed: Got 100 and expected  99.
+Time: 3670 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 100
+MON: 3672000: Dequeue '100' Detected
+MON: 3672000: TR_DEQUEUE Tr Sent
+SCB: 3672000: TR_DEQUEUE Received.  Dequeining (model) 100.  Dequeing (transaction) 100
+data: 101, i: 100
+Error: Reading data from FIFO failed: Got 101 and expected 100.
+Time: 3680 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 101
+MON: 3682000: Dequeue '101' Detected
+MON: 3682000: TR_DEQUEUE Tr Sent
+SCB: 3682000: TR_DEQUEUE Received.  Dequeining (model) 101.  Dequeing (transaction) 101
+data: 102, i: 101
+Error: Reading data from FIFO failed: Got 102 and expected 101.
+Time: 3690 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 102
+MON: 3692000: Dequeue '102' Detected
+MON: 3692000: TR_DEQUEUE Tr Sent
+SCB: 3692000: TR_DEQUEUE Received.  Dequeining (model) 102.  Dequeing (transaction) 102
+data: 103, i: 102
+Error: Reading data from FIFO failed: Got 103 and expected 102.
+Time: 3700 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 103
+MON: 3702000: Dequeue '103' Detected
+MON: 3702000: TR_DEQUEUE Tr Sent
+SCB: 3702000: TR_DEQUEUE Received.  Dequeining (model) 103.  Dequeing (transaction) 103
+data: 104, i: 103
+Error: Reading data from FIFO failed: Got 104 and expected 103.
+Time: 3710 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 104
+MON: 3712000: Dequeue '104' Detected
+MON: 3712000: TR_DEQUEUE Tr Sent
+SCB: 3712000: TR_DEQUEUE Received.  Dequeining (model) 104.  Dequeing (transaction) 104
+data: 105, i: 104
+Error: Reading data from FIFO failed: Got 105 and expected 104.
+Time: 3720 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 105
+MON: 3722000: Dequeue '105' Detected
+MON: 3722000: TR_DEQUEUE Tr Sent
+SCB: 3722000: TR_DEQUEUE Received.  Dequeining (model) 105.  Dequeing (transaction) 105
+data: 106, i: 105
+Error: Reading data from FIFO failed: Got 106 and expected 105.
+Time: 3730 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 106
+MON: 3732000: Dequeue '106' Detected
+MON: 3732000: TR_DEQUEUE Tr Sent
+SCB: 3732000: TR_DEQUEUE Received.  Dequeining (model) 106.  Dequeing (transaction) 106
+data: 107, i: 106
+Error: Reading data from FIFO failed: Got 107 and expected 106.
+Time: 3740 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 107
+MON: 3742000: Dequeue '107' Detected
+MON: 3742000: TR_DEQUEUE Tr Sent
+SCB: 3742000: TR_DEQUEUE Received.  Dequeining (model) 107.  Dequeing (transaction) 107
+data: 108, i: 107
+Error: Reading data from FIFO failed: Got 108 and expected 107.
+Time: 3750 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 108
+MON: 3752000: Dequeue '108' Detected
+MON: 3752000: TR_DEQUEUE Tr Sent
+SCB: 3752000: TR_DEQUEUE Received.  Dequeining (model) 108.  Dequeing (transaction) 108
+data: 109, i: 108
+Error: Reading data from FIFO failed: Got 109 and expected 108.
+Time: 3760 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 109
+MON: 3762000: Dequeue '109' Detected
+MON: 3762000: TR_DEQUEUE Tr Sent
+SCB: 3762000: TR_DEQUEUE Received.  Dequeining (model) 109.  Dequeing (transaction) 109
+data: 110, i: 109
+Error: Reading data from FIFO failed: Got 110 and expected 109.
+Time: 3770 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 110
+MON: 3772000: Dequeue '110' Detected
+MON: 3772000: TR_DEQUEUE Tr Sent
+SCB: 3772000: TR_DEQUEUE Received.  Dequeining (model) 110.  Dequeing (transaction) 110
+data: 111, i: 110
+Error: Reading data from FIFO failed: Got 111 and expected 110.
+Time: 3780 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 111
+MON: 3782000: Dequeue '111' Detected
+MON: 3782000: TR_DEQUEUE Tr Sent
+SCB: 3782000: TR_DEQUEUE Received.  Dequeining (model) 111.  Dequeing (transaction) 111
+data: 112, i: 111
+Error: Reading data from FIFO failed: Got 112 and expected 111.
+Time: 3790 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 112
+MON: 3792000: Dequeue '112' Detected
+MON: 3792000: TR_DEQUEUE Tr Sent
+SCB: 3792000: TR_DEQUEUE Received.  Dequeining (model) 112.  Dequeing (transaction) 112
+data: 113, i: 112
+Error: Reading data from FIFO failed: Got 113 and expected 112.
+Time: 3800 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 113
+MON: 3802000: Dequeue '113' Detected
+MON: 3802000: TR_DEQUEUE Tr Sent
+SCB: 3802000: TR_DEQUEUE Received.  Dequeining (model) 113.  Dequeing (transaction) 113
+data: 114, i: 113
+Error: Reading data from FIFO failed: Got 114 and expected 113.
+Time: 3810 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 114
+MON: 3812000: Dequeue '114' Detected
+MON: 3812000: TR_DEQUEUE Tr Sent
+SCB: 3812000: TR_DEQUEUE Received.  Dequeining (model) 114.  Dequeing (transaction) 114
+data: 115, i: 114
+Error: Reading data from FIFO failed: Got 115 and expected 114.
+Time: 3820 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 115
+MON: 3822000: Dequeue '115' Detected
+MON: 3822000: TR_DEQUEUE Tr Sent
+SCB: 3822000: TR_DEQUEUE Received.  Dequeining (model) 115.  Dequeing (transaction) 115
+data: 116, i: 115
+Error: Reading data from FIFO failed: Got 116 and expected 115.
+Time: 3830 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 116
+MON: 3832000: Dequeue '116' Detected
+MON: 3832000: TR_DEQUEUE Tr Sent
+SCB: 3832000: TR_DEQUEUE Received.  Dequeining (model) 116.  Dequeing (transaction) 116
+data: 117, i: 116
+Error: Reading data from FIFO failed: Got 117 and expected 116.
+Time: 3840 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 117
+MON: 3842000: Dequeue '117' Detected
+MON: 3842000: TR_DEQUEUE Tr Sent
+SCB: 3842000: TR_DEQUEUE Received.  Dequeining (model) 117.  Dequeing (transaction) 117
+data: 118, i: 117
+Error: Reading data from FIFO failed: Got 118 and expected 117.
+Time: 3850 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 118
+MON: 3852000: Dequeue '118' Detected
+MON: 3852000: TR_DEQUEUE Tr Sent
+SCB: 3852000: TR_DEQUEUE Received.  Dequeining (model) 118.  Dequeing (transaction) 118
+data: 119, i: 118
+Error: Reading data from FIFO failed: Got 119 and expected 118.
+Time: 3860 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 119
+MON: 3862000: Dequeue '119' Detected
+MON: 3862000: TR_DEQUEUE Tr Sent
+SCB: 3862000: TR_DEQUEUE Received.  Dequeining (model) 119.  Dequeing (transaction) 119
+data: 120, i: 119
+Error: Reading data from FIFO failed: Got 120 and expected 119.
+Time: 3870 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 120
+MON: 3872000: Dequeue '120' Detected
+MON: 3872000: TR_DEQUEUE Tr Sent
+SCB: 3872000: TR_DEQUEUE Received.  Dequeining (model) 120.  Dequeing (transaction) 120
+data: 121, i: 120
+Error: Reading data from FIFO failed: Got 121 and expected 120.
+Time: 3880 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 121
+MON: 3882000: Dequeue '121' Detected
+MON: 3882000: TR_DEQUEUE Tr Sent
+SCB: 3882000: TR_DEQUEUE Received.  Dequeining (model) 121.  Dequeing (transaction) 121
+data: 122, i: 121
+Error: Reading data from FIFO failed: Got 122 and expected 121.
+Time: 3890 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 122
+MON: 3892000: Dequeue '122' Detected
+MON: 3892000: TR_DEQUEUE Tr Sent
+SCB: 3892000: TR_DEQUEUE Received.  Dequeining (model) 122.  Dequeing (transaction) 122
+data: 123, i: 122
+Error: Reading data from FIFO failed: Got 123 and expected 122.
+Time: 3900 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 123
+MON: 3902000: Dequeue '123' Detected
+MON: 3902000: TR_DEQUEUE Tr Sent
+SCB: 3902000: TR_DEQUEUE Received.  Dequeining (model) 123.  Dequeing (transaction) 123
+data: 124, i: 123
+Error: Reading data from FIFO failed: Got 124 and expected 123.
+Time: 3910 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 124
+MON: 3912000: Dequeue '124' Detected
+MON: 3912000: TR_DEQUEUE Tr Sent
+SCB: 3912000: TR_DEQUEUE Received.  Dequeining (model) 124.  Dequeing (transaction) 124
+data: 125, i: 124
+Error: Reading data from FIFO failed: Got 125 and expected 124.
+Time: 3920 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 125
+MON: 3922000: Dequeue '125' Detected
+MON: 3922000: TR_DEQUEUE Tr Sent
+SCB: 3922000: TR_DEQUEUE Received.  Dequeining (model) 125.  Dequeing (transaction) 125
+data: 126, i: 125
+Error: Reading data from FIFO failed: Got 126 and expected 125.
+Time: 3930 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 126
+MON: 3932000: Dequeue '126' Detected
+MON: 3932000: TR_DEQUEUE Tr Sent
+SCB: 3932000: TR_DEQUEUE Received.  Dequeining (model) 126.  Dequeing (transaction) 126
+data: 127, i: 126
+Error: Reading data from FIFO failed: Got 127 and expected 126.
+Time: 3940 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 127
+MON: 3942000: Dequeue '127' Detected
+MON: 3942000: TR_DEQUEUE Tr Sent
+SCB: 3942000: TR_DEQUEUE Received.  Dequeining (model) 127.  Dequeing (transaction) 127
+data: 128, i: 127
+Error: Reading data from FIFO failed: Got 128 and expected 127.
+Time: 3950 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 128
+MON: 3952000: Dequeue '128' Detected
+MON: 3952000: TR_DEQUEUE Tr Sent
+SCB: 3952000: TR_DEQUEUE Received.  Dequeining (model) 128.  Dequeing (transaction) 128
+data: 129, i: 128
+Error: Reading data from FIFO failed: Got 129 and expected 128.
+Time: 3960 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 129
+MON: 3962000: Dequeue '129' Detected
+MON: 3962000: TR_DEQUEUE Tr Sent
+SCB: 3962000: TR_DEQUEUE Received.  Dequeining (model) 129.  Dequeing (transaction) 129
+data: 130, i: 129
+Error: Reading data from FIFO failed: Got 130 and expected 129.
+Time: 3970 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 130
+MON: 3972000: Dequeue '130' Detected
+MON: 3972000: TR_DEQUEUE Tr Sent
+SCB: 3972000: TR_DEQUEUE Received.  Dequeining (model) 130.  Dequeing (transaction) 130
+data: 131, i: 130
+Error: Reading data from FIFO failed: Got 131 and expected 130.
+Time: 3980 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 131
+MON: 3982000: Dequeue '131' Detected
+MON: 3982000: TR_DEQUEUE Tr Sent
+SCB: 3982000: TR_DEQUEUE Received.  Dequeining (model) 131.  Dequeing (transaction) 131
+data: 132, i: 131
+Error: Reading data from FIFO failed: Got 132 and expected 131.
+Time: 3990 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 132
+MON: 3992000: Dequeue '132' Detected
+MON: 3992000: TR_DEQUEUE Tr Sent
+SCB: 3992000: TR_DEQUEUE Received.  Dequeining (model) 132.  Dequeing (transaction) 132
+data: 133, i: 132
+Error: Reading data from FIFO failed: Got 133 and expected 132.
+Time: 4 us  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 133
+MON: 4002000: Dequeue '133' Detected
+MON: 4002000: TR_DEQUEUE Tr Sent
+SCB: 4002000: TR_DEQUEUE Received.  Dequeining (model) 133.  Dequeing (transaction) 133
+data: 134, i: 133
+Error: Reading data from FIFO failed: Got 134 and expected 133.
+Time: 4010 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 134
+MON: 4012000: Dequeue '134' Detected
+MON: 4012000: TR_DEQUEUE Tr Sent
+SCB: 4012000: TR_DEQUEUE Received.  Dequeining (model) 134.  Dequeing (transaction) 134
+data: 135, i: 134
+Error: Reading data from FIFO failed: Got 135 and expected 134.
+Time: 4020 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 135
+MON: 4022000: Dequeue '135' Detected
+MON: 4022000: TR_DEQUEUE Tr Sent
+SCB: 4022000: TR_DEQUEUE Received.  Dequeining (model) 135.  Dequeing (transaction) 135
+data: 136, i: 135
+Error: Reading data from FIFO failed: Got 136 and expected 135.
+Time: 4030 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 136
+MON: 4032000: Dequeue '136' Detected
+MON: 4032000: TR_DEQUEUE Tr Sent
+SCB: 4032000: TR_DEQUEUE Received.  Dequeining (model) 136.  Dequeing (transaction) 136
+data: 137, i: 136
+Error: Reading data from FIFO failed: Got 137 and expected 136.
+Time: 4040 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 137
+MON: 4042000: Dequeue '137' Detected
+MON: 4042000: TR_DEQUEUE Tr Sent
+SCB: 4042000: TR_DEQUEUE Received.  Dequeining (model) 137.  Dequeing (transaction) 137
+data: 138, i: 137
+Error: Reading data from FIFO failed: Got 138 and expected 137.
+Time: 4050 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 138
+MON: 4052000: Dequeue '138' Detected
+MON: 4052000: TR_DEQUEUE Tr Sent
+SCB: 4052000: TR_DEQUEUE Received.  Dequeining (model) 138.  Dequeing (transaction) 138
+data: 139, i: 138
+Error: Reading data from FIFO failed: Got 139 and expected 138.
+Time: 4060 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 139
+MON: 4062000: Dequeue '139' Detected
+MON: 4062000: TR_DEQUEUE Tr Sent
+SCB: 4062000: TR_DEQUEUE Received.  Dequeining (model) 139.  Dequeing (transaction) 139
+data: 140, i: 139
+Error: Reading data from FIFO failed: Got 140 and expected 139.
+Time: 4070 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 140
+MON: 4072000: Dequeue '140' Detected
+MON: 4072000: TR_DEQUEUE Tr Sent
+SCB: 4072000: TR_DEQUEUE Received.  Dequeining (model) 140.  Dequeing (transaction) 140
+data: 141, i: 140
+Error: Reading data from FIFO failed: Got 141 and expected 140.
+Time: 4080 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 141
+MON: 4082000: Dequeue '141' Detected
+MON: 4082000: TR_DEQUEUE Tr Sent
+SCB: 4082000: TR_DEQUEUE Received.  Dequeining (model) 141.  Dequeing (transaction) 141
+data: 142, i: 141
+Error: Reading data from FIFO failed: Got 142 and expected 141.
+Time: 4090 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 142
+MON: 4092000: Dequeue '142' Detected
+MON: 4092000: TR_DEQUEUE Tr Sent
+SCB: 4092000: TR_DEQUEUE Received.  Dequeining (model) 142.  Dequeing (transaction) 142
+data: 143, i: 142
+Error: Reading data from FIFO failed: Got 143 and expected 142.
+Time: 4100 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 143
+MON: 4102000: Dequeue '143' Detected
+MON: 4102000: TR_DEQUEUE Tr Sent
+SCB: 4102000: TR_DEQUEUE Received.  Dequeining (model) 143.  Dequeing (transaction) 143
+data: 144, i: 143
+Error: Reading data from FIFO failed: Got 144 and expected 143.
+Time: 4110 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 144
+MON: 4112000: Dequeue '144' Detected
+MON: 4112000: TR_DEQUEUE Tr Sent
+SCB: 4112000: TR_DEQUEUE Received.  Dequeining (model) 144.  Dequeing (transaction) 144
+data: 145, i: 144
+Error: Reading data from FIFO failed: Got 145 and expected 144.
+Time: 4120 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 145
+MON: 4122000: Dequeue '145' Detected
+MON: 4122000: TR_DEQUEUE Tr Sent
+SCB: 4122000: TR_DEQUEUE Received.  Dequeining (model) 145.  Dequeing (transaction) 145
+data: 146, i: 145
+Error: Reading data from FIFO failed: Got 146 and expected 145.
+Time: 4130 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 146
+MON: 4132000: Dequeue '146' Detected
+MON: 4132000: TR_DEQUEUE Tr Sent
+SCB: 4132000: TR_DEQUEUE Received.  Dequeining (model) 146.  Dequeing (transaction) 146
+data: 147, i: 146
+Error: Reading data from FIFO failed: Got 147 and expected 146.
+Time: 4140 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 147
+MON: 4142000: Dequeue '147' Detected
+MON: 4142000: TR_DEQUEUE Tr Sent
+SCB: 4142000: TR_DEQUEUE Received.  Dequeining (model) 147.  Dequeing (transaction) 147
+data: 148, i: 147
+Error: Reading data from FIFO failed: Got 148 and expected 147.
+Time: 4150 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 148
+MON: 4152000: Dequeue '148' Detected
+MON: 4152000: TR_DEQUEUE Tr Sent
+SCB: 4152000: TR_DEQUEUE Received.  Dequeining (model) 148.  Dequeing (transaction) 148
+data: 149, i: 148
+Error: Reading data from FIFO failed: Got 149 and expected 148.
+Time: 4160 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 149
+MON: 4162000: Dequeue '149' Detected
+MON: 4162000: TR_DEQUEUE Tr Sent
+SCB: 4162000: TR_DEQUEUE Received.  Dequeining (model) 149.  Dequeing (transaction) 149
+data: 150, i: 149
+Error: Reading data from FIFO failed: Got 150 and expected 149.
+Time: 4170 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 150
+MON: 4172000: Dequeue '150' Detected
+MON: 4172000: TR_DEQUEUE Tr Sent
+SCB: 4172000: TR_DEQUEUE Received.  Dequeining (model) 150.  Dequeing (transaction) 150
+data: 151, i: 150
+Error: Reading data from FIFO failed: Got 151 and expected 150.
+Time: 4180 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 151
+MON: 4182000: Dequeue '151' Detected
+MON: 4182000: TR_DEQUEUE Tr Sent
+SCB: 4182000: TR_DEQUEUE Received.  Dequeining (model) 151.  Dequeing (transaction) 151
+data: 152, i: 151
+Error: Reading data from FIFO failed: Got 152 and expected 151.
+Time: 4190 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 152
+MON: 4192000: Dequeue '152' Detected
+MON: 4192000: TR_DEQUEUE Tr Sent
+SCB: 4192000: TR_DEQUEUE Received.  Dequeining (model) 152.  Dequeing (transaction) 152
+data: 153, i: 152
+Error: Reading data from FIFO failed: Got 153 and expected 152.
+Time: 4200 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 153
+MON: 4202000: Dequeue '153' Detected
+MON: 4202000: TR_DEQUEUE Tr Sent
+SCB: 4202000: TR_DEQUEUE Received.  Dequeining (model) 153.  Dequeing (transaction) 153
+data: 154, i: 153
+Error: Reading data from FIFO failed: Got 154 and expected 153.
+Time: 4210 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 154
+MON: 4212000: Dequeue '154' Detected
+MON: 4212000: TR_DEQUEUE Tr Sent
+SCB: 4212000: TR_DEQUEUE Received.  Dequeining (model) 154.  Dequeing (transaction) 154
+data: 155, i: 154
+Error: Reading data from FIFO failed: Got 155 and expected 154.
+Time: 4220 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 155
+MON: 4222000: Dequeue '155' Detected
+MON: 4222000: TR_DEQUEUE Tr Sent
+SCB: 4222000: TR_DEQUEUE Received.  Dequeining (model) 155.  Dequeing (transaction) 155
+data: 156, i: 155
+Error: Reading data from FIFO failed: Got 156 and expected 155.
+Time: 4230 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 156
+MON: 4232000: Dequeue '156' Detected
+MON: 4232000: TR_DEQUEUE Tr Sent
+SCB: 4232000: TR_DEQUEUE Received.  Dequeining (model) 156.  Dequeing (transaction) 156
+data: 157, i: 156
+Error: Reading data from FIFO failed: Got 157 and expected 156.
+Time: 4240 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 157
+MON: 4242000: Dequeue '157' Detected
+MON: 4242000: TR_DEQUEUE Tr Sent
+SCB: 4242000: TR_DEQUEUE Received.  Dequeining (model) 157.  Dequeing (transaction) 157
+data: 158, i: 157
+Error: Reading data from FIFO failed: Got 158 and expected 157.
+Time: 4250 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 158
+MON: 4252000: Dequeue '158' Detected
+MON: 4252000: TR_DEQUEUE Tr Sent
+SCB: 4252000: TR_DEQUEUE Received.  Dequeining (model) 158.  Dequeing (transaction) 158
+data: 159, i: 158
+Error: Reading data from FIFO failed: Got 159 and expected 158.
+Time: 4260 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 159
+MON: 4262000: Dequeue '159' Detected
+MON: 4262000: TR_DEQUEUE Tr Sent
+SCB: 4262000: TR_DEQUEUE Received.  Dequeining (model) 159.  Dequeing (transaction) 159
+data: 160, i: 159
+Error: Reading data from FIFO failed: Got 160 and expected 159.
+Time: 4270 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 160
+MON: 4272000: Dequeue '160' Detected
+MON: 4272000: TR_DEQUEUE Tr Sent
+SCB: 4272000: TR_DEQUEUE Received.  Dequeining (model) 160.  Dequeing (transaction) 160
+data: 161, i: 160
+Error: Reading data from FIFO failed: Got 161 and expected 160.
+Time: 4280 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 161
+MON: 4282000: Dequeue '161' Detected
+MON: 4282000: TR_DEQUEUE Tr Sent
+SCB: 4282000: TR_DEQUEUE Received.  Dequeining (model) 161.  Dequeing (transaction) 161
+data: 162, i: 161
+Error: Reading data from FIFO failed: Got 162 and expected 161.
+Time: 4290 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 162
+MON: 4292000: Dequeue '162' Detected
+MON: 4292000: TR_DEQUEUE Tr Sent
+SCB: 4292000: TR_DEQUEUE Received.  Dequeining (model) 162.  Dequeing (transaction) 162
+data: 163, i: 162
+Error: Reading data from FIFO failed: Got 163 and expected 162.
+Time: 4300 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 163
+MON: 4302000: Dequeue '163' Detected
+MON: 4302000: TR_DEQUEUE Tr Sent
+SCB: 4302000: TR_DEQUEUE Received.  Dequeining (model) 163.  Dequeing (transaction) 163
+data: 164, i: 163
+Error: Reading data from FIFO failed: Got 164 and expected 163.
+Time: 4310 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 164
+MON: 4312000: Dequeue '164' Detected
+MON: 4312000: TR_DEQUEUE Tr Sent
+SCB: 4312000: TR_DEQUEUE Received.  Dequeining (model) 164.  Dequeing (transaction) 164
+data: 165, i: 164
+Error: Reading data from FIFO failed: Got 165 and expected 164.
+Time: 4320 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 165
+MON: 4322000: Dequeue '165' Detected
+MON: 4322000: TR_DEQUEUE Tr Sent
+SCB: 4322000: TR_DEQUEUE Received.  Dequeining (model) 165.  Dequeing (transaction) 165
+data: 166, i: 165
+Error: Reading data from FIFO failed: Got 166 and expected 165.
+Time: 4330 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 166
+MON: 4332000: Dequeue '166' Detected
+MON: 4332000: TR_DEQUEUE Tr Sent
+SCB: 4332000: TR_DEQUEUE Received.  Dequeining (model) 166.  Dequeing (transaction) 166
+data: 167, i: 166
+Error: Reading data from FIFO failed: Got 167 and expected 166.
+Time: 4340 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 167
+MON: 4342000: Dequeue '167' Detected
+MON: 4342000: TR_DEQUEUE Tr Sent
+SCB: 4342000: TR_DEQUEUE Received.  Dequeining (model) 167.  Dequeing (transaction) 167
+data: 168, i: 167
+Error: Reading data from FIFO failed: Got 168 and expected 167.
+Time: 4350 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 168
+MON: 4352000: Dequeue '168' Detected
+MON: 4352000: TR_DEQUEUE Tr Sent
+SCB: 4352000: TR_DEQUEUE Received.  Dequeining (model) 168.  Dequeing (transaction) 168
+data: 169, i: 168
+Error: Reading data from FIFO failed: Got 169 and expected 168.
+Time: 4360 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 169
+MON: 4362000: Dequeue '169' Detected
+MON: 4362000: TR_DEQUEUE Tr Sent
+SCB: 4362000: TR_DEQUEUE Received.  Dequeining (model) 169.  Dequeing (transaction) 169
+data: 170, i: 169
+Error: Reading data from FIFO failed: Got 170 and expected 169.
+Time: 4370 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 170
+MON: 4372000: Dequeue '170' Detected
+MON: 4372000: TR_DEQUEUE Tr Sent
+SCB: 4372000: TR_DEQUEUE Received.  Dequeining (model) 170.  Dequeing (transaction) 170
+data: 171, i: 170
+Error: Reading data from FIFO failed: Got 171 and expected 170.
+Time: 4380 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 171
+MON: 4382000: Dequeue '171' Detected
+MON: 4382000: TR_DEQUEUE Tr Sent
+SCB: 4382000: TR_DEQUEUE Received.  Dequeining (model) 171.  Dequeing (transaction) 171
+data: 172, i: 171
+Error: Reading data from FIFO failed: Got 172 and expected 171.
+Time: 4390 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 172
+MON: 4392000: Dequeue '172' Detected
+MON: 4392000: TR_DEQUEUE Tr Sent
+SCB: 4392000: TR_DEQUEUE Received.  Dequeining (model) 172.  Dequeing (transaction) 172
+data: 173, i: 172
+Error: Reading data from FIFO failed: Got 173 and expected 172.
+Time: 4400 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 173
+MON: 4402000: Dequeue '173' Detected
+MON: 4402000: TR_DEQUEUE Tr Sent
+SCB: 4402000: TR_DEQUEUE Received.  Dequeining (model) 173.  Dequeing (transaction) 173
+data: 174, i: 173
+Error: Reading data from FIFO failed: Got 174 and expected 173.
+Time: 4410 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 174
+MON: 4412000: Dequeue '174' Detected
+MON: 4412000: TR_DEQUEUE Tr Sent
+SCB: 4412000: TR_DEQUEUE Received.  Dequeining (model) 174.  Dequeing (transaction) 174
+data: 175, i: 174
+Error: Reading data from FIFO failed: Got 175 and expected 174.
+Time: 4420 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 175
+MON: 4422000: Dequeue '175' Detected
+MON: 4422000: TR_DEQUEUE Tr Sent
+SCB: 4422000: TR_DEQUEUE Received.  Dequeining (model) 175.  Dequeing (transaction) 175
+data: 176, i: 175
+Error: Reading data from FIFO failed: Got 176 and expected 175.
+Time: 4430 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 176
+MON: 4432000: Dequeue '176' Detected
+MON: 4432000: TR_DEQUEUE Tr Sent
+SCB: 4432000: TR_DEQUEUE Received.  Dequeining (model) 176.  Dequeing (transaction) 176
+data: 177, i: 176
+Error: Reading data from FIFO failed: Got 177 and expected 176.
+Time: 4440 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 177
+MON: 4442000: Dequeue '177' Detected
+MON: 4442000: TR_DEQUEUE Tr Sent
+SCB: 4442000: TR_DEQUEUE Received.  Dequeining (model) 177.  Dequeing (transaction) 177
+data: 178, i: 177
+Error: Reading data from FIFO failed: Got 178 and expected 177.
+Time: 4450 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 178
+MON: 4452000: Dequeue '178' Detected
+MON: 4452000: TR_DEQUEUE Tr Sent
+SCB: 4452000: TR_DEQUEUE Received.  Dequeining (model) 178.  Dequeing (transaction) 178
+data: 179, i: 178
+Error: Reading data from FIFO failed: Got 179 and expected 178.
+Time: 4460 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 179
+MON: 4462000: Dequeue '179' Detected
+MON: 4462000: TR_DEQUEUE Tr Sent
+SCB: 4462000: TR_DEQUEUE Received.  Dequeining (model) 179.  Dequeing (transaction) 179
+data: 180, i: 179
+Error: Reading data from FIFO failed: Got 180 and expected 179.
+Time: 4470 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 180
+MON: 4472000: Dequeue '180' Detected
+MON: 4472000: TR_DEQUEUE Tr Sent
+SCB: 4472000: TR_DEQUEUE Received.  Dequeining (model) 180.  Dequeing (transaction) 180
+data: 181, i: 180
+Error: Reading data from FIFO failed: Got 181 and expected 180.
+Time: 4480 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 181
+MON: 4482000: Dequeue '181' Detected
+MON: 4482000: TR_DEQUEUE Tr Sent
+SCB: 4482000: TR_DEQUEUE Received.  Dequeining (model) 181.  Dequeing (transaction) 181
+data: 182, i: 181
+Error: Reading data from FIFO failed: Got 182 and expected 181.
+Time: 4490 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 182
+MON: 4492000: Dequeue '182' Detected
+MON: 4492000: TR_DEQUEUE Tr Sent
+SCB: 4492000: TR_DEQUEUE Received.  Dequeining (model) 182.  Dequeing (transaction) 182
+data: 183, i: 182
+Error: Reading data from FIFO failed: Got 183 and expected 182.
+Time: 4500 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 183
+MON: 4502000: Dequeue '183' Detected
+MON: 4502000: TR_DEQUEUE Tr Sent
+SCB: 4502000: TR_DEQUEUE Received.  Dequeining (model) 183.  Dequeing (transaction) 183
+data: 184, i: 183
+Error: Reading data from FIFO failed: Got 184 and expected 183.
+Time: 4510 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 184
+MON: 4512000: Dequeue '184' Detected
+MON: 4512000: TR_DEQUEUE Tr Sent
+SCB: 4512000: TR_DEQUEUE Received.  Dequeining (model) 184.  Dequeing (transaction) 184
+data: 185, i: 184
+Error: Reading data from FIFO failed: Got 185 and expected 184.
+Time: 4520 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 185
+MON: 4522000: Dequeue '185' Detected
+MON: 4522000: TR_DEQUEUE Tr Sent
+SCB: 4522000: TR_DEQUEUE Received.  Dequeining (model) 185.  Dequeing (transaction) 185
+data: 186, i: 185
+Error: Reading data from FIFO failed: Got 186 and expected 185.
+Time: 4530 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 186
+MON: 4532000: Dequeue '186' Detected
+MON: 4532000: TR_DEQUEUE Tr Sent
+SCB: 4532000: TR_DEQUEUE Received.  Dequeining (model) 186.  Dequeing (transaction) 186
+data: 187, i: 186
+Error: Reading data from FIFO failed: Got 187 and expected 186.
+Time: 4540 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 187
+MON: 4542000: Dequeue '187' Detected
+MON: 4542000: TR_DEQUEUE Tr Sent
+SCB: 4542000: TR_DEQUEUE Received.  Dequeining (model) 187.  Dequeing (transaction) 187
+data: 188, i: 187
+Error: Reading data from FIFO failed: Got 188 and expected 187.
+Time: 4550 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 188
+MON: 4552000: Dequeue '188' Detected
+MON: 4552000: TR_DEQUEUE Tr Sent
+SCB: 4552000: TR_DEQUEUE Received.  Dequeining (model) 188.  Dequeing (transaction) 188
+data: 189, i: 188
+Error: Reading data from FIFO failed: Got 189 and expected 188.
+Time: 4560 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 189
+MON: 4562000: Dequeue '189' Detected
+MON: 4562000: TR_DEQUEUE Tr Sent
+SCB: 4562000: TR_DEQUEUE Received.  Dequeining (model) 189.  Dequeing (transaction) 189
+data: 190, i: 189
+Error: Reading data from FIFO failed: Got 190 and expected 189.
+Time: 4570 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 190
+MON: 4572000: Dequeue '190' Detected
+MON: 4572000: TR_DEQUEUE Tr Sent
+SCB: 4572000: TR_DEQUEUE Received.  Dequeining (model) 190.  Dequeing (transaction) 190
+data: 191, i: 190
+Error: Reading data from FIFO failed: Got 191 and expected 190.
+Time: 4580 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 191
+MON: 4582000: Dequeue '191' Detected
+MON: 4582000: TR_DEQUEUE Tr Sent
+SCB: 4582000: TR_DEQUEUE Received.  Dequeining (model) 191.  Dequeing (transaction) 191
+data: 192, i: 191
+Error: Reading data from FIFO failed: Got 192 and expected 191.
+Time: 4590 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 192
+MON: 4592000: Dequeue '192' Detected
+MON: 4592000: TR_DEQUEUE Tr Sent
+SCB: 4592000: TR_DEQUEUE Received.  Dequeining (model) 192.  Dequeing (transaction) 192
+data: 193, i: 192
+Error: Reading data from FIFO failed: Got 193 and expected 192.
+Time: 4600 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 193
+MON: 4602000: Dequeue '193' Detected
+MON: 4602000: TR_DEQUEUE Tr Sent
+SCB: 4602000: TR_DEQUEUE Received.  Dequeining (model) 193.  Dequeing (transaction) 193
+data: 194, i: 193
+Error: Reading data from FIFO failed: Got 194 and expected 193.
+Time: 4610 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 194
+MON: 4612000: Dequeue '194' Detected
+MON: 4612000: TR_DEQUEUE Tr Sent
+SCB: 4612000: TR_DEQUEUE Received.  Dequeining (model) 194.  Dequeing (transaction) 194
+data: 195, i: 194
+Error: Reading data from FIFO failed: Got 195 and expected 194.
+Time: 4620 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 195
+MON: 4622000: Dequeue '195' Detected
+MON: 4622000: TR_DEQUEUE Tr Sent
+SCB: 4622000: TR_DEQUEUE Received.  Dequeining (model) 195.  Dequeing (transaction) 195
+data: 196, i: 195
+Error: Reading data from FIFO failed: Got 196 and expected 195.
+Time: 4630 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 196
+MON: 4632000: Dequeue '196' Detected
+MON: 4632000: TR_DEQUEUE Tr Sent
+SCB: 4632000: TR_DEQUEUE Received.  Dequeining (model) 196.  Dequeing (transaction) 196
+data: 197, i: 196
+Error: Reading data from FIFO failed: Got 197 and expected 196.
+Time: 4640 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 197
+MON: 4642000: Dequeue '197' Detected
+MON: 4642000: TR_DEQUEUE Tr Sent
+SCB: 4642000: TR_DEQUEUE Received.  Dequeining (model) 197.  Dequeing (transaction) 197
+data: 198, i: 197
+Error: Reading data from FIFO failed: Got 198 and expected 197.
+Time: 4650 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 198
+MON: 4652000: Dequeue '198' Detected
+MON: 4652000: TR_DEQUEUE Tr Sent
+SCB: 4652000: TR_DEQUEUE Received.  Dequeining (model) 198.  Dequeing (transaction) 198
+data: 199, i: 198
+Error: Reading data from FIFO failed: Got 199 and expected 198.
+Time: 4660 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 199
+MON: 4662000: Dequeue '199' Detected
+MON: 4662000: TR_DEQUEUE Tr Sent
+SCB: 4662000: TR_DEQUEUE Received.  Dequeining (model) 199.  Dequeing (transaction) 199
+data: 200, i: 199
+Error: Reading data from FIFO failed: Got 200 and expected 199.
+Time: 4670 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 200
+MON: 4672000: Dequeue '200' Detected
+MON: 4672000: TR_DEQUEUE Tr Sent
+SCB: 4672000: TR_DEQUEUE Received.  Dequeining (model) 200.  Dequeing (transaction) 200
+data: 201, i: 200
+Error: Reading data from FIFO failed: Got 201 and expected 200.
+Time: 4680 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 201
+MON: 4682000: Dequeue '201' Detected
+MON: 4682000: TR_DEQUEUE Tr Sent
+SCB: 4682000: TR_DEQUEUE Received.  Dequeining (model) 201.  Dequeing (transaction) 201
+data: 202, i: 201
+Error: Reading data from FIFO failed: Got 202 and expected 201.
+Time: 4690 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 202
+MON: 4692000: Dequeue '202' Detected
+MON: 4692000: TR_DEQUEUE Tr Sent
+SCB: 4692000: TR_DEQUEUE Received.  Dequeining (model) 202.  Dequeing (transaction) 202
+data: 203, i: 202
+Error: Reading data from FIFO failed: Got 203 and expected 202.
+Time: 4700 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 203
+MON: 4702000: Dequeue '203' Detected
+MON: 4702000: TR_DEQUEUE Tr Sent
+SCB: 4702000: TR_DEQUEUE Received.  Dequeining (model) 203.  Dequeing (transaction) 203
+data: 204, i: 203
+Error: Reading data from FIFO failed: Got 204 and expected 203.
+Time: 4710 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 204
+MON: 4712000: Dequeue '204' Detected
+MON: 4712000: TR_DEQUEUE Tr Sent
+SCB: 4712000: TR_DEQUEUE Received.  Dequeining (model) 204.  Dequeing (transaction) 204
+data: 205, i: 204
+Error: Reading data from FIFO failed: Got 205 and expected 204.
+Time: 4720 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 205
+MON: 4722000: Dequeue '205' Detected
+MON: 4722000: TR_DEQUEUE Tr Sent
+SCB: 4722000: TR_DEQUEUE Received.  Dequeining (model) 205.  Dequeing (transaction) 205
+data: 206, i: 205
+Error: Reading data from FIFO failed: Got 206 and expected 205.
+Time: 4730 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 206
+MON: 4732000: Dequeue '206' Detected
+MON: 4732000: TR_DEQUEUE Tr Sent
+SCB: 4732000: TR_DEQUEUE Received.  Dequeining (model) 206.  Dequeing (transaction) 206
+data: 207, i: 206
+Error: Reading data from FIFO failed: Got 207 and expected 206.
+Time: 4740 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 207
+MON: 4742000: Dequeue '207' Detected
+MON: 4742000: TR_DEQUEUE Tr Sent
+SCB: 4742000: TR_DEQUEUE Received.  Dequeining (model) 207.  Dequeing (transaction) 207
+data: 208, i: 207
+Error: Reading data from FIFO failed: Got 208 and expected 207.
+Time: 4750 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 208
+MON: 4752000: Dequeue '208' Detected
+MON: 4752000: TR_DEQUEUE Tr Sent
+SCB: 4752000: TR_DEQUEUE Received.  Dequeining (model) 208.  Dequeing (transaction) 208
+data: 209, i: 208
+Error: Reading data from FIFO failed: Got 209 and expected 208.
+Time: 4760 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 209
+MON: 4762000: Dequeue '209' Detected
+MON: 4762000: TR_DEQUEUE Tr Sent
+SCB: 4762000: TR_DEQUEUE Received.  Dequeining (model) 209.  Dequeing (transaction) 209
+data: 210, i: 209
+Error: Reading data from FIFO failed: Got 210 and expected 209.
+Time: 4770 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 210
+MON: 4772000: Dequeue '210' Detected
+MON: 4772000: TR_DEQUEUE Tr Sent
+SCB: 4772000: TR_DEQUEUE Received.  Dequeining (model) 210.  Dequeing (transaction) 210
+data: 211, i: 210
+Error: Reading data from FIFO failed: Got 211 and expected 210.
+Time: 4780 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 211
+MON: 4782000: Dequeue '211' Detected
+MON: 4782000: TR_DEQUEUE Tr Sent
+SCB: 4782000: TR_DEQUEUE Received.  Dequeining (model) 211.  Dequeing (transaction) 211
+data: 212, i: 211
+Error: Reading data from FIFO failed: Got 212 and expected 211.
+Time: 4790 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 212
+MON: 4792000: Dequeue '212' Detected
+MON: 4792000: TR_DEQUEUE Tr Sent
+SCB: 4792000: TR_DEQUEUE Received.  Dequeining (model) 212.  Dequeing (transaction) 212
+data: 213, i: 212
+Error: Reading data from FIFO failed: Got 213 and expected 212.
+Time: 4800 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 213
+MON: 4802000: Dequeue '213' Detected
+MON: 4802000: TR_DEQUEUE Tr Sent
+SCB: 4802000: TR_DEQUEUE Received.  Dequeining (model) 213.  Dequeing (transaction) 213
+data: 214, i: 213
+Error: Reading data from FIFO failed: Got 214 and expected 213.
+Time: 4810 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 214
+MON: 4812000: Dequeue '214' Detected
+MON: 4812000: TR_DEQUEUE Tr Sent
+SCB: 4812000: TR_DEQUEUE Received.  Dequeining (model) 214.  Dequeing (transaction) 214
+data: 215, i: 214
+Error: Reading data from FIFO failed: Got 215 and expected 214.
+Time: 4820 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 215
+MON: 4822000: Dequeue '215' Detected
+MON: 4822000: TR_DEQUEUE Tr Sent
+SCB: 4822000: TR_DEQUEUE Received.  Dequeining (model) 215.  Dequeing (transaction) 215
+data: 216, i: 215
+Error: Reading data from FIFO failed: Got 216 and expected 215.
+Time: 4830 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 216
+MON: 4832000: Dequeue '216' Detected
+MON: 4832000: TR_DEQUEUE Tr Sent
+SCB: 4832000: TR_DEQUEUE Received.  Dequeining (model) 216.  Dequeing (transaction) 216
+data: 217, i: 216
+Error: Reading data from FIFO failed: Got 217 and expected 216.
+Time: 4840 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 217
+MON: 4842000: Dequeue '217' Detected
+MON: 4842000: TR_DEQUEUE Tr Sent
+SCB: 4842000: TR_DEQUEUE Received.  Dequeining (model) 217.  Dequeing (transaction) 217
+data: 218, i: 217
+Error: Reading data from FIFO failed: Got 218 and expected 217.
+Time: 4850 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 218
+MON: 4852000: Dequeue '218' Detected
+MON: 4852000: TR_DEQUEUE Tr Sent
+SCB: 4852000: TR_DEQUEUE Received.  Dequeining (model) 218.  Dequeing (transaction) 218
+data: 219, i: 218
+Error: Reading data from FIFO failed: Got 219 and expected 218.
+Time: 4860 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 219
+MON: 4862000: Dequeue '219' Detected
+MON: 4862000: TR_DEQUEUE Tr Sent
+SCB: 4862000: TR_DEQUEUE Received.  Dequeining (model) 219.  Dequeing (transaction) 219
+data: 220, i: 219
+Error: Reading data from FIFO failed: Got 220 and expected 219.
+Time: 4870 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 220
+MON: 4872000: Dequeue '220' Detected
+MON: 4872000: TR_DEQUEUE Tr Sent
+SCB: 4872000: TR_DEQUEUE Received.  Dequeining (model) 220.  Dequeing (transaction) 220
+data: 221, i: 220
+Error: Reading data from FIFO failed: Got 221 and expected 220.
+Time: 4880 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 221
+MON: 4882000: Dequeue '221' Detected
+MON: 4882000: TR_DEQUEUE Tr Sent
+SCB: 4882000: TR_DEQUEUE Received.  Dequeining (model) 221.  Dequeing (transaction) 221
+data: 222, i: 221
+Error: Reading data from FIFO failed: Got 222 and expected 221.
+Time: 4890 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 222
+MON: 4892000: Dequeue '222' Detected
+MON: 4892000: TR_DEQUEUE Tr Sent
+SCB: 4892000: TR_DEQUEUE Received.  Dequeining (model) 222.  Dequeing (transaction) 222
+data: 223, i: 222
+Error: Reading data from FIFO failed: Got 223 and expected 222.
+Time: 4900 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 223
+MON: 4902000: Dequeue '223' Detected
+MON: 4902000: TR_DEQUEUE Tr Sent
+SCB: 4902000: TR_DEQUEUE Received.  Dequeining (model) 223.  Dequeing (transaction) 223
+data: 224, i: 223
+Error: Reading data from FIFO failed: Got 224 and expected 223.
+Time: 4910 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 224
+MON: 4912000: Dequeue '224' Detected
+MON: 4912000: TR_DEQUEUE Tr Sent
+SCB: 4912000: TR_DEQUEUE Received.  Dequeining (model) 224.  Dequeing (transaction) 224
+data: 225, i: 224
+Error: Reading data from FIFO failed: Got 225 and expected 224.
+Time: 4920 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 225
+MON: 4922000: Dequeue '225' Detected
+MON: 4922000: TR_DEQUEUE Tr Sent
+SCB: 4922000: TR_DEQUEUE Received.  Dequeining (model) 225.  Dequeing (transaction) 225
+data: 226, i: 225
+Error: Reading data from FIFO failed: Got 226 and expected 225.
+Time: 4930 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 226
+MON: 4932000: Dequeue '226' Detected
+MON: 4932000: TR_DEQUEUE Tr Sent
+SCB: 4932000: TR_DEQUEUE Received.  Dequeining (model) 226.  Dequeing (transaction) 226
+data: 227, i: 226
+Error: Reading data from FIFO failed: Got 227 and expected 226.
+Time: 4940 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 227
+MON: 4942000: Dequeue '227' Detected
+MON: 4942000: TR_DEQUEUE Tr Sent
+SCB: 4942000: TR_DEQUEUE Received.  Dequeining (model) 227.  Dequeing (transaction) 227
+data: 228, i: 227
+Error: Reading data from FIFO failed: Got 228 and expected 227.
+Time: 4950 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 228
+MON: 4952000: Dequeue '228' Detected
+MON: 4952000: TR_DEQUEUE Tr Sent
+SCB: 4952000: TR_DEQUEUE Received.  Dequeining (model) 228.  Dequeing (transaction) 228
+data: 229, i: 228
+Error: Reading data from FIFO failed: Got 229 and expected 228.
+Time: 4960 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 229
+MON: 4962000: Dequeue '229' Detected
+MON: 4962000: TR_DEQUEUE Tr Sent
+SCB: 4962000: TR_DEQUEUE Received.  Dequeining (model) 229.  Dequeing (transaction) 229
+data: 230, i: 229
+Error: Reading data from FIFO failed: Got 230 and expected 229.
+Time: 4970 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 230
+MON: 4972000: Dequeue '230' Detected
+MON: 4972000: TR_DEQUEUE Tr Sent
+SCB: 4972000: TR_DEQUEUE Received.  Dequeining (model) 230.  Dequeing (transaction) 230
+data: 231, i: 230
+Error: Reading data from FIFO failed: Got 231 and expected 230.
+Time: 4980 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 231
+MON: 4982000: Dequeue '231' Detected
+MON: 4982000: TR_DEQUEUE Tr Sent
+SCB: 4982000: TR_DEQUEUE Received.  Dequeining (model) 231.  Dequeing (transaction) 231
+data: 232, i: 231
+Error: Reading data from FIFO failed: Got 232 and expected 231.
+Time: 4990 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 232
+MON: 4992000: Dequeue '232' Detected
+MON: 4992000: TR_DEQUEUE Tr Sent
+SCB: 4992000: TR_DEQUEUE Received.  Dequeining (model) 232.  Dequeing (transaction) 232
+data: 233, i: 232
+Error: Reading data from FIFO failed: Got 233 and expected 232.
+Time: 5 us  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 233
+MON: 5002000: Dequeue '233' Detected
+MON: 5002000: TR_DEQUEUE Tr Sent
+SCB: 5002000: TR_DEQUEUE Received.  Dequeining (model) 233.  Dequeing (transaction) 233
+data: 234, i: 233
+Error: Reading data from FIFO failed: Got 234 and expected 233.
+Time: 5010 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 234
+MON: 5012000: Dequeue '234' Detected
+MON: 5012000: TR_DEQUEUE Tr Sent
+SCB: 5012000: TR_DEQUEUE Received.  Dequeining (model) 234.  Dequeing (transaction) 234
+data: 235, i: 234
+Error: Reading data from FIFO failed: Got 235 and expected 234.
+Time: 5020 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 235
+MON: 5022000: Dequeue '235' Detected
+MON: 5022000: TR_DEQUEUE Tr Sent
+SCB: 5022000: TR_DEQUEUE Received.  Dequeining (model) 235.  Dequeing (transaction) 235
+data: 236, i: 235
+Error: Reading data from FIFO failed: Got 236 and expected 235.
+Time: 5030 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 236
+MON: 5032000: Dequeue '236' Detected
+MON: 5032000: TR_DEQUEUE Tr Sent
+SCB: 5032000: TR_DEQUEUE Received.  Dequeining (model) 236.  Dequeing (transaction) 236
+data: 237, i: 236
+Error: Reading data from FIFO failed: Got 237 and expected 236.
+Time: 5040 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 237
+MON: 5042000: Dequeue '237' Detected
+MON: 5042000: TR_DEQUEUE Tr Sent
+SCB: 5042000: TR_DEQUEUE Received.  Dequeining (model) 237.  Dequeing (transaction) 237
+data: 238, i: 237
+Error: Reading data from FIFO failed: Got 238 and expected 237.
+Time: 5050 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 238
+MON: 5052000: Dequeue '238' Detected
+MON: 5052000: TR_DEQUEUE Tr Sent
+SCB: 5052000: TR_DEQUEUE Received.  Dequeining (model) 238.  Dequeing (transaction) 238
+data: 239, i: 238
+Error: Reading data from FIFO failed: Got 239 and expected 238.
+Time: 5060 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 239
+MON: 5062000: Dequeue '239' Detected
+MON: 5062000: TR_DEQUEUE Tr Sent
+SCB: 5062000: TR_DEQUEUE Received.  Dequeining (model) 239.  Dequeing (transaction) 239
+data: 240, i: 239
+Error: Reading data from FIFO failed: Got 240 and expected 239.
+Time: 5070 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 240
+MON: 5072000: Dequeue '240' Detected
+MON: 5072000: TR_DEQUEUE Tr Sent
+SCB: 5072000: TR_DEQUEUE Received.  Dequeining (model) 240.  Dequeing (transaction) 240
+data: 241, i: 240
+Error: Reading data from FIFO failed: Got 241 and expected 240.
+Time: 5080 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 241
+MON: 5082000: Dequeue '241' Detected
+MON: 5082000: TR_DEQUEUE Tr Sent
+SCB: 5082000: TR_DEQUEUE Received.  Dequeining (model) 241.  Dequeing (transaction) 241
+data: 242, i: 241
+Error: Reading data from FIFO failed: Got 242 and expected 241.
+Time: 5090 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 242
+MON: 5092000: Dequeue '242' Detected
+MON: 5092000: TR_DEQUEUE Tr Sent
+SCB: 5092000: TR_DEQUEUE Received.  Dequeining (model) 242.  Dequeing (transaction) 242
+data: 243, i: 242
+Error: Reading data from FIFO failed: Got 243 and expected 242.
+Time: 5100 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 243
+MON: 5102000: Dequeue '243' Detected
+MON: 5102000: TR_DEQUEUE Tr Sent
+SCB: 5102000: TR_DEQUEUE Received.  Dequeining (model) 243.  Dequeing (transaction) 243
+data: 244, i: 243
+Error: Reading data from FIFO failed: Got 244 and expected 243.
+Time: 5110 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 244
+MON: 5112000: Dequeue '244' Detected
+MON: 5112000: TR_DEQUEUE Tr Sent
+SCB: 5112000: TR_DEQUEUE Received.  Dequeining (model) 244.  Dequeing (transaction) 244
+data: 245, i: 244
+Error: Reading data from FIFO failed: Got 245 and expected 244.
+Time: 5120 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 245
+MON: 5122000: Dequeue '245' Detected
+MON: 5122000: TR_DEQUEUE Tr Sent
+SCB: 5122000: TR_DEQUEUE Received.  Dequeining (model) 245.  Dequeing (transaction) 245
+data: 246, i: 245
+Error: Reading data from FIFO failed: Got 246 and expected 245.
+Time: 5130 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 246
+MON: 5132000: Dequeue '246' Detected
+MON: 5132000: TR_DEQUEUE Tr Sent
+SCB: 5132000: TR_DEQUEUE Received.  Dequeining (model) 246.  Dequeing (transaction) 246
+data: 247, i: 246
+Error: Reading data from FIFO failed: Got 247 and expected 246.
+Time: 5140 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 247
+MON: 5142000: Dequeue '247' Detected
+MON: 5142000: TR_DEQUEUE Tr Sent
+SCB: 5142000: TR_DEQUEUE Received.  Dequeining (model) 247.  Dequeing (transaction) 247
+data: 248, i: 247
+Error: Reading data from FIFO failed: Got 248 and expected 247.
+Time: 5150 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 248
+MON: 5152000: Dequeue '248' Detected
+MON: 5152000: TR_DEQUEUE Tr Sent
+SCB: 5152000: TR_DEQUEUE Received.  Dequeining (model) 248.  Dequeing (transaction) 248
+data: 249, i: 248
+Error: Reading data from FIFO failed: Got 249 and expected 248.
+Time: 5160 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 249
+MON: 5162000: Dequeue '249' Detected
+MON: 5162000: TR_DEQUEUE Tr Sent
+SCB: 5162000: TR_DEQUEUE Received.  Dequeining (model) 249.  Dequeing (transaction) 249
+data: 250, i: 249
+Error: Reading data from FIFO failed: Got 250 and expected 249.
+Time: 5170 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 250
+MON: 5172000: Dequeue '250' Detected
+MON: 5172000: TR_DEQUEUE Tr Sent
+SCB: 5172000: TR_DEQUEUE Received.  Dequeining (model) 250.  Dequeing (transaction) 250
+data: 251, i: 250
+Error: Reading data from FIFO failed: Got 251 and expected 250.
+Time: 5180 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 251
+MON: 5182000: Dequeue '251' Detected
+MON: 5182000: TR_DEQUEUE Tr Sent
+SCB: 5182000: TR_DEQUEUE Received.  Dequeining (model) 251.  Dequeing (transaction) 251
+data: 252, i: 251
+Error: Reading data from FIFO failed: Got 252 and expected 251.
+Time: 5190 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 252
+MON: 5192000: Dequeue '252' Detected
+MON: 5192000: TR_DEQUEUE Tr Sent
+SCB: 5192000: TR_DEQUEUE Received.  Dequeining (model) 252.  Dequeing (transaction) 252
+data: 253, i: 252
+Error: Reading data from FIFO failed: Got 253 and expected 252.
+Time: 5200 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 253
+MON: 5202000: Dequeue '253' Detected
+MON: 5202000: TR_DEQUEUE Tr Sent
+SCB: 5202000: TR_DEQUEUE Received.  Dequeining (model) 253.  Dequeing (transaction) 253
+data: 254, i: 253
+Error: Reading data from FIFO failed: Got 254 and expected 253.
+Time: 5210 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 254
+MON: 5212000: Dequeue '254' Detected
+MON: 5212000: TR_DEQUEUE Tr Sent
+SCB: 5212000: TR_DEQUEUE Received.  Dequeining (model) 254.  Dequeing (transaction) 254
+data: 255, i: 254
+Error: Reading data from FIFO failed: Got 255 and expected 254.
+Time: 5220 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Dequeue 255
+MON: 5222000: Dequeue '255' Detected
+MON: 5222000: TR_DEQUEUE Tr Sent
+SCB: 5222000: TR_DEQUEUE Received.  Dequeining (model) 255.  Dequeing (transaction) 255
+data:   0, i: 255
+Error: Reading data from FIFO failed: Got   0 and expected 255.
+Time: 5230 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 61
+Error: Tried to read data from an empty queue and assert it.
+Time: 5230 ns  Iteration: 1  Process: /top/tb/dequeue  Scope: top.tb.dequeue  File: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv Line: 67
+Stopped at time : 5230 ns : File "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv" Line 116
+relaunch_sim
+GDR: Cleaning Up Grading Run...
+src[268000]
+src[269000]
+src[270000]
+src[271000]
+src[272000]
+src[273000]
+src[274000]
+src[275000]
+src[276000]
+src[277000]
+src[278000]
+src[279000]
+src[280000]
+src[281000]
+src[282000]
+src[283000]
+src[284000]
+src[285000]
+src[286000]
+src[287000]
+src[288000]
+src[289000]
+src[290000]
+src[291000]
+src[292000]
+src[293000]
+src[294000]
+src[295000]
+src[296000]
+src[297000]
+src[298000]
+src[299000]
+src[300000]
+src[301000]
+src[302000]
+src[303000]
+src[304000]
+src[305000]
+src[306000]
+src[307000]
+src[308000]
+src[309000]
+src[310000]
+src[311000]
+src[312000]
+src[313000]
+src[314000]
+src[315000]
+src[316000]
+src[317000]
+src[318000]
+src[319000]
+src[320000]
+src[321000]
+src[322000]
+src[323000]
+src[324000]
+src[325000]
+src[326000]
+src[327000]
+src[328000]
+src[329000]
+src[330000]
+src[331000]
+src[332000]
+src[333000]
+src[334000]
+src[335000]
+src[336000]
+src[337000]
+src[338000]
+src[339000]
+src[340000]
+src[341000]
+src[342000]
+src[343000]
+src[344000]
+src[345000]
+src[346000]
+src[347000]
+src[348000]
+src[349000]
+src[350000]
+src[351000]
+src[352000]
+src[353000]
+src[354000]
+src[355000]
+src[356000]
+src[357000]
+src[358000]
+src[359000]
+src[360000]
+src[361000]
+src[362000]
+src[363000]
+src[364000]
+src[365000]
+src[366000]
+src[367000]
+src[368000]
+src[369000]
+src[370000]
+src[371000]
+src[372000]
+src[373000]
+src[374000]
+src[375000]
+src[376000]
+src[377000]
+src[378000]
+src[379000]
+src[380000]
+src[381000]
+src[382000]
+src[383000]
+src[384000]
+src[385000]
+src[386000]
+src[387000]
+src[388000]
+src[389000]
+src[390000]
+src[391000]
+src[392000]
+src[393000]
+src[394000]
+src[395000]
+src[396000]
+src[397000]
+src[398000]
+src[399000]
+src[400000]
+src[401000]
+src[402000]
+src[403000]
+src[404000]
+src[405000]
+src[406000]
+src[407000]
+src[408000]
+src[409000]
+src[410000]
+src[411000]
+src[412000]
+src[413000]
+src[414000]
+src[415000]
+src[416000]
+src[417000]
+src[418000]
+src[419000]
+src[420000]
+src[421000]
+src[422000]
+src[423000]
+src[424000]
+src[425000]
+src[426000]
+src[427000]
+src[428000]
+src[429000]
+src[430000]
+src[431000]
+src[432000]
+src[433000]
+src[434000]
+src[435000]
+src[436000]
+src[437000]
+src[438000]
+src[439000]
+src[440000]
+src[441000]
+src[442000]
+src[443000]
+src[444000]
+src[445000]
+src[446000]
+src[447000]
+src[448000]
+src[449000]
+src[450000]
+src[451000]
+src[452000]
+src[453000]
+src[454000]
+src[455000]
+src[456000]
+src[457000]
+src[458000]
+src[459000]
+src[460000]
+src[461000]
+src[462000]
+src[463000]
+src[464000]
+src[465000]
+src[466000]
+src[467000]
+src[468000]
+src[469000]
+src[470000]
+src[471000]
+src[472000]
+src[473000]
+src[474000]
+src[475000]
+src[476000]
+src[477000]
+src[478000]
+src[479000]
+src[480000]
+src[481000]
+src[482000]
+src[483000]
+src[484000]
+src[485000]
+src[486000]
+src[487000]
+src[488000]
+src[489000]
+src[490000]
+src[491000]
+src[492000]
+src[493000]
+src[494000]
+src[495000]
+src[496000]
+src[497000]
+src[498000]
+src[499000]
+src[500000]
+src[501000]
+src[502000]
+src[503000]
+src[504000]
+src[505000]
+src[506000]
+src[507000]
+src[508000]
+src[509000]
+src[510000]
+src[511000]
+src[512000]
+src[513000]
+src[514000]
+src[515000]
+src[516000]
+src[517000]
+src[518000]
+src[519000]
+src[520000]
+src[521000]
+src[522000]
+src[523000]
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.sim/sim_1/behav/xsim/simulate.log"
+INFO: [Common 17-17] undo 'relaunch_sim'
+INFO: [Common 17-17] undo 'relaunch_sim'
+ERROR: [Common 17-69] Command failed: boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.sim/sim_1/behav/xsim/simulate.log"
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\brian\Documents\SchoolPapers\Repositories\CPE 333\CPE-333-Comp.-Arch-\Lab1\FIFO\FIFO.srcs\sources_1\imports\fifo\fifo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\brian\Documents\SchoolPapers\Repositories\CPE 333\CPE-333-Comp.-Arch-\Lab1\FIFO\FIFO.srcs\sources_1\imports\fifo\verification\testbench.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 25 19:48:24 2023...

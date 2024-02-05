@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../FIFO.srcs/sources_1/imports/fifo/types.sv" \
+"../../../../FIFO.srcs/sources_1/imports/fifo/fifo.sv" \
+"../../../../FIFO.srcs/sources_1/imports/fifo/verification/fifo_itf.sv" \
+"../../../../FIFO.srcs/sources_1/imports/fifo/verification/grader/grader_types.sv" \
+"../../../../FIFO.srcs/sources_1/imports/fifo/verification/grader/grader.sv" \
+"../../../../FIFO.srcs/sources_1/imports/fifo/verification/grader/grader_itf.sv" \
+"../../../../FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv" \
+"../../../../FIFO.srcs/sources_1/imports/fifo/verification/grader/transaction_monitor.sv" \
+"../../../../FIFO.srcs/sources_1/imports/fifo/verification/grader/transaction_scoreboard.sv" \
+"../../../../FIFO.srcs/sources_1/imports/fifo/verification/top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

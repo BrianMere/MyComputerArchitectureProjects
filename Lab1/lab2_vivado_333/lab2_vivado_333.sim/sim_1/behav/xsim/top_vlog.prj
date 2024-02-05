@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../lab2_vivado_333.srcs/sources_1/imports/mult/types.sv" \
+"../../../../lab2_vivado_333.srcs/sources_1/imports/mult/add_shift_multiplier.sv" \
+"../../../../lab2_vivado_333.srcs/sources_1/imports/mult/verification/grader/grader_types.sv" \
+"../../../../lab2_vivado_333.srcs/sources_1/imports/mult/verification/grader/grader.sv" \
+"../../../../lab2_vivado_333.srcs/sources_1/imports/mult/verification/grader/grader_itf.sv" \
+"../../../../lab2_vivado_333.srcs/sources_1/imports/mult/verification/multiplier_itf.sv" \
+"../../../../lab2_vivado_333.srcs/sources_1/imports/mult/verification/testbench.sv" \
+"../../../../lab2_vivado_333.srcs/sources_1/imports/mult/verification/grader/transaction_monitor.sv" \
+"../../../../lab2_vivado_333.srcs/sources_1/imports/mult/verification/grader/transaction_scoreboard.sv" \
+"../../../../lab2_vivado_333.srcs/sources_1/imports/mult/verification/top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

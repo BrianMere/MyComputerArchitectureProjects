@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+48,true,"C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/lab2_vivado_333/lab2_vivado_333.srcs/sources_1/imports/mult/verification/multiplier_itf.sv"

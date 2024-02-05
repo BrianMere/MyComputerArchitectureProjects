@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../CAM.srcs/sources_1/imports/cam/verification/grader" \
+"../../../../CAM.srcs/sources_1/imports/cam/cam_types.sv" \
+"../../../../CAM.srcs/sources_1/imports/cam/cam.sv" \
+"../../../../CAM.srcs/sources_1/imports/cam/cam_controller.sv" \
+"../../../../CAM.srcs/sources_1/imports/cam/cam_datapath.sv" \
+"../../../../CAM.srcs/sources_1/imports/cam/cam_interface.sv" \
+"../../../../CAM.srcs/sources_1/imports/cam/verification/cam_itf.sv" \
+"../../../../CAM.srcs/sources_1/imports/cam/verification/grader/grader_types.sv" \
+"../../../../CAM.srcs/sources_1/imports/cam/verification/grader/grader.sv" \
+"../../../../CAM.srcs/sources_1/imports/cam/verification/grader/grader_itf.sv" \
+"../../../../CAM.srcs/sources_1/imports/cam/verification/testbench.sv" \
+"../../../../CAM.srcs/sources_1/imports/cam/verification/grader/transaction_monitor.sv" \
+"../../../../CAM.srcs/sources_1/imports/cam/verification/grader/transaction_scoreboard.sv" \
+"../../../../CAM.srcs/sources_1/imports/cam/verification/top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

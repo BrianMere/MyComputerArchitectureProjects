@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Aug  1 12:16:58 2023
+# Process ID: 6120
+# Current directory: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20024 C:\Users\brian\Documents\SchoolPapers\Repositories\CPE 333\CPE-333-Comp.-Arch-\lab3pipeline\lab3pipeline.xpr
+# Log file: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/vivado.log
+# Journal file: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline\vivado.jou
+# Running On: DESKTOP-OJK9U19, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16799 MB
+#-----------------------------------------------------------
+couldn't load library "librdi_tcltasks.dll": not a directory
+Could not load library 'librdi_tcltasks' needed by 'core', please check installation.
+    while executing
+"error "$result\nCould not load library '$library' needed by '$feature', please check installation.""
+    (procedure "rdi::load_library" line 4)
+    invoked from within
+"rdi::load_library core librdi_tcltasks"
+    (file "C:/Xilinx/Vivado/2023.1\lib\scripts\rdi\features\core\core.tcl" line 5)
+ERROR: [Common 17-217] Failed to load feature 'core'.
+INFO: [Common 17-206] Exiting Vivado at Tue Aug  1 12:16:58 2023...

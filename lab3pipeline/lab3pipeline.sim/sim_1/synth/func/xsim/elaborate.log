@@ -1,0 +1,27 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L secureip --snapshot sim_func_synth xil_defaultlib.sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3823] variable 'vga_hs' might have multiple concurrent drivers [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sim_1/new/sim.sv:29]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.OBUFT
+Compiling module xil_defaultlib.Otter_MCU
+Compiling module xil_defaultlib.BCD
+Compiling module xil_defaultlib.CathodeDriver
+Compiling module xil_defaultlib.SevSegDisp
+Compiling module xil_defaultlib.ps2_rx
+Compiling module xil_defaultlib.keyboard
+Compiling module xil_defaultlib.KeyboardDriver
+Compiling module xil_defaultlib.vga_driver_80x60
+Compiling module xil_defaultlib.ram8k_8_80x60
+Compiling module xil_defaultlib.vga_fb_driver_80x60
+Compiling module xil_defaultlib.OTTER_Wrapper
+Compiling module xil_defaultlib.sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_func_synth

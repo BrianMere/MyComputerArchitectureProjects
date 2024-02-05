@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../cache_proj.srcs/sources_1/imports/lab2_v3/cache/array.sv" \
+"../../../../cache_proj.srcs/sources_1/imports/lab2_v3/cache/cache.sv" \
+"../../../../cache_proj.srcs/sources_1/imports/lab2_v3/cache/cache_control.sv" \
+"../../../../cache_proj.srcs/sources_1/new/cache_control_itf.sv" \
+"../../../../cache_proj.srcs/sources_1/imports/lab2_v3/cache/cache_datapath.sv" \
+"../../../../cache_proj.srcs/sources_1/imports/lab2_v3/memory/cache_monitor_itf.sv" \
+"../../../../cache_proj.srcs/sources_1/imports/lab2_v3/cache/cacheline_adaptor.sv" \
+"../../../../cache_proj.srcs/sources_1/imports/lab2_v3/cache/data_array.sv" \
+"../../../../cache_proj.srcs/sources_1/imports/lab2_v3/memory/mem_itf.sv" \
+"../../../../cache_proj.srcs/sources_1/imports/lab2_v3/memory/mem_param.sv" \
+"../../../../cache_proj.srcs/sources_1/imports/lab2_v3/memory/shadow_memory.sv" \
+"../../../../cache_proj.srcs/sources_1/imports/lab2_v3/cache_testbench_v2.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

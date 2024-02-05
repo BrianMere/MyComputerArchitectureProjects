@@ -1,0 +1,41 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 21816
+WARNING: [Synth 8-985] task call in final block is illegal [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/lab2_vivado_333/lab2_vivado_333.srcs/sources_1/imports/mult/verification/grader/grader.sv:92]
+WARNING: [Synth 8-985] task call in final block is illegal [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/lab2_vivado_333/lab2_vivado_333.srcs/sources_1/imports/mult/verification/grader/grader.sv:93]
+WARNING: [Synth 8-985] task call in final block is illegal [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/lab2_vivado_333/lab2_vivado_333.srcs/sources_1/imports/mult/verification/grader/grader.sv:95]
+WARNING: [Synth 8-985] task call in final block is illegal [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/lab2_vivado_333/lab2_vivado_333.srcs/sources_1/imports/mult/verification/grader/grader.sv:96]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1278.945 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/lab2_vivado_333/lab2_vivado_333.srcs/sources_1/imports/mult/verification/top.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'multiplier_itf' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/lab2_vivado_333/lab2_vivado_333.srcs/sources_1/imports/mult/verification/multiplier_itf.sv:4]
+ERROR: [Synth 8-27] dynamic range not supported [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/lab2_vivado_333/lab2_vivado_333.srcs/sources_1/imports/mult/verification/multiplier_itf.sv:13]
+ERROR: [Synth 8-27] dynamic range not supported [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/lab2_vivado_333/lab2_vivado_333.srcs/sources_1/imports/mult/verification/multiplier_itf.sv:14]
+ERROR: [Synth 8-6156] failed synthesizing module 'multiplier_itf' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/lab2_vivado_333/lab2_vivado_333.srcs/sources_1/imports/mult/verification/multiplier_itf.sv:4]
+ERROR: [Synth 8-6156] failed synthesizing module 'top' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/lab2_vivado_333/lab2_vivado_333.srcs/sources_1/imports/mult/verification/top.sv:3]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1278.945 ; gain = 0.000
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 4 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 24 21:18:38 2023...

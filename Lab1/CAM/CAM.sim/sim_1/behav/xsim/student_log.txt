@@ -1,0 +1,6 @@
+Passed 8 of 8 evict covers
+Passed 8 of 8 hits covers
+Passed 1 of 1 Write-Write to same Key in Consecutive Cycles Cover
+Passed 1 of 1 Write-Read to same Key in Consecutive Cycles Cover
+0 False Positive Read Errors
+0 False Negative Read Errors

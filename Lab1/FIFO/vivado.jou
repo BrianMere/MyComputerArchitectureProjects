@@ -1,0 +1,83 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Apr 25 19:48:30 2023
+# Process ID: 8288
+# Current directory: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18456 C:\Users\brian\Documents\SchoolPapers\Repositories\CPE 333\CPE-333-Comp.-Arch-\Lab1\FIFO\FIFO.xpr
+# Log file: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/vivado.log
+# Journal file: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO\vivado.jou
+# Running On: DESKTOP-OJK9U19, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16799 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source top.tcl
+add_bp {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv} 56
+run 5 ms
+run 5 ms
+run 5 ms
+step
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+relaunch_sim
+run 5 ms
+add_bp {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv} 59
+run 5 ms
+relaunch_sim
+run 5 ms
+run 5 ms
+remove_bps -file {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv} -line 56
+add_bp {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv} 68
+add_bp {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv} 81
+run 5 ms
+relaunch_sim
+run 5 ms
+run 5 ms
+run 5 ms
+step
+run 5 ms
+run 5 ms
+relaunch_sim
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+relaunch_sim
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+relaunch_sim
+add_bp {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv} 122
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+run 5 ms
+remove_bps -file {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv} -line 118
+remove_bps -file {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv} -line 122
+close_sim
+launch_simulation
+source top.tcl
+remove_bps -file {C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/testbench.sv} -line 117
+run 5 ms
+run 5 ms
+close_sim

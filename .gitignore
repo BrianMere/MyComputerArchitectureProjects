@@ -1,0 +1,4 @@
+*.vcd
+.venv
+.vscode
+.Xil

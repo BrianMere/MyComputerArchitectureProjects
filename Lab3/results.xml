@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1707123053" />
+    <testcase name="run_clock" classname="testbench" file="/home/brianm/Documents/Repositories/CPE-333-Comp.-Arch-/Lab3/testbench.py" lineno="10" time="1.1097571849822998" sim_time_ns="10008.501" ratio_time="9018.640415614549" />
+  </testsuite>
+</testsuites>

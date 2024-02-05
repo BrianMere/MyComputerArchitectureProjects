@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue May  9 14:45:19 2023
+# Process ID: 34924
+# Current directory: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab2/cache_proj/cache_proj.runs/synth_1
+# Command line: vivado.exe -log cache_testbench.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cache_testbench.tcl
+# Log file: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab2/cache_proj/cache_proj.runs/synth_1/cache_testbench.vds
+# Journal file: C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab2/cache_proj/cache_proj.runs/synth_1\vivado.jou
+# Running On: DESKTOP-OJK9U19, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16799 MB
+#-----------------------------------------------------------
+source cache_testbench.tcl -notrace
+Command: synth_design -top cache_testbench -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18640
+ERROR: [Synth 8-9268] cannot re-specify direction for signal 'clk' to output because it was specified as input [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab2/cache_proj/cache_proj.srcs/sources_1/imports/lab2_v3/memory/mem_itf.sv:31]
+INFO: [Synth 8-8750] interface 'mem_itf' ignored due to previous errors [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab2/cache_proj/cache_proj.srcs/sources_1/imports/lab2_v3/memory/mem_itf.sv:51]
+INFO: [Synth 8-8750] module 'd_mem_itf' ignored due to previous errors [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab2/cache_proj/cache_proj.srcs/sources_1/imports/lab2_v3/memory/mem_itf.sv:54]
+Failed to read verilog 'C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab2/cache_proj/cache_proj.srcs/sources_1/imports/lab2_v3/memory/mem_itf.sv'
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Tue May  9 14:45:38 2023...

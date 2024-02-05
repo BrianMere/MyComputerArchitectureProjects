@@ -1,0 +1,373 @@
+[*]
+[*] GTKWave Analyzer v3.3.117 (w)1999-2023 BSI
+[*] Mon Feb  5 08:49:55 2024
+[*]
+[dumpfile] "/home/brianm/Documents/Repositories/CPE-333-Comp.-Arch-/Lab3/dump.vcd"
+[dumpfile_mtime] "Mon Feb  5 08:38:39 2024"
+[dumpfile_size] 107287300
+[savefile] "/home/brianm/Documents/Repositories/CPE-333-Comp.-Arch-/Lab3/config.gtkw"
+[timestart] 10
+[size] 3840 2084
+[pos] 135 314
+*-11.000000 9820 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Otter_MCU.
+[treeopen] Otter_MCU.EXMEM_o.
+[treeopen] Otter_MCU.EXMEM_o.DEEX_prev.
+[treeopen] Otter_MCU.EXMEM_stg.
+[treeopen] Otter_MCU.MEMWB_o.EXMEM_prev.DEEX_prev.
+[sst_width] 358
+[signals_width] 533
+[sst_expanded] 1
+[sst_vpaned_height] 474
+@28
+Otter_MCU.RST
+Otter_MCU.CLK
+@c00200
+-IF_Only
+@28
+Otter_MCU.IFDE_stg.CLK
+@22
+Otter_MCU.IFDE_stg.IR[31:0]
+Otter_MCU.IFDE_stg.pc_p4[31:0]
+@28
+Otter_MCU.IFDE_stg.pc_reset
+@22
+Otter_MCU.IFDE_stg.pc_selection[31:0]
+@28
+Otter_MCU.IFDE_stg.pc_selector[2:0]
+Otter_MCU.IFDE_stg.pc_write
+@1401200
+-IF_Only
+@800200
+-IFDE
+@22
+Otter_MCU.IFDE_o.IR[31:0]
+Otter_MCU.IFDE_o.PC[31:0]
+@1000200
+-IFDE
+@800200
+-DEEX
+@22
+Otter_MCU.DEEX_o.IR[31:0]
+Otter_MCU.DEEX_o.PC[31:0]
+@28
+Otter_MCU.DEEX_o.memRead2
+Otter_MCU.DEEX_o.memWrite2
+@22
+Otter_MCU.DEEX_o.opcode[6:0]
+@28
+Otter_MCU.DEEX_o.regWrite
+@1000200
+-DEEX
+@c00200
+-EXMEM
+@c00022
+Otter_MCU.EXMEM_o.RS1_val[31:0]
+@28
+(0)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(1)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(2)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(3)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(4)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(5)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(6)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(7)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(8)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(9)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(10)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(11)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(12)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(13)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(14)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(15)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(16)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(17)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(18)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(19)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(20)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(21)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(22)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(23)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(24)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(25)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(26)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(27)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(28)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(29)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(30)Otter_MCU.EXMEM_o.RS1_val[31:0]
+(31)Otter_MCU.EXMEM_o.RS1_val[31:0]
+@1401200
+-group_end
+@22
+Otter_MCU.EXMEM_o.RS2_val[31:0]
+Otter_MCU.EXMEM_o.alu_res[31:0]
+Otter_MCU.EXMEM_o.DEEX_prev.IR[31:0]
+Otter_MCU.EXMEM_o.DEEX_prev.PC[31:0]
+Otter_MCU.EXMEM_o.alu_fun[3:0]
+@28
+Otter_MCU.EXMEM_o.alu_srcA[1:0]
+Otter_MCU.EXMEM_o.alu_srcB[2:0]
+Otter_MCU.EXMEM_o.rf_wr_sel[1:0]
+Otter_MCU.EXMEM_o.pcSource[2:0]
+Otter_MCU.EXMEM_o.DEEX_prev.memRead2
+Otter_MCU.EXMEM_o.DEEX_prev.memWrite2
+@22
+Otter_MCU.EXMEM_o.DEEX_prev.opcode[6:0]
+@28
+Otter_MCU.EXMEM_o.DEEX_prev.regWrite
+@800200
+-ALU
+@22
+Otter_MCU.EXMEM_stg.alu.alu_fun[3:0]
+Otter_MCU.EXMEM_stg.alu.result[31:0]
+Otter_MCU.EXMEM_stg.alu.srcA[31:0]
+Otter_MCU.EXMEM_stg.alu.srcB[31:0]
+@1000200
+-ALU
+@1401200
+-EXMEM
+@c00200
+-MEMWB
+@c00022
+Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+@28
+(0)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(1)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(2)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(3)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(4)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(5)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(6)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(7)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(8)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(9)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(10)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(11)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(12)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(13)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(14)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(15)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(16)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(17)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(18)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(19)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(20)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(21)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(22)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(23)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(24)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(25)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(26)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(27)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(28)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(29)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(30)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+(31)Otter_MCU.MEMWB_o.EXMEM_prev.RS1_val[31:0]
+@1401200
+-group_end
+@22
+Otter_MCU.MEMWB_o.EXMEM_prev.RS2_val[31:0]
+Otter_MCU.MEMWB_o.EXMEM_prev.alu_res[31:0]
+Otter_MCU.MEMWB_o.EXMEM_prev.DEEX_prev.IR[31:0]
+Otter_MCU.MEMWB_o.EXMEM_prev.DEEX_prev.PC[31:0]
+Otter_MCU.MEMWB_o.EXMEM_prev.alu_res[31:0]
+@28
+Otter_MCU.MEMWB_o.EXMEM_prev.alu_srcA[1:0]
+Otter_MCU.MEMWB_o.EXMEM_prev.alu_srcB[2:0]
+Otter_MCU.MEMWB_o.EXMEM_prev.rf_wr_sel[1:0]
+Otter_MCU.MEMWB_o.EXMEM_prev.DEEX_prev.memRead2
+Otter_MCU.MEMWB_o.EXMEM_prev.DEEX_prev.memWrite2
+@22
+Otter_MCU.MEMWB_o.EXMEM_prev.DEEX_prev.opcode[6:0]
+@28
+Otter_MCU.MEMWB_o.EXMEM_prev.DEEX_prev.regWrite
+@1401200
+-MEMWB
+@c00201
+-Memory_General
+@22
+Otter_MCU.otter_memory.MEM_ADDR1[31:0]
+Otter_MCU.otter_memory.MEM_ADDR2[31:0]
+Otter_MCU.otter_memory.MEM_DIN2[31:0]
+Otter_MCU.otter_memory.MEM_DOUT1[31:0]
+Otter_MCU.otter_memory.MEM_DOUT2[31:0]
+@1401201
+-Memory_General
+@800200
+-PC
+@28
+Otter_MCU.IFDE_stg.PROG_COUNT.CLK
+@22
+Otter_MCU.IFDE_stg.PROG_COUNT.PC_COUNT[31:0]
+Otter_MCU.IFDE_stg.PROG_COUNT.PC_DIN[31:0]
+@28
+Otter_MCU.IFDE_stg.PROG_COUNT.PC_RST
+Otter_MCU.IFDE_stg.PROG_COUNT.PC_WRITE
+@1000200
+-PC
+@c00200
+-Registers
+@28
+Otter_MCU.registers.CLK
+@22
+Otter_MCU.registers.RF_ADR1[4:0]
+Otter_MCU.registers.RF_ADR2[4:0]
+@28
+Otter_MCU.registers.RF_EN
+@22
+Otter_MCU.registers.RF_RS1[31:0]
+Otter_MCU.registers.RF_RS2[31:0]
+Otter_MCU.registers.RF_WA[4:0]
+Otter_MCU.registers.RF_WD[31:0]
+@1401200
+-Registers
+@800200
+-Regs
+@420
++{zero/x0} Otter_MCU.registers.registers[0][31:0]
+@c00420
++{ra/x1} Otter_MCU.registers.registers[1][31:0]
+@28
+(0)Otter_MCU.registers.registers[1][31:0]
+(1)Otter_MCU.registers.registers[1][31:0]
+(2)Otter_MCU.registers.registers[1][31:0]
+(3)Otter_MCU.registers.registers[1][31:0]
+(4)Otter_MCU.registers.registers[1][31:0]
+(5)Otter_MCU.registers.registers[1][31:0]
+(6)Otter_MCU.registers.registers[1][31:0]
+(7)Otter_MCU.registers.registers[1][31:0]
+(8)Otter_MCU.registers.registers[1][31:0]
+(9)Otter_MCU.registers.registers[1][31:0]
+(10)Otter_MCU.registers.registers[1][31:0]
+(11)Otter_MCU.registers.registers[1][31:0]
+(12)Otter_MCU.registers.registers[1][31:0]
+(13)Otter_MCU.registers.registers[1][31:0]
+(14)Otter_MCU.registers.registers[1][31:0]
+(15)Otter_MCU.registers.registers[1][31:0]
+(16)Otter_MCU.registers.registers[1][31:0]
+(17)Otter_MCU.registers.registers[1][31:0]
+(18)Otter_MCU.registers.registers[1][31:0]
+(19)Otter_MCU.registers.registers[1][31:0]
+(20)Otter_MCU.registers.registers[1][31:0]
+(21)Otter_MCU.registers.registers[1][31:0]
+(22)Otter_MCU.registers.registers[1][31:0]
+(23)Otter_MCU.registers.registers[1][31:0]
+(24)Otter_MCU.registers.registers[1][31:0]
+(25)Otter_MCU.registers.registers[1][31:0]
+(26)Otter_MCU.registers.registers[1][31:0]
+(27)Otter_MCU.registers.registers[1][31:0]
+(28)Otter_MCU.registers.registers[1][31:0]
+(29)Otter_MCU.registers.registers[1][31:0]
+(30)Otter_MCU.registers.registers[1][31:0]
+(31)Otter_MCU.registers.registers[1][31:0]
+@1401200
+-group_end
+@420
++{sp/x2} Otter_MCU.registers.registers[2][31:0]
++{gp/x3} Otter_MCU.registers.registers[3][31:0]
++{tp/x4} Otter_MCU.registers.registers[4][31:0]
++{t0/x5} Otter_MCU.registers.registers[5][31:0]
++{t1/x6} Otter_MCU.registers.registers[6][31:0]
+@c00420
++{t2/x7} Otter_MCU.registers.registers[7][31:0]
+@28
+(0)Otter_MCU.registers.registers[7][31:0]
+(1)Otter_MCU.registers.registers[7][31:0]
+(2)Otter_MCU.registers.registers[7][31:0]
+(3)Otter_MCU.registers.registers[7][31:0]
+(4)Otter_MCU.registers.registers[7][31:0]
+(5)Otter_MCU.registers.registers[7][31:0]
+(6)Otter_MCU.registers.registers[7][31:0]
+(7)Otter_MCU.registers.registers[7][31:0]
+(8)Otter_MCU.registers.registers[7][31:0]
+(9)Otter_MCU.registers.registers[7][31:0]
+(10)Otter_MCU.registers.registers[7][31:0]
+(11)Otter_MCU.registers.registers[7][31:0]
+(12)Otter_MCU.registers.registers[7][31:0]
+(13)Otter_MCU.registers.registers[7][31:0]
+(14)Otter_MCU.registers.registers[7][31:0]
+(15)Otter_MCU.registers.registers[7][31:0]
+(16)Otter_MCU.registers.registers[7][31:0]
+(17)Otter_MCU.registers.registers[7][31:0]
+(18)Otter_MCU.registers.registers[7][31:0]
+(19)Otter_MCU.registers.registers[7][31:0]
+(20)Otter_MCU.registers.registers[7][31:0]
+(21)Otter_MCU.registers.registers[7][31:0]
+(22)Otter_MCU.registers.registers[7][31:0]
+(23)Otter_MCU.registers.registers[7][31:0]
+(24)Otter_MCU.registers.registers[7][31:0]
+(25)Otter_MCU.registers.registers[7][31:0]
+(26)Otter_MCU.registers.registers[7][31:0]
+(27)Otter_MCU.registers.registers[7][31:0]
+(28)Otter_MCU.registers.registers[7][31:0]
+(29)Otter_MCU.registers.registers[7][31:0]
+(30)Otter_MCU.registers.registers[7][31:0]
+(31)Otter_MCU.registers.registers[7][31:0]
+@1401200
+-group_end
+@420
++{s0/x8} Otter_MCU.registers.registers[8][31:0]
++{s1/x9} Otter_MCU.registers.registers[9][31:0]
++{a0/x10} Otter_MCU.registers.registers[10][31:0]
++{a1/x11} Otter_MCU.registers.registers[11][31:0]
++{a2/x12} Otter_MCU.registers.registers[12][31:0]
++{a3/x13} Otter_MCU.registers.registers[13][31:0]
++{a4/x14} Otter_MCU.registers.registers[14][31:0]
++{a5/x15} Otter_MCU.registers.registers[15][31:0]
++{a6/x16} Otter_MCU.registers.registers[16][31:0]
++{a7/x17} Otter_MCU.registers.registers[17][31:0]
++{s2/x18} Otter_MCU.registers.registers[18][31:0]
++{s3/x19} Otter_MCU.registers.registers[19][31:0]
+@c00420
++{s4/x20} Otter_MCU.registers.registers[20][31:0]
+@28
+(0)Otter_MCU.registers.registers[20][31:0]
+(1)Otter_MCU.registers.registers[20][31:0]
+(2)Otter_MCU.registers.registers[20][31:0]
+(3)Otter_MCU.registers.registers[20][31:0]
+(4)Otter_MCU.registers.registers[20][31:0]
+(5)Otter_MCU.registers.registers[20][31:0]
+(6)Otter_MCU.registers.registers[20][31:0]
+(7)Otter_MCU.registers.registers[20][31:0]
+(8)Otter_MCU.registers.registers[20][31:0]
+(9)Otter_MCU.registers.registers[20][31:0]
+(10)Otter_MCU.registers.registers[20][31:0]
+(11)Otter_MCU.registers.registers[20][31:0]
+(12)Otter_MCU.registers.registers[20][31:0]
+(13)Otter_MCU.registers.registers[20][31:0]
+(14)Otter_MCU.registers.registers[20][31:0]
+(15)Otter_MCU.registers.registers[20][31:0]
+(16)Otter_MCU.registers.registers[20][31:0]
+(17)Otter_MCU.registers.registers[20][31:0]
+(18)Otter_MCU.registers.registers[20][31:0]
+(19)Otter_MCU.registers.registers[20][31:0]
+(20)Otter_MCU.registers.registers[20][31:0]
+(21)Otter_MCU.registers.registers[20][31:0]
+(22)Otter_MCU.registers.registers[20][31:0]
+(23)Otter_MCU.registers.registers[20][31:0]
+(24)Otter_MCU.registers.registers[20][31:0]
+(25)Otter_MCU.registers.registers[20][31:0]
+(26)Otter_MCU.registers.registers[20][31:0]
+(27)Otter_MCU.registers.registers[20][31:0]
+(28)Otter_MCU.registers.registers[20][31:0]
+(29)Otter_MCU.registers.registers[20][31:0]
+(30)Otter_MCU.registers.registers[20][31:0]
+(31)Otter_MCU.registers.registers[20][31:0]
+@1401200
+-group_end
+@420
++{s5/x21} Otter_MCU.registers.registers[21][31:0]
++{s6/x22} Otter_MCU.registers.registers[22][31:0]
++{s7/x23} Otter_MCU.registers.registers[23][31:0]
++{s8/x24} Otter_MCU.registers.registers[24][31:0]
++{s9/x25} Otter_MCU.registers.registers[25][31:0]
++{s10/x26} Otter_MCU.registers.registers[26][31:0]
++{s11/x27} Otter_MCU.registers.registers[27][31:0]
++{t3/x28} Otter_MCU.registers.registers[28][31:0]
++{t4/x29} Otter_MCU.registers.registers[29][31:0]
++{t5/x30} Otter_MCU.registers.registers[30][31:0]
++{t6/x31} Otter_MCU.registers.registers[31][31:0]
+@1000200
+-Regs
+[pattern_trace] 1
+[pattern_trace] 0

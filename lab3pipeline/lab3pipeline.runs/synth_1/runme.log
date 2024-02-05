@@ -1,0 +1,904 @@
+
+*** Running vivado
+    with args -log Otter_MCU.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Otter_MCU.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source Otter_MCU.tcl -notrace
+Command: synth_design -top Otter_MCU -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16192
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Otter_MCU' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:19]
+INFO: [Synth 8-6157] synthesizing module 'HazardUnit' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/HazardUnit.sv:32]
+INFO: [Synth 8-6155] done synthesizing module 'HazardUnit' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/HazardUnit.sv:32]
+INFO: [Synth 8-6157] synthesizing module 'IFDE_strct' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:159]
+INFO: [Synth 8-6157] synthesizing module 'pipeline_strct' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:128]
+INFO: [Synth 8-6157] synthesizing module 'pipeline_reg' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_reg.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'pipeline_reg' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_reg.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'pipeline_strct' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:128]
+INFO: [Synth 8-6155] done synthesizing module 'IFDE_strct' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:159]
+INFO: [Synth 8-6157] synthesizing module 'add4adder' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/add4adder.sv:19]
+INFO: [Synth 8-6155] done synthesizing module 'add4adder' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/add4adder.sv:19]
+INFO: [Synth 8-6157] synthesizing module 'program_counter' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/program_counter.sv:19]
+INFO: [Synth 8-6155] done synthesizing module 'program_counter' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/program_counter.sv:19]
+INFO: [Synth 8-6157] synthesizing module 'branch_prediction' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/branch_prediction.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'branch_prediction' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/branch_prediction.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'mux6sel' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/mux6sel.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'mux6sel' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/mux6sel.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'DEEX_strct' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:178]
+INFO: [Synth 8-6157] synthesizing module 'pipeline_strct__parameterized0' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:128]
+INFO: [Synth 8-6155] done synthesizing module 'pipeline_strct__parameterized0' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:128]
+INFO: [Synth 8-6155] done synthesizing module 'DEEX_strct' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:178]
+INFO: [Synth 8-6157] synthesizing module 'CU_DCDR' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/CU_DCDR.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'CU_DCDR' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/CU_DCDR.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'IMMED_GEN' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/IMMED_GEN.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'IMMED_GEN' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/IMMED_GEN.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'EXMEM_strct' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:197]
+INFO: [Synth 8-6157] synthesizing module 'pipeline_strct__parameterized1' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:128]
+INFO: [Synth 8-6155] done synthesizing module 'pipeline_strct__parameterized1' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:128]
+INFO: [Synth 8-6155] done synthesizing module 'EXMEM_strct' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:197]
+INFO: [Synth 8-6157] synthesizing module 'BRANCH_ADDR_GEN' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/BRANCH_ADDR_GEN.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'BRANCH_ADDR_GEN' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/BRANCH_ADDR_GEN.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'BRANCH_COND_GEN' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/BRANCH_COND_GEN.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'BRANCH_COND_GEN' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/BRANCH_COND_GEN.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/ALU.sv:31]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/ALU.sv:31]
+WARNING: [Synth 8-151] case item 3'b100 is unreachable [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:242]
+INFO: [Synth 8-226] default block is never used [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:237]
+INFO: [Synth 8-6157] synthesizing module 'MEMWB_strct' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:216]
+INFO: [Synth 8-6157] synthesizing module 'pipeline_strct__parameterized2' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:128]
+INFO: [Synth 8-6155] done synthesizing module 'pipeline_strct__parameterized2' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:128]
+INFO: [Synth 8-6155] done synthesizing module 'MEMWB_strct' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/new/pipeline_structs_defs.sv:216]
+INFO: [Synth 8-6157] synthesizing module 'OTTER_mem_byte' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/Downloads/otter_mem_dualport_singlecycle_pipeline.sv:22]
+INFO: [Synth 8-3876] $readmem data file 'mem.mem' is read successfully [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/Downloads/otter_mem_dualport_singlecycle_pipeline.sv:61]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/Downloads/otter_mem_dualport_singlecycle_pipeline.sv:135]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/Downloads/otter_mem_dualport_singlecycle_pipeline.sv:121]
+INFO: [Synth 8-6155] done synthesizing module 'OTTER_mem_byte' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/Downloads/otter_mem_dualport_singlecycle_pipeline.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'REG_FILE' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/top_REG_FILE.sv:32]
+INFO: [Synth 8-6155] done synthesizing module 'REG_FILE' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/top_REG_FILE.sv:32]
+INFO: [Synth 8-6155] done synthesizing module 'Otter_MCU' (0#1) [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:19]
+WARNING: [Synth 8-6014] Unused sequential element j_reg was removed.  [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/Downloads/otter_mem_dualport_singlecycle_pipeline.sv:79]
+WARNING: [Synth 8-3848] Net DEEX_i[flush_de] in module/entity Otter_MCU does not have driver. [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:50]
+WARNING: [Synth 8-3848] Net de_mtvec in module/entity Otter_MCU does not have driver. [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:107]
+WARNING: [Synth 8-3848] Net de_mepc in module/entity Otter_MCU does not have driver. [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:108]
+WARNING: [Synth 8-3848] Net br_res_ex in module/entity Otter_MCU does not have driver. [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:58]
+WARNING: [Synth 8-3848] Net br_target_ex in module/entity Otter_MCU does not have driver. [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:59]
+WARNING: [Synth 8-7129] Port br_res_ex in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[31] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[30] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[29] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[28] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[27] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[26] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[25] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[24] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[23] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[22] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[21] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[20] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[19] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[18] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[17] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[16] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[15] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[14] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[13] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[12] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[11] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[10] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[9] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[8] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[7] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[6] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[5] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[4] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[3] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[2] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[1] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port br_target_ex[0] in module branch_prediction is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_i[memValid1] in module HazardUnit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INTR in module Otter_MCU is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "OTTER_mem_byte:/memory_reg"
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 6     
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 543   
++---RAMs : 
+	             512K Bit	(16384 X 32 bit)          RAMs := 1     
++---Muxes : 
+	   4 Input   32 Bit        Muxes := 9     
+	   2 Input   32 Bit        Muxes := 7     
+	   9 Input   32 Bit        Muxes := 2     
+	   7 Input   32 Bit        Muxes := 2     
+	   6 Input   32 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   4 Input    5 Bit        Muxes := 1     
+	   5 Input    5 Bit        Muxes := 1     
+	   8 Input    4 Bit        Muxes := 1     
+	   9 Input    4 Bit        Muxes := 1     
+	  11 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	  12 Input    2 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 542   
+	  11 Input    1 Bit        Muxes := 3     
+	   9 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port INTR in module Otter_MCU is either unconnected or has no load
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "otter_memory/memory_reg"
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[31] with 1st driver pin 'br_addr_gen/JALR[31]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[31] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[31] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[30] with 1st driver pin 'br_addr_gen/JALR[30]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[30] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[30] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[29] with 1st driver pin 'br_addr_gen/JALR[29]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[29] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[29] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[28] with 1st driver pin 'br_addr_gen/JALR[28]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[28] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[28] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[27] with 1st driver pin 'br_addr_gen/JALR[27]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[27] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[27] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[26] with 1st driver pin 'br_addr_gen/JALR[26]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[26] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[26] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[25] with 1st driver pin 'br_addr_gen/JALR[25]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[25] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[25] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[24] with 1st driver pin 'br_addr_gen/JALR[24]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[24] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[24] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[23] with 1st driver pin 'br_addr_gen/JALR[23]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[23] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[23] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[22] with 1st driver pin 'br_addr_gen/JALR[22]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[22] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[22] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[21] with 1st driver pin 'br_addr_gen/JALR[21]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[21] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[21] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[20] with 1st driver pin 'br_addr_gen/JALR[20]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[20] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[20] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[19] with 1st driver pin 'br_addr_gen/JALR[19]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[19] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[19] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[18] with 1st driver pin 'br_addr_gen/JALR[18]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[18] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[18] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[17] with 1st driver pin 'br_addr_gen/JALR[17]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[17] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[17] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[16] with 1st driver pin 'br_addr_gen/JALR[16]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[16] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[16] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[15] with 1st driver pin 'br_addr_gen/JALR[15]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[15] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[15] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[14] with 1st driver pin 'br_addr_gen/JALR[14]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[14] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[14] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[13] with 1st driver pin 'br_addr_gen/JALR[13]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[13] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[13] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[12] with 1st driver pin 'br_addr_gen/JALR[12]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[12] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[12] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[11] with 1st driver pin 'br_addr_gen/JALR[11]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[11] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[11] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[10] with 1st driver pin 'br_addr_gen/JALR[10]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[10] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[10] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[9] with 1st driver pin 'br_addr_gen/JALR[9]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[9] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[9] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[8] with 1st driver pin 'br_addr_gen/JALR[8]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[8] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[8] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[7] with 1st driver pin 'br_addr_gen/JALR[7]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[7] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[7] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[6] with 1st driver pin 'br_addr_gen/JALR[6]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[6] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[6] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[5] with 1st driver pin 'br_addr_gen/JALR[5]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[5] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[5] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[4] with 1st driver pin 'br_addr_gen/JALR[4]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[4] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[4] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[3] with 1st driver pin 'br_addr_gen/JALR[3]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[3] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[3] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[2] with 1st driver pin 'br_addr_gen/JALR[2]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[2] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[2] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[1] with 1st driver pin 'br_addr_gen/JALR[1]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[1] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[1] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[0] with 1st driver pin 'br_addr_gen/JALR[0]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin JALR[0] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JALR[0] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[31] with 1st driver pin 'br_addr_gen/BRANCH[31]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[31] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[31] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[30] with 1st driver pin 'br_addr_gen/BRANCH[30]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[30] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[30] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[29] with 1st driver pin 'br_addr_gen/BRANCH[29]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[29] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[29] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[28] with 1st driver pin 'br_addr_gen/BRANCH[28]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[28] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[28] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[27] with 1st driver pin 'br_addr_gen/BRANCH[27]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[27] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[27] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[26] with 1st driver pin 'br_addr_gen/BRANCH[26]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[26] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[26] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[25] with 1st driver pin 'br_addr_gen/BRANCH[25]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[25] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[25] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[24] with 1st driver pin 'br_addr_gen/BRANCH[24]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[24] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[24] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[23] with 1st driver pin 'br_addr_gen/BRANCH[23]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[23] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[23] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[22] with 1st driver pin 'br_addr_gen/BRANCH[22]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[22] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[22] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[21] with 1st driver pin 'br_addr_gen/BRANCH[21]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[21] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[21] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[20] with 1st driver pin 'br_addr_gen/BRANCH[20]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[20] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[20] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[19] with 1st driver pin 'br_addr_gen/BRANCH[19]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[19] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[19] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[18] with 1st driver pin 'br_addr_gen/BRANCH[18]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[18] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[18] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[17] with 1st driver pin 'br_addr_gen/BRANCH[17]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[17] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[17] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[16] with 1st driver pin 'br_addr_gen/BRANCH[16]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[16] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[16] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[15] with 1st driver pin 'br_addr_gen/BRANCH[15]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[15] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[15] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[14] with 1st driver pin 'br_addr_gen/BRANCH[14]' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin BRANCH[14] with 2nd driver pin 'GND' [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+INFO: [Common 17-14] Message 'Synth 8-6859' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[14] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[13] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[12] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[11] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[10] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[9] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[8] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[7] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[6] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[5] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[4] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[3] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[2] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[1] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net BRANCH[0] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[31] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[30] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[29] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[28] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[27] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[26] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[25] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[24] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[23] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[22] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[21] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[20] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[19] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[18] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[17] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[16] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[15] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[14] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[13] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[12] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[11] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[10] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[9] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[8] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[7] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[6] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[5] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[4] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[3] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[2] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[1] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net JAL[0] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.srcs/sources_1/imports/OTTER233/Otter_MCU.sv:200]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++-------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name  | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|otter_memory | memory_reg | 16 K x 32(READ_FIRST)  | W | R | 16 K x 32(WRITE_FIRST) |   | R | Port A and B     | 0      | 16     | 
++-------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+---------------+-----------+----------------------+--------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives   | 
++------------+---------------+-----------+----------------------+--------------+
+|registers   | registers_reg | Implied   | 32 x 32              | RAM32M x 12  | 
++------------+---------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++-------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name  | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|otter_memory | memory_reg | 16 K x 32(READ_FIRST)  | W | R | 16 K x 32(WRITE_FIRST) |   | R | Port A and B     | 0      | 16     | 
++-------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping Report
++------------+---------------+-----------+----------------------+--------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives   | 
++------------+---------------+-----------+----------------------+--------------+
+|registers   | registers_reg | Implied   | 32 x 32              | RAM32M x 12  | 
++------------+---------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_13 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_13 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_14 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_14 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance otter_memory/memory_reg_bram_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+----------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                           | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+----------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Otter_MCU   | MEMWB_module/m_strc/genblk1[0].m_regs/out_bit_reg  | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|Otter_MCU   | MEMWB_module/m_strc/genblk1[36].m_regs/out_bit_reg | 4      | 30    | NO           | NO                 | YES               | 30     | 0       | 
++------------+----------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    40|
+|3     |LUT1     |     2|
+|4     |LUT2     |    87|
+|5     |LUT3     |   116|
+|6     |LUT4     |    93|
+|7     |LUT5     |   330|
+|8     |LUT6     |   649|
+|9     |MUXF7    |   168|
+|10    |MUXF8    |    61|
+|11    |RAM32M   |    10|
+|12    |RAM32X1D |     4|
+|13    |RAMB36E1 |    16|
+|14    |SRL16E   |    32|
+|15    |FDRE     |   312|
+|16    |IBUF     |     2|
+|17    |OBUF     |    65|
++------+---------+------+
+
+Report Instance Areas: 
++------+----------------------------+-------------------------------+------+
+|      |Instance                    |Module                         |Cells |
++------+----------------------------+-------------------------------+------+
+|1     |top                         |                               |  1988|
+|2     |  DEEX_module               |DEEX_strct                     |   820|
+|3     |    m_strc                  |pipeline_strct__parameterized0 |   820|
+|4     |      \genblk1[191].m_regs  |pipeline_reg_164               |    11|
+|5     |      \genblk1[237].m_regs  |pipeline_reg_165               |     7|
+|6     |      \genblk1[238].m_regs  |pipeline_reg_166               |     7|
+|7     |      \genblk1[239].m_regs  |pipeline_reg_167               |     7|
+|8     |      \genblk1[240].m_regs  |pipeline_reg_168               |     8|
+|9     |      \genblk1[241].m_regs  |pipeline_reg_169               |     8|
+|10    |      \genblk1[242].m_regs  |pipeline_reg_170               |    11|
+|11    |      \genblk1[243].m_regs  |pipeline_reg_171               |    10|
+|12    |      \genblk1[244].m_regs  |pipeline_reg_172               |    11|
+|13    |      \genblk1[245].m_regs  |pipeline_reg_173               |    12|
+|14    |      \genblk1[246].m_regs  |pipeline_reg_174               |    16|
+|15    |      \genblk1[247].m_regs  |pipeline_reg_175               |    13|
+|16    |      \genblk1[248].m_regs  |pipeline_reg_176               |    21|
+|17    |      \genblk1[249].m_regs  |pipeline_reg_177               |    21|
+|18    |      \genblk1[250].m_regs  |pipeline_reg_178               |    19|
+|19    |      \genblk1[251].m_regs  |pipeline_reg_179               |    26|
+|20    |      \genblk1[252].m_regs  |pipeline_reg_180               |    21|
+|21    |      \genblk1[253].m_regs  |pipeline_reg_181               |    22|
+|22    |      \genblk1[254].m_regs  |pipeline_reg_182               |    20|
+|23    |      \genblk1[255].m_regs  |pipeline_reg_183               |    21|
+|24    |      \genblk1[269].m_regs  |pipeline_reg_184               |     5|
+|25    |      \genblk1[271].m_regs  |pipeline_reg_185               |    68|
+|26    |      \genblk1[272].m_regs  |pipeline_reg_186               |    27|
+|27    |      \genblk1[273].m_regs  |pipeline_reg_187               |     4|
+|28    |      \genblk1[274].m_regs  |pipeline_reg_188               |    31|
+|29    |      \genblk1[276].m_regs  |pipeline_reg_189               |     1|
+|30    |      \genblk1[277].m_regs  |pipeline_reg_190               |     1|
+|31    |      \genblk1[33].m_regs   |pipeline_reg_191               |     3|
+|32    |      \genblk1[34].m_regs   |pipeline_reg_192               |     8|
+|33    |      \genblk1[35].m_regs   |pipeline_reg_193               |    14|
+|34    |      \genblk1[36].m_regs   |pipeline_reg_194               |     5|
+|35    |      \genblk1[37].m_regs   |pipeline_reg_195               |     9|
+|36    |      \genblk1[38].m_regs   |pipeline_reg_196               |     5|
+|37    |      \genblk1[39].m_regs   |pipeline_reg_197               |     3|
+|38    |      \genblk1[40].m_regs   |pipeline_reg_198               |     5|
+|39    |      \genblk1[41].m_regs   |pipeline_reg_199               |     3|
+|40    |      \genblk1[42].m_regs   |pipeline_reg_200               |     5|
+|41    |      \genblk1[43].m_regs   |pipeline_reg_201               |     3|
+|42    |      \genblk1[44].m_regs   |pipeline_reg_202               |     5|
+|43    |      \genblk1[45].m_regs   |pipeline_reg_203               |     4|
+|44    |      \genblk1[46].m_regs   |pipeline_reg_204               |     5|
+|45    |      \genblk1[47].m_regs   |pipeline_reg_205               |     4|
+|46    |      \genblk1[48].m_regs   |pipeline_reg_206               |     5|
+|47    |      \genblk1[49].m_regs   |pipeline_reg_207               |     4|
+|48    |      \genblk1[50].m_regs   |pipeline_reg_208               |     5|
+|49    |      \genblk1[51].m_regs   |pipeline_reg_209               |     4|
+|50    |      \genblk1[52].m_regs   |pipeline_reg_210               |     5|
+|51    |      \genblk1[53].m_regs   |pipeline_reg_211               |     4|
+|52    |      \genblk1[54].m_regs   |pipeline_reg_212               |     5|
+|53    |      \genblk1[55].m_regs   |pipeline_reg_213               |     4|
+|54    |      \genblk1[56].m_regs   |pipeline_reg_214               |     5|
+|55    |      \genblk1[57].m_regs   |pipeline_reg_215               |     4|
+|56    |      \genblk1[58].m_regs   |pipeline_reg_216               |     5|
+|57    |      \genblk1[59].m_regs   |pipeline_reg_217               |     4|
+|58    |      \genblk1[60].m_regs   |pipeline_reg_218               |     5|
+|59    |      \genblk1[61].m_regs   |pipeline_reg_219               |     4|
+|60    |      \genblk1[62].m_regs   |pipeline_reg_220               |     5|
+|61    |      \genblk1[63].m_regs   |pipeline_reg_221               |     3|
+|62    |      \genblk1[64].m_regs   |pipeline_reg_222               |     5|
+|63    |      \genblk1[65].m_regs   |pipeline_reg_223               |    12|
+|64    |      \genblk1[66].m_regs   |pipeline_reg_224               |    11|
+|65    |      \genblk1[67].m_regs   |pipeline_reg_225               |    11|
+|66    |      \genblk1[68].m_regs   |pipeline_reg_226               |    28|
+|67    |      \genblk1[69].m_regs   |pipeline_reg_227               |    12|
+|68    |      \genblk1[70].m_regs   |pipeline_reg_228               |     9|
+|69    |      \genblk1[71].m_regs   |pipeline_reg_229               |    10|
+|70    |      \genblk1[72].m_regs   |pipeline_reg_230               |    18|
+|71    |      \genblk1[73].m_regs   |pipeline_reg_231               |     8|
+|72    |      \genblk1[74].m_regs   |pipeline_reg_232               |     8|
+|73    |      \genblk1[75].m_regs   |pipeline_reg_233               |     8|
+|74    |      \genblk1[76].m_regs   |pipeline_reg_234               |    52|
+|75    |      \genblk1[77].m_regs   |pipeline_reg_235               |     2|
+|76    |      \genblk1[78].m_regs   |pipeline_reg_236               |     2|
+|77    |      \genblk1[79].m_regs   |pipeline_reg_237               |     2|
+|78    |      \genblk1[80].m_regs   |pipeline_reg_238               |     2|
+|79    |      \genblk1[81].m_regs   |pipeline_reg_239               |     2|
+|80    |      \genblk1[82].m_regs   |pipeline_reg_240               |     2|
+|81    |      \genblk1[83].m_regs   |pipeline_reg_241               |     2|
+|82    |      \genblk1[84].m_regs   |pipeline_reg_242               |     2|
+|83    |      \genblk1[85].m_regs   |pipeline_reg_243               |     2|
+|84    |      \genblk1[86].m_regs   |pipeline_reg_244               |     2|
+|85    |      \genblk1[87].m_regs   |pipeline_reg_245               |     2|
+|86    |      \genblk1[88].m_regs   |pipeline_reg_246               |     2|
+|87    |      \genblk1[89].m_regs   |pipeline_reg_247               |     4|
+|88    |      \genblk1[90].m_regs   |pipeline_reg_248               |     2|
+|89    |      \genblk1[91].m_regs   |pipeline_reg_249               |     2|
+|90    |      \genblk1[92].m_regs   |pipeline_reg_250               |     2|
+|91    |      \genblk1[93].m_regs   |pipeline_reg_251               |     3|
+|92    |      \genblk1[94].m_regs   |pipeline_reg_252               |     3|
+|93    |      \genblk1[95].m_regs   |pipeline_reg_253               |     2|
+|94    |      \genblk1[96].m_regs   |pipeline_reg_254               |     5|
+|95    |  EXMEM_module              |EXMEM_strct                    |   225|
+|96    |    m_strc                  |pipeline_strct__parameterized1 |   225|
+|97    |      \genblk1[100].m_regs  |pipeline_reg_64                |     1|
+|98    |      \genblk1[0].m_regs    |pipeline_reg_63                |     1|
+|99    |      \genblk1[103].m_regs  |pipeline_reg_65                |     1|
+|100   |      \genblk1[104].m_regs  |pipeline_reg_66                |     1|
+|101   |      \genblk1[105].m_regs  |pipeline_reg_67                |     1|
+|102   |      \genblk1[106].m_regs  |pipeline_reg_68                |     1|
+|103   |      \genblk1[107].m_regs  |pipeline_reg_69                |     1|
+|104   |      \genblk1[108].m_regs  |pipeline_reg_70                |     1|
+|105   |      \genblk1[109].m_regs  |pipeline_reg_71                |     1|
+|106   |      \genblk1[110].m_regs  |pipeline_reg_72                |     1|
+|107   |      \genblk1[111].m_regs  |pipeline_reg_73                |     1|
+|108   |      \genblk1[112].m_regs  |pipeline_reg_74                |     1|
+|109   |      \genblk1[113].m_regs  |pipeline_reg_75                |     1|
+|110   |      \genblk1[114].m_regs  |pipeline_reg_76                |     1|
+|111   |      \genblk1[115].m_regs  |pipeline_reg_77                |     1|
+|112   |      \genblk1[116].m_regs  |pipeline_reg_78                |     1|
+|113   |      \genblk1[117].m_regs  |pipeline_reg_79                |     1|
+|114   |      \genblk1[118].m_regs  |pipeline_reg_80                |     1|
+|115   |      \genblk1[119].m_regs  |pipeline_reg_81                |     1|
+|116   |      \genblk1[120].m_regs  |pipeline_reg_82                |     1|
+|117   |      \genblk1[121].m_regs  |pipeline_reg_83                |     1|
+|118   |      \genblk1[122].m_regs  |pipeline_reg_84                |     1|
+|119   |      \genblk1[123].m_regs  |pipeline_reg_85                |     1|
+|120   |      \genblk1[124].m_regs  |pipeline_reg_86                |     1|
+|121   |      \genblk1[125].m_regs  |pipeline_reg_87                |     1|
+|122   |      \genblk1[126].m_regs  |pipeline_reg_88                |     1|
+|123   |      \genblk1[127].m_regs  |pipeline_reg_89                |     1|
+|124   |      \genblk1[128].m_regs  |pipeline_reg_90                |     1|
+|125   |      \genblk1[129].m_regs  |pipeline_reg_91                |     1|
+|126   |      \genblk1[130].m_regs  |pipeline_reg_92                |     1|
+|127   |      \genblk1[131].m_regs  |pipeline_reg_93                |     1|
+|128   |      \genblk1[132].m_regs  |pipeline_reg_94                |     1|
+|129   |      \genblk1[14].m_regs   |pipeline_reg_95                |    20|
+|130   |      \genblk1[15].m_regs   |pipeline_reg_96                |    36|
+|131   |      \genblk1[16].m_regs   |pipeline_reg_97                |     1|
+|132   |      \genblk1[1].m_regs    |pipeline_reg_98                |     1|
+|133   |      \genblk1[34].m_regs   |pipeline_reg_99                |    18|
+|134   |      \genblk1[35].m_regs   |pipeline_reg_100               |    18|
+|135   |      \genblk1[36].m_regs   |pipeline_reg_101               |     1|
+|136   |      \genblk1[37].m_regs   |pipeline_reg_102               |     1|
+|137   |      \genblk1[38].m_regs   |pipeline_reg_103               |     1|
+|138   |      \genblk1[39].m_regs   |pipeline_reg_104               |     1|
+|139   |      \genblk1[40].m_regs   |pipeline_reg_105               |     1|
+|140   |      \genblk1[41].m_regs   |pipeline_reg_106               |     1|
+|141   |      \genblk1[42].m_regs   |pipeline_reg_107               |     1|
+|142   |      \genblk1[43].m_regs   |pipeline_reg_108               |     1|
+|143   |      \genblk1[44].m_regs   |pipeline_reg_109               |     1|
+|144   |      \genblk1[45].m_regs   |pipeline_reg_110               |     1|
+|145   |      \genblk1[46].m_regs   |pipeline_reg_111               |     5|
+|146   |      \genblk1[47].m_regs   |pipeline_reg_112               |     6|
+|147   |      \genblk1[48].m_regs   |pipeline_reg_113               |     4|
+|148   |      \genblk1[49].m_regs   |pipeline_reg_114               |     5|
+|149   |      \genblk1[50].m_regs   |pipeline_reg_115               |     1|
+|150   |      \genblk1[51].m_regs   |pipeline_reg_116               |     1|
+|151   |      \genblk1[52].m_regs   |pipeline_reg_117               |     1|
+|152   |      \genblk1[53].m_regs   |pipeline_reg_118               |     1|
+|153   |      \genblk1[54].m_regs   |pipeline_reg_119               |     1|
+|154   |      \genblk1[55].m_regs   |pipeline_reg_120               |     1|
+|155   |      \genblk1[56].m_regs   |pipeline_reg_121               |     1|
+|156   |      \genblk1[57].m_regs   |pipeline_reg_122               |     1|
+|157   |      \genblk1[58].m_regs   |pipeline_reg_123               |     2|
+|158   |      \genblk1[59].m_regs   |pipeline_reg_124               |     1|
+|159   |      \genblk1[60].m_regs   |pipeline_reg_125               |     1|
+|160   |      \genblk1[61].m_regs   |pipeline_reg_126               |     2|
+|161   |      \genblk1[62].m_regs   |pipeline_reg_127               |     3|
+|162   |      \genblk1[63].m_regs   |pipeline_reg_128               |     1|
+|163   |      \genblk1[64].m_regs   |pipeline_reg_129               |     1|
+|164   |      \genblk1[65].m_regs   |pipeline_reg_130               |     1|
+|165   |      \genblk1[66].m_regs   |pipeline_reg_131               |     1|
+|166   |      \genblk1[67].m_regs   |pipeline_reg_132               |     1|
+|167   |      \genblk1[68].m_regs   |pipeline_reg_133               |     1|
+|168   |      \genblk1[69].m_regs   |pipeline_reg_134               |     1|
+|169   |      \genblk1[70].m_regs   |pipeline_reg_135               |     1|
+|170   |      \genblk1[71].m_regs   |pipeline_reg_136               |     1|
+|171   |      \genblk1[72].m_regs   |pipeline_reg_137               |     1|
+|172   |      \genblk1[73].m_regs   |pipeline_reg_138               |     1|
+|173   |      \genblk1[74].m_regs   |pipeline_reg_139               |     2|
+|174   |      \genblk1[75].m_regs   |pipeline_reg_140               |     2|
+|175   |      \genblk1[76].m_regs   |pipeline_reg_141               |     2|
+|176   |      \genblk1[77].m_regs   |pipeline_reg_142               |     2|
+|177   |      \genblk1[78].m_regs   |pipeline_reg_143               |     2|
+|178   |      \genblk1[79].m_regs   |pipeline_reg_144               |     2|
+|179   |      \genblk1[80].m_regs   |pipeline_reg_145               |     2|
+|180   |      \genblk1[81].m_regs   |pipeline_reg_146               |     2|
+|181   |      \genblk1[82].m_regs   |pipeline_reg_147               |     2|
+|182   |      \genblk1[83].m_regs   |pipeline_reg_148               |     2|
+|183   |      \genblk1[84].m_regs   |pipeline_reg_149               |     2|
+|184   |      \genblk1[85].m_regs   |pipeline_reg_150               |     2|
+|185   |      \genblk1[86].m_regs   |pipeline_reg_151               |     2|
+|186   |      \genblk1[87].m_regs   |pipeline_reg_152               |     2|
+|187   |      \genblk1[88].m_regs   |pipeline_reg_153               |     2|
+|188   |      \genblk1[89].m_regs   |pipeline_reg_154               |     2|
+|189   |      \genblk1[90].m_regs   |pipeline_reg_155               |     1|
+|190   |      \genblk1[91].m_regs   |pipeline_reg_156               |     1|
+|191   |      \genblk1[92].m_regs   |pipeline_reg_157               |     1|
+|192   |      \genblk1[93].m_regs   |pipeline_reg_158               |     1|
+|193   |      \genblk1[94].m_regs   |pipeline_reg_159               |     1|
+|194   |      \genblk1[95].m_regs   |pipeline_reg_160               |     1|
+|195   |      \genblk1[96].m_regs   |pipeline_reg_161               |     1|
+|196   |      \genblk1[97].m_regs   |pipeline_reg_162               |     1|
+|197   |      \genblk1[99].m_regs   |pipeline_reg_163               |     1|
+|198   |  MEMWB_module              |MEMWB_strct                    |   114|
+|199   |    m_strc                  |pipeline_strct__parameterized2 |   114|
+|200   |      \genblk1[0].m_regs    |pipeline_reg                   |    10|
+|201   |      \genblk1[10].m_regs   |pipeline_reg_0                 |     2|
+|202   |      \genblk1[11].m_regs   |pipeline_reg_1                 |     2|
+|203   |      \genblk1[12].m_regs   |pipeline_reg_2                 |     2|
+|204   |      \genblk1[13].m_regs   |pipeline_reg_3                 |     2|
+|205   |      \genblk1[14].m_regs   |pipeline_reg_4                 |     2|
+|206   |      \genblk1[15].m_regs   |pipeline_reg_5                 |     2|
+|207   |      \genblk1[16].m_regs   |pipeline_reg_6                 |     2|
+|208   |      \genblk1[17].m_regs   |pipeline_reg_7                 |     2|
+|209   |      \genblk1[18].m_regs   |pipeline_reg_8                 |     2|
+|210   |      \genblk1[19].m_regs   |pipeline_reg_9                 |     2|
+|211   |      \genblk1[1].m_regs    |pipeline_reg_10                |    10|
+|212   |      \genblk1[20].m_regs   |pipeline_reg_11                |     2|
+|213   |      \genblk1[21].m_regs   |pipeline_reg_12                |     2|
+|214   |      \genblk1[22].m_regs   |pipeline_reg_13                |     2|
+|215   |      \genblk1[23].m_regs   |pipeline_reg_14                |     2|
+|216   |      \genblk1[24].m_regs   |pipeline_reg_15                |     2|
+|217   |      \genblk1[25].m_regs   |pipeline_reg_16                |     2|
+|218   |      \genblk1[26].m_regs   |pipeline_reg_17                |     1|
+|219   |      \genblk1[27].m_regs   |pipeline_reg_18                |     1|
+|220   |      \genblk1[28].m_regs   |pipeline_reg_19                |     1|
+|221   |      \genblk1[29].m_regs   |pipeline_reg_20                |     1|
+|222   |      \genblk1[2].m_regs    |pipeline_reg_21                |     2|
+|223   |      \genblk1[30].m_regs   |pipeline_reg_22                |     1|
+|224   |      \genblk1[31].m_regs   |pipeline_reg_23                |     1|
+|225   |      \genblk1[32].m_regs   |pipeline_reg_24                |     1|
+|226   |      \genblk1[33].m_regs   |pipeline_reg_25                |     1|
+|227   |      \genblk1[36].m_regs   |pipeline_reg_26                |    10|
+|228   |      \genblk1[37].m_regs   |pipeline_reg_27                |     1|
+|229   |      \genblk1[38].m_regs   |pipeline_reg_28                |     1|
+|230   |      \genblk1[39].m_regs   |pipeline_reg_29                |     1|
+|231   |      \genblk1[3].m_regs    |pipeline_reg_30                |     2|
+|232   |      \genblk1[40].m_regs   |pipeline_reg_31                |     1|
+|233   |      \genblk1[41].m_regs   |pipeline_reg_32                |     1|
+|234   |      \genblk1[42].m_regs   |pipeline_reg_33                |     1|
+|235   |      \genblk1[43].m_regs   |pipeline_reg_34                |     1|
+|236   |      \genblk1[44].m_regs   |pipeline_reg_35                |     1|
+|237   |      \genblk1[45].m_regs   |pipeline_reg_36                |     1|
+|238   |      \genblk1[46].m_regs   |pipeline_reg_37                |     1|
+|239   |      \genblk1[47].m_regs   |pipeline_reg_38                |     1|
+|240   |      \genblk1[48].m_regs   |pipeline_reg_39                |     1|
+|241   |      \genblk1[49].m_regs   |pipeline_reg_40                |     1|
+|242   |      \genblk1[4].m_regs    |pipeline_reg_41                |     2|
+|243   |      \genblk1[50].m_regs   |pipeline_reg_42                |     1|
+|244   |      \genblk1[51].m_regs   |pipeline_reg_43                |     1|
+|245   |      \genblk1[52].m_regs   |pipeline_reg_44                |     1|
+|246   |      \genblk1[53].m_regs   |pipeline_reg_45                |     1|
+|247   |      \genblk1[54].m_regs   |pipeline_reg_46                |     1|
+|248   |      \genblk1[55].m_regs   |pipeline_reg_47                |     1|
+|249   |      \genblk1[56].m_regs   |pipeline_reg_48                |     1|
+|250   |      \genblk1[57].m_regs   |pipeline_reg_49                |     1|
+|251   |      \genblk1[58].m_regs   |pipeline_reg_50                |     1|
+|252   |      \genblk1[59].m_regs   |pipeline_reg_51                |     1|
+|253   |      \genblk1[5].m_regs    |pipeline_reg_52                |     2|
+|254   |      \genblk1[60].m_regs   |pipeline_reg_53                |     1|
+|255   |      \genblk1[61].m_regs   |pipeline_reg_54                |     1|
+|256   |      \genblk1[62].m_regs   |pipeline_reg_55                |     1|
+|257   |      \genblk1[63].m_regs   |pipeline_reg_56                |     1|
+|258   |      \genblk1[64].m_regs   |pipeline_reg_57                |     1|
+|259   |      \genblk1[65].m_regs   |pipeline_reg_58                |     1|
+|260   |      \genblk1[6].m_regs    |pipeline_reg_59                |     2|
+|261   |      \genblk1[7].m_regs    |pipeline_reg_60                |     2|
+|262   |      \genblk1[8].m_regs    |pipeline_reg_61                |     2|
+|263   |      \genblk1[9].m_regs    |pipeline_reg_62                |     1|
+|264   |  PLUS4                     |add4adder                      |     9|
+|265   |  PROG_COUNT                |program_counter                |    46|
+|266   |  otter_memory              |OTTER_mem_byte                 |   659|
+|267   |  registers                 |REG_FILE                       |    14|
++------+----------------------------+-------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1278.750 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 288 critical warnings and 44 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1278.750 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1278.750 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1278.750 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 299 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1278.750 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 14 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 10 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+
+Synth Design complete, checksum: 59218b2a
+INFO: [Common 17-83] Releasing license: Synthesis
+125 Infos, 44 Warnings, 196 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1278.750 ; gain = 0.000
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/lab3pipeline/lab3pipeline.runs/synth_1/Otter_MCU.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Otter_MCU_utilization_synth.rpt -pb Otter_MCU_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  6 14:33:04 2023...

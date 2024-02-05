@@ -1,0 +1,31 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/fifo_itf.sv:35]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/grader/grader_itf.sv:19]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 35, File C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/fifo_itf.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 19, File C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.srcs/sources_1/imports/fifo/verification/grader/grader_itf.sv
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/brian/Documents/SchoolPapers/Repositories/CPE 333/CPE-333-Comp.-Arch-/Lab1/FIFO/FIFO.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.fifo_types
+Compiling package std.std
+Compiling package xil_defaultlib.grader_types
+Compiling module xil_defaultlib.fifo_itf
+Compiling module xil_defaultlib.fifo_synch_1r1w
+Compiling module xil_defaultlib.tb_clk
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.grader_itf
+Compiling module xil_defaultlib.mon_clk
+Compiling module xil_defaultlib.transaction_monitor
+Compiling module xil_defaultlib.transaction_scoreboard
+Compiling module xil_defaultlib.grader
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_behav
