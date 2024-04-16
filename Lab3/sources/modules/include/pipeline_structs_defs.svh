@@ -272,7 +272,7 @@ module pipeline_reg
     output logic out_bit    // data internally stored
 );
 
-always_ff @( negedge clk ) begin
+always_ff @( posedge clk ) begin
     if (enable) begin
         if(flush) begin
             out_bit <= flush_bit;

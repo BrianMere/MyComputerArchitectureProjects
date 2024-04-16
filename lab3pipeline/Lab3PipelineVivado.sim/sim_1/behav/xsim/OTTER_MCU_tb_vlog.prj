@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../Lab3/sources/modules/include" \
+"../../../../../Lab3/sources/modules/imports/OTTER233/ALU.sv" \
+"../../../../../Lab3/sources/modules/imports/OTTER233/BRANCH_ADDR_GEN.sv" \
+"../../../../../Lab3/sources/modules/imports/OTTER233/BRANCH_COND_GEN.sv" \
+"../../../../../Lab3/sources/modules/imports/OTTER233/CU_DCDR.sv" \
+"../../../../../Lab3/sources/modules/stages/DE_stage.sv" \
+"../../../../../Lab3/sources/modules/stages/EX_stage.sv" \
+"../../../../../Lab3/sources/modules/HazardUnit.sv" \
+"../../../../../Lab3/sources/modules/stages/IF_stage.sv" \
+"../../../../../Lab3/sources/modules/imports/OTTER233/IMMED_GEN.sv" \
+"../../../../../Lab3/sources/modules/stages/MEM_stage.sv" \
+"../../../../../Lab3/sources/modules/Otter_MCU.sv" \
+"../../../../../Lab3/sources/modules/stages/WB_stage.sv" \
+"../../../../../Lab3/sources/modules/imports/OTTER233/add4adder.sv" \
+"../../../../../Lab3/sources/modules/stages/branch_prediction.sv" \
+"../../../../../Lab3/sources/modules/imports/OTTER233/mux6sel.sv" \
+"../../../../../Lab3/sources/modules/imports/Downloads/otter_mem_dualport_singlecycle_pipeline.sv" \
+"../../../../../Lab3/sources/modules/imports/OTTER233/program_counter.sv" \
+"../../../../../Lab3/sources/modules/imports/OTTER233/top_REG_FILE.sv" \
+"../../../../../Lab3/sources/modules/imports/OTTER233/otter-mcu-tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

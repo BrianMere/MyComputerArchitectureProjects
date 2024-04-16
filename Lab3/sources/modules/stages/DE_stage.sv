@@ -5,12 +5,7 @@ module DE_stage (
     output DEEX_t DEEX_o       // DE to EX struct
 );
 
-    logic [31:0] IR;
-    assign IR = IFDE_prev.IR;
-
-    always_comb begin : DATAInfo
-        DEEX_o.IR = IFDE_prev.IR;
-    end
+    logic [31:0] IR; //alias for internal IR...
 
     IMMED_GEN imm_generator(
         .INSTRUCT(IR[31:7]),
@@ -24,6 +19,8 @@ module DE_stage (
 
     always_comb begin : ExtraDecisions
 
+        DEEX_o.IR = IFDE_prev.IR;
+        IR = IFDE_prev.IR;
         DEEX_o.PC = IFDE_prev.PC;
         DEEX_o.opcode = IR[6:0];
         // further PCWrite should just always be on depending on the bigger HU.

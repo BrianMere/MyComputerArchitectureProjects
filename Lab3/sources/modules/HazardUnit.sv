@@ -34,9 +34,9 @@ module HazardUnit
             m_o.MEMWB_fl <= 1;
 
             m_o.IFDE_en <=  1;
-            m_o.DEEX_en <=  1;
-            m_o.EXMEM_en <= 1;
-            m_o.MEMWB_en <= 1;
+            m_o.DEEX_en <=  0;
+            m_o.EXMEM_en <= 0;
+            m_o.MEMWB_en <= 0;
 
             counter <= 0;
         end

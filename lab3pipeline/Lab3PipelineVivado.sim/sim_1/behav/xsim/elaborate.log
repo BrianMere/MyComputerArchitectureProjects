@@ -1,0 +1,11 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/brianm/Tools/vivado/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot OTTER_MCU_tb_behav xil_defaultlib.OTTER_MCU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2991] 'imms' is not declared under prefix 'DEEX_o' [/home/brianm/Documents/Repositories/CPE-333-Comp.-Arch-/Lab3/sources/modules/stages/EX_stage.sv:24]
+ERROR: [VRFC 10-2991] 'imms' is not declared under prefix 'DEEX_o' [/home/brianm/Documents/Repositories/CPE-333-Comp.-Arch-/Lab3/sources/modules/stages/EX_stage.sv:25]
+ERROR: [VRFC 10-2991] 'imms' is not declared under prefix 'DEEX_o' [/home/brianm/Documents/Repositories/CPE-333-Comp.-Arch-/Lab3/sources/modules/stages/EX_stage.sv:26]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

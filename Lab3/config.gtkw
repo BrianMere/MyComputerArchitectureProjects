@@ -1,15 +1,15 @@
 [*]
 [*] GTKWave Analyzer v3.3.117 (w)1999-2023 BSI
-[*] Mon Feb  5 08:49:55 2024
+[*] Mon Feb  5 21:59:52 2024
 [*]
 [dumpfile] "/home/brianm/Documents/Repositories/CPE-333-Comp.-Arch-/Lab3/dump.vcd"
-[dumpfile_mtime] "Mon Feb  5 08:38:39 2024"
-[dumpfile_size] 107287300
+[dumpfile_mtime] "Mon Feb  5 21:56:34 2024"
+[dumpfile_size] 107298395
 [savefile] "/home/brianm/Documents/Repositories/CPE-333-Comp.-Arch-/Lab3/config.gtkw"
 [timestart] 10
 [size] 3840 2084
-[pos] 135 314
-*-11.000000 9820 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[pos] 180 359
+*-11.000000 10380 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] Otter_MCU.
 [treeopen] Otter_MCU.EXMEM_o.
 [treeopen] Otter_MCU.EXMEM_o.DEEX_prev.
@@ -18,7 +18,7 @@
 [sst_width] 358
 [signals_width] 533
 [sst_expanded] 1
-[sst_vpaned_height] 474
+[sst_vpaned_height] 453
 @28
 Otter_MCU.RST
 Otter_MCU.CLK
@@ -183,7 +183,7 @@ Otter_MCU.MEMWB_o.EXMEM_prev.DEEX_prev.opcode[6:0]
 Otter_MCU.MEMWB_o.EXMEM_prev.DEEX_prev.regWrite
 @1401200
 -MEMWB
-@c00201
+@c00200
 -Memory_General
 @22
 Otter_MCU.otter_memory.MEM_ADDR1[31:0]
@@ -191,7 +191,7 @@ Otter_MCU.otter_memory.MEM_ADDR2[31:0]
 Otter_MCU.otter_memory.MEM_DIN2[31:0]
 Otter_MCU.otter_memory.MEM_DOUT1[31:0]
 Otter_MCU.otter_memory.MEM_DOUT2[31:0]
-@1401201
+@1401200
 -Memory_General
 @800200
 -PC
@@ -221,7 +221,7 @@ Otter_MCU.registers.RF_WA[4:0]
 Otter_MCU.registers.RF_WD[31:0]
 @1401200
 -Registers
-@800200
+@c00200
 -Regs
 @420
 +{zero/x0} Otter_MCU.registers.registers[0][31:0]
@@ -367,7 +367,25 @@ Otter_MCU.registers.RF_WD[31:0]
 +{t4/x29} Otter_MCU.registers.registers[29][31:0]
 +{t5/x30} Otter_MCU.registers.registers[30][31:0]
 +{t6/x31} Otter_MCU.registers.registers[31][31:0]
-@1000200
+@1401200
 -Regs
+@800201
+-HU
+@29
+Otter_MCU.HU_out.DEEX_en
+Otter_MCU.HU_out.DEEX_fl
+Otter_MCU.HU_out.EXMEM_en
+Otter_MCU.HU_out.EXMEM_fl
+Otter_MCU.HU_out.IFDE_en
+Otter_MCU.HU_out.IFDE_fl
+Otter_MCU.HU_out.MEMWB_en
+Otter_MCU.HU_out.MEMWB_fl
+Otter_MCU.HU_out.if_pc_selection[2:0]
+Otter_MCU.HU_out.memRDEN1
+Otter_MCU.HU_out.memRDEN2
+Otter_MCU.HU_out.memWE2
+Otter_MCU.HU_out.pc_enable
+@1000201
+-HU
 [pattern_trace] 1
 [pattern_trace] 0

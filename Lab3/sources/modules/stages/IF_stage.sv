@@ -13,7 +13,6 @@ module IF_stage(
     logic [31:0] pc_p4; // plus 4 current PC count
     logic [31:0] pc_selection; // selection output from our PCMUX
 
-
     program_counter PROG_COUNT(
         .PC_WRITE(pc_write),
         .PC_RST(pc_reset),
